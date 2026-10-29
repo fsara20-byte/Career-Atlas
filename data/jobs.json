@@ -1,35 +1,155 @@
 {
   "meta": {
-    "generatedAt": "2026-10-29T00:00:00Z",
-    "lastAttemptAt": null,
-    "lastSuccessfulAt": null,
-    "newRolesLastRun": 0,
+    "generatedAt": "2026-10-29T11:09:04Z",
+    "lastAttemptAt": "2026-10-29T11:09:04Z",
+    "lastSuccessfulAt": "2026-10-29T11:09:04Z",
+    "newRolesLastRun": 1,
     "deadlineChangesLastRun": 0,
     "deadlineChangedIds": [],
-    "sources": [],
-    "note": "No network refresh has succeeded in this locally built package. Seeded postings are reference links until verified by employer website. Public GitHub Actions feed checks begin after you deploy and run the workflow.",
-    "sourceCoverage": "Configured employer feeds: Schonfeld, Addepar, Teneo, Guidepoint, Third Bridge; remaining employers use official career-page links."
+    "sources": [
+      {
+        "company": "Schonfeld Strategic Advisors",
+        "status": "ok",
+        "count": 1,
+        "checkedAt": "2026-10-29T11:09:04Z",
+        "provider": "greenhouse"
+      },
+      {
+        "company": "Addepar",
+        "status": "ok",
+        "count": 1,
+        "checkedAt": "2026-10-29T11:09:04Z",
+        "provider": "greenhouse"
+      },
+      {
+        "company": "Teneo",
+        "status": "ok",
+        "count": 2,
+        "checkedAt": "2026-10-29T11:09:04Z",
+        "provider": "greenhouse"
+      },
+      {
+        "company": "Guidepoint",
+        "status": "ok",
+        "count": 0,
+        "checkedAt": "2026-10-29T11:09:04Z",
+        "provider": "greenhouse"
+      },
+      {
+        "company": "Third Bridge",
+        "status": "ok",
+        "count": 0,
+        "checkedAt": "2026-10-29T11:09:04Z",
+        "provider": "greenhouse"
+      }
+    ],
+    "note": "Only configured official Ashby/Greenhouse public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.",
+    "sourceCoverage": "Automated: Schonfeld Strategic Advisors, Addepar, Teneo, Guidepoint, Third Bridge. Other employers: official career portals."
   },
   "jobs": [
     {
       "id": "seed-0dc8fa2a79421b6",
       "company": "Addepar",
-      "title": "Solutions Consultant — DIFC Dubai",
+      "title": "Solutions Consultant",
       "url": "https://job-boards.greenhouse.io/addepar1/jobs/8875492002",
-      "location": "Dubai, UAE",
-      "programme": "Full-time",
+      "location": "DIFC, Dubai, UAE",
+      "programme": "Full-time / other",
+      "eligibilityFlags": [],
       "deadline": "",
       "publishedAt": "",
+      "updatedAt": "2026-10-07",
+      "source": "greenhouse",
+      "sourceBoard": "Addepar",
+      "status": "active",
+      "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-29",
+      "firstSeenAt": "2026-10-29T11:09:04Z",
       "lastSeen": "2026-10-29",
-      "source": "curated",
-      "status": "verify_on_employer_site",
-      "note": "Official employer application; an investment technology advisory role, not buy-side investment research.",
+      "lastSeenAt": "2026-10-29T11:09:04Z",
+      "previousDeadline": "",
+      "deadlineChangedAt": "",
       "deadlineSource": "",
       "deadlineVerifiedAt": "",
+      "relistedAt": ""
+    },
+    {
+      "id": "seed-86ba572502d7861",
+      "company": "Schonfeld Strategic Advisors",
+      "title": "2027 Emerging Markets and Delta One Investment Analyst Internship",
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8220506",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Internship",
+      "eligibilityFlags": [],
+      "deadline": "",
+      "publishedAt": "",
+      "updatedAt": "2026-09-30",
+      "source": "greenhouse",
+      "sourceBoard": "Schonfeld Strategic Advisors",
+      "status": "active",
+      "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
+      "firstSeen": "2026-10-29",
+      "firstSeenAt": "2026-10-29T11:09:04Z",
+      "lastSeen": "2026-10-29",
+      "lastSeenAt": "2026-10-29T11:09:04Z",
+      "previousDeadline": "",
+      "deadlineChangedAt": "",
+      "deadlineSource": "",
+      "deadlineVerifiedAt": "",
+      "relistedAt": ""
+    },
+    {
+      "id": "seed-0da279f1985c9b",
+      "company": "Teneo",
+      "title": "Management Consulting, Associate Consultant | Graduate",
+      "url": "https://job-boards.greenhouse.io/teneolinkedin/jobs/8046232003",
+      "location": "Dubai DIFC GD3",
+      "programme": "Graduate / full-time",
       "eligibilityFlags": [
-        "Work authorization may be required; check posting"
-      ]
+        "Student or graduation rules – check eligibility"
+      ],
+      "deadline": "",
+      "publishedAt": "",
+      "updatedAt": "2026-10-27",
+      "source": "greenhouse",
+      "sourceBoard": "Teneo",
+      "status": "active",
+      "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
+      "firstSeen": "2026-10-29",
+      "firstSeenAt": "2026-10-29T11:09:04Z",
+      "lastSeen": "2026-10-29",
+      "lastSeenAt": "2026-10-29T11:09:04Z",
+      "previousDeadline": "",
+      "deadlineChangedAt": "",
+      "deadlineSource": "",
+      "deadlineVerifiedAt": "",
+      "relistedAt": ""
+    },
+    {
+      "id": "greenhouse-5f1faef9820d571c90",
+      "company": "Teneo",
+      "title": "Management Consulting, Director",
+      "url": "https://job-boards.greenhouse.io/teneolinkedin/jobs/7736713003",
+      "location": "Dubai Emirate, United Arab Emirates",
+      "programme": "Full-time / other",
+      "eligibilityFlags": [
+        "Senior role – check years required"
+      ],
+      "deadline": "",
+      "publishedAt": "",
+      "updatedAt": "2026-10-19",
+      "source": "greenhouse",
+      "sourceBoard": "Teneo",
+      "status": "active",
+      "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
+      "firstSeen": "2026-10-29",
+      "firstSeenAt": "2026-10-29T11:09:04Z",
+      "lastSeen": "2026-10-29",
+      "lastSeenAt": "2026-10-29T11:09:04Z",
+      "previousDeadline": "",
+      "deadlineChangedAt": "",
+      "deadlineSource": "",
+      "deadlineVerifiedAt": "",
+      "relistedAt": ""
     },
     {
       "id": "seed-6c5a1a24501b49",
@@ -184,43 +304,6 @@
       "deadlineSource": "",
       "deadlineVerifiedAt": "",
       "eligibilityFlags": []
-    },
-    {
-      "id": "seed-86ba572502d7861",
-      "company": "Schonfeld Strategic Advisors",
-      "title": "2027 Emerging Markets and Delta One Investment Analyst Internship",
-      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8220506",
-      "location": "Dubai, UAE",
-      "programme": "Summer 2027",
-      "deadline": "",
-      "publishedAt": "",
-      "firstSeen": "2026-10-29",
-      "lastSeen": "2026-10-29",
-      "source": "curated",
-      "status": "verify_on_employer_site",
-      "note": "Official Dubai 2027 role. Quantitative degree/Python requirements; check eligibility carefully.",
-      "deadlineSource": "",
-      "deadlineVerifiedAt": "",
-      "eligibilityFlags": [
-        "Student / quantitative background – check requirements"
-      ]
-    },
-    {
-      "id": "seed-0da279f1985c9b",
-      "company": "Teneo",
-      "title": "Management Consulting, Associate Consultant | Graduate",
-      "url": "https://job-boards.greenhouse.io/teneolinkedin/jobs/8046232003",
-      "location": "Dubai DIFC",
-      "programme": "Graduate / full-time",
-      "deadline": "",
-      "publishedAt": "",
-      "firstSeen": "2026-10-29",
-      "lastSeen": "2026-10-29",
-      "source": "curated",
-      "status": "verify_on_employer_site",
-      "note": "Official job posting found in October 2026. Confirm current status, prerequisites and open application.",
-      "eligibilityFlags": [],
-      "deadlineSource": ""
     }
   ]
 }

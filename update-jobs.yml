@@ -1,0 +1,52 @@
+name: Update official job feeds and publish site
+on:
+  schedule:
+    # Daily at 08:17 Dubai time (UTC+4); GitHub may delay scheduled runs.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: career-atlas-update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pull official job postings
+        run: python scripts/update_jobs.py
+      - name: Commit refreshed listings
+        shell: bash
+        run: |
+          git config user.name 'career-watch-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/jobs.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh official career feeds'
+            git push
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload updated site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy updated site
+        id: deployment
+        uses: actions/deploy-pages@v4

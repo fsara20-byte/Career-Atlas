@@ -1,0 +1,39 @@
+{
+  "feeds": [
+    {
+      "company": "Schonfeld Strategic Advisors",
+      "provider": "greenhouse",
+      "board": "schonfeld"
+    },
+    {
+      "company": "Addepar",
+      "provider": "greenhouse",
+      "board": "addepar1"
+    },
+    {
+      "company": "Teneo",
+      "provider": "greenhouse",
+      "board": "teneolinkedin"
+    },
+    {
+      "company": "Guidepoint",
+      "provider": "greenhouse",
+      "board": "guidepoint"
+    },
+    {
+      "company": "Third Bridge",
+      "provider": "greenhouse",
+      "board": "thirdbridge"
+    }
+  ],
+  "location_keywords": [
+    "dubai",
+    "abu dhabi",
+    "united arab emirates",
+    "uae"
+  ],
+  "include_title_regex": "(?i)\\b(analyst|analytics|investment|finance|financial|strategy|strategic|corporate development|credit|structured|banking|research|treasury|risk|consultant|consulting|portfolio|transaction|capital markets|graduate associate consultant|investment associate|valuation|advisory|internship|intern|graduate)\\b",
+  "exclude_title_regex": "(?i)(sales|business development|account executive|marketing|client service|customer success|recruitment|talent acquisition|human resources|hr business partner|receptionist)",
+  "exclude_senior_title_regex": "(?i)\\b(managing director|senior vice president|executive director|head of|chief [a-z]+ officer)\\b",
+  "rules_note": "Filters apply to posted role titles only. MBA requirements, work authorization and other eligibility restrictions are NOT reliably inferable from a title; confirm on employer listing."
+}

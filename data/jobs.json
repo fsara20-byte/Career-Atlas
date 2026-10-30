@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-10-30T08:16:38Z",
-    "lastAttemptAt": "2026-10-30T08:16:38Z",
-    "lastSuccessfulAt": "2026-10-30T08:16:38Z",
-    "newRolesLastRun": 5,
+    "generatedAt": "2026-10-30T10:52:54Z",
+    "lastAttemptAt": "2026-10-30T10:52:54Z",
+    "lastSuccessfulAt": "2026-10-30T10:52:54Z",
+    "newRolesLastRun": 0,
     "deadlineChangesLastRun": 0,
     "deadlineChangedIds": [],
     "sources": [
@@ -11,44 +11,44 @@
         "company": "Schonfeld Strategic Advisors",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "greenhouse"
       },
       {
         "company": "Addepar",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "greenhouse"
       },
       {
         "company": "Teneo",
         "status": "ok",
         "count": 2,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "greenhouse"
       },
       {
         "company": "Guidepoint",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "greenhouse"
       },
       {
         "company": "Third Bridge",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "greenhouse"
       },
       {
         "company": "FTI Consulting",
         "status": "ok",
         "count": 5,
-        "checkedAt": "2026-10-30T08:16:38Z",
+        "checkedAt": "2026-10-30T10:52:54Z",
         "provider": "workday",
-        "totalBoardPostings": 244
+        "totalBoardPostings": 245
       }
     ],
     "note": "Configured official Ashby, Greenhouse and Workday public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.",
@@ -85,7 +85,7 @@
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -120,7 +120,7 @@
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "description": "",
       "deadlineSource": ""
     },
@@ -152,7 +152,7 @@
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "description": "",
       "deadlineSource": ""
     },
@@ -185,7 +185,7 @@
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "description": "",
       "deadlineSource": ""
     },
@@ -217,7 +217,7 @@
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "description": "",
       "deadlineSource": ""
     },
@@ -247,7 +247,7 @@
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "description": "",
       "deadlineSource": ""
     },
@@ -281,7 +281,7 @@
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -320,7 +320,7 @@
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -359,7 +359,7 @@
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
       "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T08:16:38Z",
+      "lastSeenAt": "2026-10-30T10:52:54Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",

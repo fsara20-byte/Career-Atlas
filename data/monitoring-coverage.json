@@ -1,0 +1,1602 @@
+{
+  "generatedAt": "2026-10-30T10:53:50.713294+00:00",
+  "employers": 177,
+  "verifiedFeeds": 6,
+  "notConfigured": 171,
+  "rows": [
+    {
+      "company": "abrdn",
+      "careersUrl": "https://www.abrdn.com/en/corporate/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "AllianceBernstein",
+      "careersUrl": "https://www.alliancebernstein.com/corporate/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Allianz Global Investors",
+      "careersUrl": "https://careers.allianz.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Allspring Global Investments",
+      "careersUrl": "https://allspringglobal.com/about-us/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Amundi",
+      "careersUrl": "https://www.amundi.com/globaldistributor/About-Amundi/Careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "AXA Investment Managers",
+      "careersUrl": "https://careers.axa.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BlackRock",
+      "careersUrl": "https://careers.blackrock.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Candriam",
+      "careersUrl": "https://www.candriam.com/en/professional/about-us/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Capital Group",
+      "careersUrl": "https://www.capitalgroup.com/about-us/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "DWS Group",
+      "careersUrl": "https://group.dws.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Eurizon Capital",
+      "careersUrl": "https://www.eurizoncapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Federated Hermes",
+      "careersUrl": "https://www.federatedhermes.com/us/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Fidelity International",
+      "careersUrl": "https://careers.fidelityinternational.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Franklin Templeton",
+      "careersUrl": "https://www.franklintempletoncareers.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Franklin Templeton Alternatives",
+      "careersUrl": "https://careers.franklintempleton.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "GAM Investments",
+      "careersUrl": "https://www.gam.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Invesco",
+      "careersUrl": "https://careers.invesco.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Janus Henderson",
+      "careersUrl": "https://www.janushenderson.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Lombard Odier Investment Managers",
+      "careersUrl": "https://www.lombardodier.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "M&G Investments",
+      "careersUrl": "https://www.mandg.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "MFS Investment Management",
+      "careersUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Neuberger Berman",
+      "careersUrl": "https://www.nb.com/en/global/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Ninety One",
+      "careersUrl": "https://ninetyone.com/en/international/about-us/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Nuveen",
+      "careersUrl": "https://www.nuveen.com/global/about-us/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "PIMCO",
+      "careersUrl": "https://careers.pimco.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Robeco",
+      "careersUrl": "https://www.robeco.com/en-int/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Schroders",
+      "careersUrl": "https://www.schroders.com/en/global/individual/about-us/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "State Street",
+      "careersUrl": "https://careers.statestreet.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "T. Rowe Price",
+      "careersUrl": "https://www.troweprice.com/corporate/us/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Vontobel Asset Management",
+      "careersUrl": "https://www.vontobel.com/en-int/about-vontobel/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Wellington Management",
+      "careersUrl": "https://www.wellington.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Accenture Strategy",
+      "careersUrl": "https://www.accenture.com/us-en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "AlixPartners",
+      "careersUrl": "https://www.alixpartners.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Alvarez & Marsal",
+      "careersUrl": "https://www.alvarezandmarsal.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Arthur D. Little",
+      "careersUrl": "https://www.adlittle.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Bain & Company",
+      "careersUrl": "https://www.bain.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BDO",
+      "careersUrl": "https://www.bdo.global/en-gb/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BearingPoint",
+      "careersUrl": "https://www.bearingpoint.com/en/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Booz Allen Hamilton",
+      "careersUrl": "https://careers.boozallen.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Boston Consulting Group",
+      "careersUrl": "https://careers.bcg.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Capgemini Invent",
+      "careersUrl": "https://www.capgemini.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Deloitte Deals",
+      "careersUrl": "https://www.deloitte.com/global/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "EY-Parthenon",
+      "careersUrl": "https://careers.ey.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "FTI Consulting",
+      "careersUrl": "https://www.fticonsulting.com/careers",
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 5,
+      "error": ""
+    },
+    {
+      "company": "Gartner Consulting",
+      "careersUrl": "https://jobs.gartner.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Grant Thornton",
+      "careersUrl": "https://www.grantthornton.global/en/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "IBM Consulting",
+      "careersUrl": "https://www.ibm.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Kearney",
+      "careersUrl": "https://www.kearney.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "KPMG Deal Advisory",
+      "careersUrl": "https://kpmg.com/xx/en/home/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Kroll",
+      "careersUrl": "https://careers.kroll.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "L.E.K. Consulting",
+      "careersUrl": "https://www.lek.com/join-lek",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "McKinsey & Company",
+      "careersUrl": "https://www.mckinsey.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Mercer",
+      "careersUrl": "https://careers.marshmclennan.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Oliver Wyman",
+      "careersUrl": "https://www.oliverwyman.com/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Protiviti",
+      "careersUrl": "https://www.protiviti.com/us-en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Publicis Sapient",
+      "careersUrl": "https://careers.publicissapient.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "PwC Deals",
+      "careersUrl": "https://www.pwc.com/gx/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Roland Berger",
+      "careersUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Simon-Kucher",
+      "careersUrl": "https://www.simon-kucher.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Strategy&",
+      "careersUrl": "https://www.strategyand.pwc.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Teneo",
+      "careersUrl": "https://www.teneo.com/careers/",
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 2,
+      "error": ""
+    },
+    {
+      "company": "Bank of China",
+      "careersUrl": "https://www.boc.cn/en/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Bank of New York Mellon",
+      "careersUrl": "https://www.bny.com/corporate/global/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Banque Transatlantique",
+      "careersUrl": "https://www.banquetransatlantique.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BNP Paribas",
+      "careersUrl": "https://group.bnpparibas/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BPCE / Groupe BPCE",
+      "careersUrl": "https://recrutement.bpce.fr/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "China Construction Bank",
+      "careersUrl": "https://en.ccb.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "CIC (Crédit Mutuel Alliance Fédérale)",
+      "careersUrl": "https://www.creditmutuelalliancefederale.fr/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Commerzbank",
+      "careersUrl": "https://www.commerzbank.com/career/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Crédit Agricole CIB",
+      "careersUrl": "https://jobs.ca-cib.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Crédit Agricole Indosuez",
+      "careersUrl": "https://careers.ca-indosuez.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Crédit Mutuel",
+      "careersUrl": "https://recrutement.creditmutuel.fr/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "DBS Bank",
+      "careersUrl": "https://www.dbs.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "HSBC",
+      "careersUrl": "https://www.hsbc.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "ICBC",
+      "careersUrl": "https://www.icbc.com.cn/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "ING",
+      "careersUrl": "https://careers.ing.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Mizuho",
+      "careersUrl": "https://www.mizuhogroup.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "MUFG",
+      "careersUrl": "https://careers.mufgamericas.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Natixis CIB",
+      "careersUrl": "https://recrutement.natixis.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Natixis Investment Managers",
+      "careersUrl": "https://www.im.natixis.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Northern Trust",
+      "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "RBC Capital Markets",
+      "careersUrl": "https://www.rbccm.com/en/careers.page",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "SMBC",
+      "careersUrl": "https://www.smbcgroup.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Société Générale",
+      "careersUrl": "https://careers.societegenerale.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Standard Bank Group",
+      "careersUrl": "https://www.standardbank.com/sbg/standard-bank-group/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Standard Chartered",
+      "careersUrl": "https://www.sc.com/en/global-careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "UniCredit",
+      "careersUrl": "https://www.unicreditgroup.eu/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Balyasny Asset Management",
+      "careersUrl": "https://www.bamfunds.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Baron Capital",
+      "careersUrl": "https://www.baroncapitalgroup.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "BlueCrest Capital Management",
+      "careersUrl": "https://www.bluecrestcapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Brevan Howard",
+      "careersUrl": "https://www.brevanhoward.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Citadel",
+      "careersUrl": "https://www.citadel.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Citadel Securities",
+      "careersUrl": "https://www.citadelsecurities.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Dymon Asia Capital",
+      "careersUrl": "https://www.dymonasia.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "ExodusPoint Capital",
+      "careersUrl": "https://www.exoduspoint.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Hudson Bay Capital Management",
+      "careersUrl": "https://www.hudsonbaycapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Man Group",
+      "careersUrl": "https://www.man.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Marshall Wace",
+      "careersUrl": "https://www.mwam.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Millennium Management",
+      "careersUrl": "https://www.mlp.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Naya Capital Management",
+      "careersUrl": "https://www.nayacapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Nine Masts Capital",
+      "careersUrl": "https://www.ninemasts.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "North Rock Capital",
+      "careersUrl": "https://www.northrockllc.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Point72",
+      "careersUrl": "https://careers.point72.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Qube Research & Technologies",
+      "careersUrl": "https://www.qube-rt.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Schonfeld Strategic Advisors",
+      "careersUrl": "https://job-boards.greenhouse.io/schonfeld",
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 1,
+      "error": ""
+    },
+    {
+      "company": "Select Equity Group",
+      "careersUrl": "https://www.selectequity.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Silver Point Capital",
+      "careersUrl": "https://www.silverpointcapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Squarepoint Capital",
+      "careersUrl": "https://www.squarepoint-capital.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Varenne Capital Partners",
+      "careersUrl": "https://www.varennecapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Verition Fund Management",
+      "careersUrl": "https://www.verition.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Bank of America",
+      "careersUrl": "https://careers.bankofamerica.com/en-us/job-search",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Barclays",
+      "careersUrl": "https://search.jobs.barclays/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Citi",
+      "careersUrl": "https://jobs.citi.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Deutsche Bank",
+      "careersUrl": "https://careers.db.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Evercore",
+      "careersUrl": "https://www.evercore.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Goldman Sachs",
+      "careersUrl": "https://www.goldmansachs.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Houlihan Lokey",
+      "careersUrl": "https://hl.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Jefferies",
+      "careersUrl": "https://www.jefferies.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "JPMorgan Chase",
+      "careersUrl": "https://careers.jpmorgan.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Lazard",
+      "careersUrl": "https://www.lazard.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Moelis & Company",
+      "careersUrl": "https://www.moelis.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Morgan Stanley",
+      "careersUrl": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Nomura",
+      "careersUrl": "https://www.nomura.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Perella Weinberg",
+      "careersUrl": "https://pwpartners.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "PJT Partners",
+      "careersUrl": "https://www.pjtpartners.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Rothschild & Co",
+      "careersUrl": "https://www.rothschildandco.com/en/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "UBS",
+      "careersUrl": "https://www.ubs.com/global/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Bank of Singapore",
+      "careersUrl": "https://www.bankofsingapore.com/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Edmond de Rothschild",
+      "careersUrl": "https://www.edmond-de-rothschild.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "EFG International",
+      "careersUrl": "https://www.efginternational.com/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Indosuez Wealth Management",
+      "careersUrl": "https://www.ca-indosuez.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "J. Safra Sarasin",
+      "careersUrl": "https://www.jsafrasarasin.com/internet/com/en/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Julius Baer",
+      "careersUrl": "https://www.juliusbaer.com/global/en/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Lombard Odier",
+      "careersUrl": "https://www.lombardodier.com/careers.html",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Mirabaud",
+      "careersUrl": "https://www.mirabaud.com/en/careers/job-opportunities",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Pictet",
+      "careersUrl": "https://www.pictet.com/global/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Swissquote",
+      "careersUrl": "https://www.swissquote.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Union Bancaire Privée (UBP)",
+      "careersUrl": "https://www.ubp.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Apollo Global Management",
+      "careersUrl": "https://www.apollo.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Ardian",
+      "careersUrl": "https://www.ardian.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Ares Credit Group",
+      "careersUrl": "https://www.aresmgmt.com/about-us/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Ares Management",
+      "careersUrl": "https://www.aresmgmt.com/about-ares-management/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Bain Capital",
+      "careersUrl": "https://www.baincapital.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Blackstone",
+      "careersUrl": "https://www.blackstone.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Blue Owl Capital",
+      "careersUrl": "https://www.blueowl.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Brookfield",
+      "careersUrl": "https://www.brookfield.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Carlyle",
+      "careersUrl": "https://www.carlyle.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "CVC Capital Partners",
+      "careersUrl": "https://www.cvc.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "EQT",
+      "careersUrl": "https://eqtgroup.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Fortress Investment Group",
+      "careersUrl": "https://www.fortress.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "General Atlantic",
+      "careersUrl": "https://www.generalatlantic.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Hayfin Capital Management",
+      "careersUrl": "https://www.hayfincapital.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "HPS Investment Partners",
+      "careersUrl": "https://www.hpspartners.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "ICG",
+      "careersUrl": "https://www.icgam.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Investcorp",
+      "careersUrl": "https://www.investcorp.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "KKR",
+      "careersUrl": "https://www.kkr.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Oak Hill Advisors",
+      "careersUrl": "https://www.oakhilladvisors.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Oaktree Capital Management",
+      "careersUrl": "https://www.oaktreecapital.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Partners Group",
+      "careersUrl": "https://www.partnersgroup.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Pemberton Asset Management",
+      "careersUrl": "https://pembertonam.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Sixth Street",
+      "careersUrl": "https://sixthstreet.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Starwood Capital Group",
+      "careersUrl": "https://www.starwoodcapital.com/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "TPG",
+      "careersUrl": "https://www.tpg.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Warburg Pincus",
+      "careersUrl": "https://warburgpincus.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Addepar",
+      "careersUrl": "https://job-boards.greenhouse.io/addepar1",
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 1,
+      "error": ""
+    },
+    {
+      "company": "Bloomberg",
+      "careersUrl": "https://www.bloomberg.com/company/careers/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "CFA Institute",
+      "careersUrl": "https://www.cfainstitute.org/about/careers-at-cfa-institute",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "FactSet",
+      "careersUrl": "https://www.factset.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Fitch Ratings",
+      "careersUrl": "https://careers.fitch.group/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "LSEG",
+      "careersUrl": "https://www.lseg.com/en/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Moody’s",
+      "careersUrl": "https://careers.moodys.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Morningstar",
+      "careersUrl": "https://careers.morningstar.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "MSCI",
+      "careersUrl": "https://careers.msci.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "S&P Global Ratings",
+      "careersUrl": "https://careers.spglobal.com/",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "SimCorp",
+      "careersUrl": "https://www.simcorp.com/careers",
+      "provider": null,
+      "monitoringStatus": "not_configured",
+      "lastCheckedAt": null,
+      "matchingJobs": null,
+      "error": ""
+    },
+    {
+      "company": "Guidepoint",
+      "careersUrl": "https://job-boards.greenhouse.io/guidepoint",
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 0,
+      "error": ""
+    },
+    {
+      "company": "Third Bridge",
+      "careersUrl": "https://job-boards.greenhouse.io/thirdbridge",
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "matchingJobs": 0,
+      "error": ""
+    }
+  ],
+  "note": "Only verified_feed indicates successful vacancy retrieval. Listed careers URLs are not automatic job monitoring."
+}

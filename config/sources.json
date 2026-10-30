@@ -24,6 +24,14 @@
       "company": "Third Bridge",
       "provider": "greenhouse",
       "board": "thirdbridge"
+    },
+    {
+      "company": "FTI Consulting",
+      "provider": "workday",
+      "board": "FTIConsultingCareers",
+      "tenant": "fticonsulting",
+      "host": "fticonsulting.wd108.myworkdayjobs.com",
+      "site": "FTIConsultingCareers"
     }
   ],
   "location_keywords": [

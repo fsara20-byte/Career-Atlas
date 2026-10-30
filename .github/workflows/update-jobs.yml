@@ -31,6 +31,8 @@ jobs:
           python-version: '3.12'
       - name: Pull official job postings
         run: python scripts/update_jobs.py
+      - name: Discover official careers pages across all 177 employers
+        run: python scripts/discover_all_employers.py
       - name: Audit all employer feed coverage
         run: python scripts/audit_coverage.py
       - name: Build updated website
@@ -40,7 +42,7 @@ jobs:
         run: |
           git config user.name 'career-watch-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/jobs.json data/monitoring-coverage.json index.html
+          git add data/jobs.json data/discovery.json data/monitoring-coverage.json index.html
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh official career feeds'
             git push

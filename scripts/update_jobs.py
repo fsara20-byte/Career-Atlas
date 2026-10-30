@@ -128,12 +128,59 @@ def fetch_workday(source):
         batch=doc.get('jobPostings')
         if not isinstance(batch,list): raise ValueError('Workday returned no jobPostings array')
         if total is None: total=int(doc.get('total',len(batch)))
-        if total>5000: raise ValueError('Workday listing exceeds safety limit')
+        if total>1200: raise ValueError('Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage')
         if not batch and offset<total: raise ValueError('Workday pagination incomplete')
         records.extend(batch)
         offset+=len(batch)
         if not batch: break
     return records,base
+
+def workday_details(base,external):
+    """Fetch description for a shortlisted job, without blocking listing discovery."""
+    if not external.startswith('/'):return {}
+    try:
+        req=Request(base+external,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
+        with urlopen(req,timeout=12) as res:doc=json.load(res)
+        return doc.get('jobPostingInfo') or {}
+    except Exception:return {}
+
+def fetch_smartrecruiters(board):
+    """Read all public company postings; refuse incomplete boards."""
+    results=[];offset=0;total=None
+    while total is None or offset<total:
+        doc=fetch_json('https://api.smartrecruiters.com/v1/companies/'+quote(board,safe='')+'/postings?limit=100&offset='+str(offset))
+        batch=doc.get('content')
+        if not isinstance(batch,list):raise ValueError('SmartRecruiters response missing content array')
+        if total is None:total=int(doc.get('totalFound',len(batch)))
+        if total>1200:raise ValueError('SmartRecruiters board exceeds full-scan limit')
+        if not batch and offset<total:raise ValueError('SmartRecruiters pagination incomplete')
+        results.extend(batch);offset+=len(batch)
+        if not batch:break
+    return results
+
+def smartrecruiters_normalize(raw,company,board):
+    title=str(raw.get('name') or '').strip()
+    ident=str(raw.get('id') or '')
+    if not title or not ident:return None
+    loc=raw.get('location') or {}
+    location=', '.join(str(loc.get(k) or '') for k in ('city','region','country') if loc.get(k))
+    url='https://jobs.smartrecruiters.com/'+quote(board,safe='')+'/'+quote(ident,safe='')
+    return {'id':'smartrecruiters-'+hashlib.sha256((company+ident).encode()).hexdigest()[:18],
+            'company':company,'title':title,'url':url,'location':location,
+            'programme':programme_from_title(title),'eligibilityFlags':flags_from_title(title),
+            'deadline':'','publishedAt':str(raw.get('releasedDate') or '')[:10],
+            'source':'smartrecruiters','sourceBoard':company,'status':'active',
+            'guidance':cv_guidance(title),
+            'note':'Public SmartRecruiters employer posting; confirm eligibility and deadline.'}
+
+def smartrecruiters_details(board,ident):
+    try:
+        doc=fetch_json('https://api.smartrecruiters.com/v1/companies/'+quote(board,safe='')+'/postings/'+quote(str(ident),safe=''))
+        sections=(doc.get('jobAd') or {}).get('sections') or {}
+        description=' '.join(str(v.get('text') if isinstance(v,dict) else v or '') for v in sections.values())
+        return {'description':re.sub(r'<[^>]*>',' ',description)[:12000],
+                'url':doc.get('postingUrl') or doc.get('applyUrl') or ''}
+    except Exception:return {}
 
 def workday_normalize(raw,company,base):
     title=str(raw.get('title') or '').strip()
@@ -156,6 +203,35 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
     for source in cfg['feeds']:
         board, company = source['board'], source['company']
         provider=source['provider']
+        if provider=='smartrecruiters':
+            try:
+                records=fetch_smartrecruiters(board)
+                available=set();count=0
+                for raw in records:
+                    loc=raw.get('location') or {}
+                    location=', '.join(str(loc.get(k) or '') for k in ('city','region','country') if loc.get(k))
+                    if not relevant({'title':raw.get('name',''),'location':location},cfg):continue
+                    item=smartrecruiters_normalize(raw,company,board)
+                    if not item:continue
+                    count+=1;old=existing.get(item['id'],{})
+                    detail=smartrecruiters_details(board,raw.get('id'))
+                    if detail.get('url','').startswith('https://'):item['url']=detail['url']
+                    item['description']=detail.get('description') or old.get('description','')
+                    item['guidance']=cv_guidance(item['title'],item['description'])
+                    item['firstSeen']=old.get('firstSeen',TODAY)
+                    item['firstSeenAt']=old.get('firstSeenAt',NOW)
+                    item['lastSeen']=TODAY;item['lastSeenAt']=NOW
+                    item['deadline']=old.get('deadline','')
+                    item['deadlineSource']=old.get('deadlineSource','')
+                    if not old:num_added+=1
+                    existing[item['id']]=item;available.add(item['id'])
+                for key,old in existing.items():
+                    if old.get('source')=='smartrecruiters' and old.get('sourceBoard')==company and key not in available:
+                        old['status']='not_in_latest_feed'
+                outcomes.append({'company':company,'status':'ok','count':count,'checkedAt':NOW,'provider':provider,'totalBoardPostings':len(records)})
+            except Exception as exc:
+                outcomes.append({'company':company,'status':'failed','count':None,'checkedAt':NOW,'provider':provider,'error':str(exc)[:160]})
+            continue
         if provider=='workday':
             try:
                 records,base=fetch_workday(source)
@@ -171,7 +247,9 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     item['firstSeenAt']=old.get('firstSeenAt',NOW)
                     item['lastSeen']=TODAY
                     item['lastSeenAt']=NOW
-                    item['description']=old.get('description','')
+                    detail=workday_details(base,str(raw.get('externalPath') or ''))
+                    item['description']=re.sub(r'<[^>]*>',' ',str(detail.get('jobDescription') or ''))[:12000] or old.get('description','')
+                    item['guidance']=cv_guidance(item['title'],item['description'])
                     item['deadline']=old.get('deadline','')
                     item['deadlineSource']=old.get('deadlineSource','')
                     if old.get('guidance'):item['guidance']=old['guidance']

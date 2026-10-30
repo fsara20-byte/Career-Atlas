@@ -110,6 +110,44 @@ def greenhouse_normalize(job, company):
       'sourceBoard':company,'status':'active', 'description':re.sub(r'<[^>]*>',' ',str(job.get('content') or ''))[:12000], 'guidance':cv_guidance(title,str(job.get('content') or '')),
       'note':'Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.'}
 
+def fetch_workday(source):
+    """Public Workday CXS endpoint. Return full postings only on complete pagination."""
+    from urllib.request import Request, urlopen
+    host=source['host']
+    tenant=source['tenant']
+    site=source['site']
+    base='https://'+host+'/wday/cxs/'+quote(tenant,safe='')+'/'+quote(site,safe='')
+    records=[]
+    offset=0
+    total=None
+    while total is None or offset<total:
+        payload=json.dumps({'appliedFacets':{},'limit':20,'offset':offset,'searchText':''}).encode('utf-8')
+        req=Request(base+'/jobs',data=payload,headers={'User-Agent':'Mozilla/5.0 CareerAtlas/1.0','Accept':'application/json','Content-Type':'application/json'},method='POST')
+        with urlopen(req,timeout=30) as res:
+            doc=json.load(res)
+        batch=doc.get('jobPostings')
+        if not isinstance(batch,list): raise ValueError('Workday returned no jobPostings array')
+        if total is None: total=int(doc.get('total',len(batch)))
+        if total>5000: raise ValueError('Workday listing exceeds safety limit')
+        if not batch and offset<total: raise ValueError('Workday pagination incomplete')
+        records.extend(batch)
+        offset+=len(batch)
+        if not batch: break
+    return records,base
+
+def workday_normalize(raw,company,base):
+    title=str(raw.get('title') or '').strip()
+    location=str(raw.get('locationsText') or '')
+    external=str(raw.get('externalPath') or '')
+    if not title or not external.startswith('/'): return None
+    url=base.rsplit('/wday/cxs/',1)[0]+'/en-US/'+quote(base.rsplit('/',1)[-1],safe='')+external
+    return {'id':'workday-'+hashlib.sha256((company+external).encode()).hexdigest()[:18],
+            'company':company,'title':title,'url':url,'location':location,
+            'programme':programme_from_title(title),'eligibilityFlags':flags_from_title(title),
+            'deadline':'','publishedAt':'','source':'workday','sourceBoard':company,
+            'status':'active','guidance':cv_guidance(title),
+            'note':'Employer Workday listing; confirm location, eligibility and deadline on the official posting.'}
+
 def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
     cfg = json.loads(config_path.read_text())
     doc = json.loads(path.read_text())
@@ -118,6 +156,35 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
     for source in cfg['feeds']:
         board, company = source['board'], source['company']
         provider=source['provider']
+        if provider=='workday':
+            try:
+                records,base=fetch_workday(source)
+                available=set();count=0
+                for raw in records:
+                    normalized={'title':raw.get('title',''),'location':raw.get('locationsText','')}
+                    if not relevant(normalized,cfg):continue
+                    item=workday_normalize(raw,company,base)
+                    if not item:continue
+                    count+=1
+                    old=existing.get(item['id'],{})
+                    item['firstSeen']=old.get('firstSeen',TODAY)
+                    item['firstSeenAt']=old.get('firstSeenAt',NOW)
+                    item['lastSeen']=TODAY
+                    item['lastSeenAt']=NOW
+                    item['description']=old.get('description','')
+                    item['deadline']=old.get('deadline','')
+                    item['deadlineSource']=old.get('deadlineSource','')
+                    if old.get('guidance'):item['guidance']=old['guidance']
+                    if not old:num_added+=1
+                    existing[item['id']]=item
+                    available.add(item['id'])
+                for key,old in existing.items():
+                    if old.get('source')=='workday' and old.get('sourceBoard')==company and key not in available:
+                        old['status']='not_in_latest_feed'
+                outcomes.append({'company':company,'status':'ok','count':count,'checkedAt':NOW,'provider':'workday','totalBoardPostings':len(records)})
+            except Exception as exc:
+                outcomes.append({'company':company,'status':'failed','count':None,'checkedAt':NOW,'provider':'workday','error':str(exc)[:160]})
+            continue
         if provider not in ('ashby','greenhouse'):
             outcomes.append({'company':company, 'status':'unsupported', 'count':0})
             continue
@@ -184,7 +251,7 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
     meta={'generatedAt':NOW,'lastAttemptAt':NOW,
           'lastSuccessfulAt':NOW if good else previous.get('lastSuccessfulAt'),
           'newRolesLastRun':num_added,'deadlineChangesLastRun':num_changed,'deadlineChangedIds':changed_ids,'sources':outcomes,
-          'note':'Only configured official Ashby/Greenhouse public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.',
+          'note':'Configured official Ashby, Greenhouse and Workday public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.',
           'sourceCoverage':'Automated: '+', '.join(x['company'] for x in outcomes if x['status']=='ok')+'. Other employers: official career portals.'}
     doc={'meta':meta,'jobs':sorted(existing.values(),key=lambda x:(x.get('status')!='active', str(x.get('company','')),str(x.get('title',''))))}
     path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')

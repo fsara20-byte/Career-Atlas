@@ -9,7 +9,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "abrdn",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -23,7 +22,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "alliancebernstein",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -39,7 +37,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "allianz-global-investors",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -54,7 +51,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "allspring-global-investments",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -68,7 +64,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "amundi",
-    "cfa": "Strong",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -88,7 +83,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "axa-investment-managers",
-    "cfa": "Strong",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -105,7 +99,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "blackrock",
-    "cfa": "Strong",
     "tier": "Global / established",
     "divisions": [
       "BlackRock Alternatives"
@@ -130,7 +123,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "candriam",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -145,7 +137,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "capital-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -160,7 +151,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "dws-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -175,7 +165,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "eurizon-capital",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -190,7 +179,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "federated-hermes",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -204,7 +192,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "fidelity-international",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -219,7 +206,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "franklin-templeton",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -235,7 +221,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "franklin-templeton-alternatives",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -250,7 +235,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "gam-investments",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -264,7 +248,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "invesco",
-    "cfa": "Strong",
     "tier": "Global / established",
     "divisions": [
       "Invesco Real Estate"
@@ -288,7 +271,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "janus-henderson",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -304,7 +286,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "lombard-odier-investment-managers",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -319,7 +300,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "m-g-investments",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -334,7 +314,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "mfs-investment-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -348,7 +327,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "neuberger-berman",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -364,7 +342,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "ninety-one",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -379,7 +356,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "nuveen",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -394,7 +370,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "pimco",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -409,7 +384,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "robeco",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -423,7 +397,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "schroders",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceSource": "https://www.schroders.com/en/middle-east/professional/about-us/schroders-middle-east/",
     "presenceStatus": "UAE presence not independently checked",
@@ -439,7 +412,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "state-street",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -455,7 +427,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "t-rowe-price",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -470,7 +441,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "vontobel-asset-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -485,7 +455,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "wellington-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -499,7 +468,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "accenture-strategy",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -514,7 +482,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "alixpartners",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -529,7 +496,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "alvarez-marsal",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -544,7 +510,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "arthur-d-little",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -559,7 +524,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "bain-company",
-    "cfa": "Role-dependent",
     "tier": "Tier 1",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -574,7 +538,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "bdo",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -590,7 +553,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bearingpoint",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -605,7 +567,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "booz-allen-hamilton",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -619,7 +580,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "boston-consulting-group",
-    "cfa": "Role-dependent",
     "tier": "Tier 1",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -634,7 +594,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "capgemini-invent",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -649,7 +608,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "deloitte-deals",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "divisions": [
       "Monitor Deloitte"
@@ -674,7 +632,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "ey-parthenon",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "divisions": [
       "EY Strategy & Transactions"
@@ -697,7 +654,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "fti-consulting",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -713,7 +669,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "gartner-consulting",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -727,7 +682,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "grant-thornton",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -743,7 +697,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "ibm-consulting",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -757,7 +710,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "kearney",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -772,7 +724,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "kpmg-deal-advisory",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -787,7 +738,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "kroll",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -802,7 +752,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "l-e-k-consulting",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -817,7 +766,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "mckinsey-company",
-    "cfa": "Role-dependent",
     "tier": "Tier 1",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -833,7 +781,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "mercer",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "divisions": [
       "Marsh McLennan"
@@ -856,7 +803,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "oliver-wyman",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -871,7 +817,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "protiviti",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -887,7 +832,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "publicis-sapient",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -901,7 +845,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "pwc-deals",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -916,7 +859,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "roland-berger",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -931,7 +873,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "simon-kucher",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -946,7 +887,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "strategy",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -961,7 +901,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "teneo",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "Verified UAE vacancy example",
     "presenceEvidence": "https://job-boards.greenhouse.io/teneolinkedin/jobs/8046232003",
@@ -977,7 +916,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bank-of-china",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -992,7 +930,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bank-of-new-york-mellon",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1007,7 +944,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "banque-transatlantique",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1024,7 +960,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "bnp-paribas",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1055,7 +990,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bpce-groupe-bpce",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1073,7 +1007,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "china-construction-bank",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1088,7 +1021,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "cic-cr-dit-mutuel-alliance-f-d-rale",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1105,7 +1037,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "commerzbank",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1120,7 +1051,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "cr-dit-agricole-cib",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1140,7 +1070,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "cr-dit-agricole-indosuez",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1158,7 +1087,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "cr-dit-mutuel",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1176,7 +1104,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "dbs-bank",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1190,7 +1117,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "hsbc",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "divisions": [
       "HSBC Asset Management",
@@ -1218,7 +1144,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "icbc",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1232,7 +1157,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "ing",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1247,7 +1171,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "mizuho",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1262,7 +1185,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "mufg",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1277,7 +1199,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "natixis-cib",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1296,7 +1217,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "natixis-investment-managers",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1314,7 +1234,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "northern-trust",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1329,7 +1248,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "rbc-capital-markets",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1343,7 +1261,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "smbc",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1358,7 +1275,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "soci-t-g-n-rale",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1386,7 +1302,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "standard-bank-group",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1400,7 +1315,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "standard-chartered",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1415,7 +1329,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "unicredit",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1431,7 +1344,6 @@
     "hq": "",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "balyasny-asset-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceSource": "https://www.dfsa.ae/public-register/firms/balyasny-asset-management-middle-east-limited",
     "presenceStatus": "UAE presence not independently checked",
@@ -1447,7 +1359,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "baron-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1462,7 +1373,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bluecrest-capital-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1477,7 +1387,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "brevan-howard",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1492,7 +1401,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "citadel",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1507,7 +1415,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "citadel-securities",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1522,7 +1429,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "dymon-asia-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1537,7 +1443,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "exoduspoint-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1552,7 +1457,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "hudson-bay-capital-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1567,7 +1471,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "man-group",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1582,7 +1485,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "marshall-wace",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1597,7 +1499,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "millennium-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1612,7 +1513,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "naya-capital-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1627,7 +1527,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "nine-masts-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1642,7 +1541,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "north-rock-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1657,7 +1555,6 @@
     "hq": "",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "point72",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceSource": "https://www.dfsa.ae/public-register/firms/point72-difc-limited",
     "presenceStatus": "UAE presence not independently checked",
@@ -1673,7 +1570,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "qube-research-technologies",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1688,7 +1584,6 @@
     "hq": "",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "schonfeld-strategic-advisors",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceSource": "https://www.dfsa.ae/public-register/firms/schonfeld-strategic-advisors-difc-ltd",
     "presenceStatus": "Verified UAE vacancy example",
@@ -1704,7 +1599,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "select-equity-group",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1719,7 +1613,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "silver-point-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1734,7 +1627,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "squarepoint-capital",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1749,7 +1641,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "varenne-capital-partners",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1764,7 +1655,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "verition-fund-management",
-    "cfa": "Strong for fundamental research; quant roles differ",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -1778,7 +1668,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "bank-of-america",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "divisions": [
       "Bank of America Private Bank"
@@ -1802,7 +1691,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "barclays",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1817,7 +1705,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "citi",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1832,7 +1719,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "deutsche-bank",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1847,7 +1733,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "evercore",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1862,7 +1747,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "goldman-sachs",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1877,7 +1761,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "houlihan-lokey",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1892,7 +1775,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "jefferies",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1907,7 +1789,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "jpmorgan-chase",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "divisions": [
       "J.P. Morgan Asset Management",
@@ -1934,7 +1815,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "lazard",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -1962,7 +1842,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "moelis-company",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1977,7 +1856,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "morgan-stanley",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -1992,7 +1870,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "nomura",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2007,7 +1884,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "perella-weinberg",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2022,7 +1898,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "pjt-partners",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2037,7 +1912,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "rothschild-co",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -2065,7 +1939,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "ubs",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2081,7 +1954,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bank-of-singapore",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2095,7 +1967,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "edmond-de-rothschild",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2111,7 +1982,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "efg-international",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2125,7 +1995,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "indosuez-wealth-management",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -2144,7 +2013,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "j-safra-sarasin",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2158,7 +2026,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "julius-baer",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2173,7 +2040,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "lombard-odier",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2188,7 +2054,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "mirabaud",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2203,7 +2068,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "pictet",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "divisions": [
       "Pictet Asset Management"
@@ -2228,7 +2092,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "swissquote",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2243,7 +2106,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "union-bancaire-priv-e-ubp",
-    "cfa": "Strong for investment / credit roles",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2257,7 +2119,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "apollo-global-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2273,7 +2134,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "ardian",
-    "cfa": "Strong",
     "tier": "Global / established",
     "tags": [
       "French group"
@@ -2291,7 +2151,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "ares-credit-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2305,7 +2164,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "ares-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2321,7 +2179,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bain-capital",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2336,7 +2193,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "blackstone",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2351,7 +2207,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "blue-owl-capital",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2365,7 +2220,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "brookfield",
-    "cfa": "Strong",
     "tier": "Global / established",
     "divisions": [
       "Brookfield Asset Management"
@@ -2389,7 +2243,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "carlyle",
-    "cfa": "Strong",
     "tier": "Global / established",
     "divisions": [
       "Carlyle AlpInvest"
@@ -2414,7 +2267,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "cvc-capital-partners",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2429,7 +2281,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "eqt",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2444,7 +2295,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "fortress-investment-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2459,7 +2309,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "general-atlantic",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2474,7 +2323,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "hayfin-capital-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2489,7 +2337,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "hps-investment-partners",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2504,7 +2351,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "icg",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2518,7 +2364,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "investcorp",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2533,7 +2378,6 @@
     "fit": "Experienced / analyst",
     "presence": "UAE / regional office — confirm on employer site",
     "id": "kkr",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": "",
@@ -2549,7 +2393,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "oak-hill-advisors",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2564,7 +2407,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "oaktree-capital-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2579,7 +2421,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "partners-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2594,7 +2435,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "pemberton-asset-management",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2609,7 +2449,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "sixth-street",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2624,7 +2463,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "starwood-capital-group",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2639,7 +2477,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "tpg",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2654,7 +2491,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "warburg-pincus",
-    "cfa": "Strong",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2669,7 +2505,6 @@
     "hq": "",
     "presence": "UAE presence verified (as of sourced page)",
     "id": "addepar",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceSource": "https://job-boards.greenhouse.io/addepar1/jobs/8875492002",
     "presenceStatus": "Verified UAE vacancy example",
@@ -2685,7 +2520,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "bloomberg",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2700,7 +2534,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "cfa-institute",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2715,7 +2548,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "factset",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2730,7 +2562,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "fitch-ratings",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2745,7 +2576,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "lseg",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2760,7 +2590,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "moody-s",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2775,7 +2604,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "morningstar",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2790,7 +2618,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "msci",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2805,7 +2632,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "s-p-global-ratings",
-    "cfa": "Strong for credit / investment analytics",
     "tier": "Global / established",
     "divisions": [
       "S&P Dow Jones Indices"
@@ -2829,7 +2655,6 @@
     "hq": "",
     "presence": "Regional presence — verify role location",
     "id": "simcorp",
-    "cfa": "Role-dependent",
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
@@ -2846,7 +2671,6 @@
     "presence": "Dubai posting verified",
     "presenceStatus": "Verified UAE vacancy example",
     "presenceEvidence": "https://job-boards.greenhouse.io/guidepoint",
-    "cfa": "Role-dependent",
     "tier": "International research services",
     "tags": [
       "expert network",
@@ -2868,7 +2692,6 @@
     "presence": "Dubai posting verified",
     "presenceStatus": "Verified UAE vacancy example",
     "presenceEvidence": "https://job-boards.greenhouse.io/thirdbridge",
-    "cfa": "Role-dependent",
     "tier": "International research services",
     "tags": [
       "expert network",

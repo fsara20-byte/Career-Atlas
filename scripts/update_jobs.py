@@ -75,7 +75,24 @@ def normalize(job, company):
       'company':company, 'title':title, 'url':url, 'location':location,
       'programme': programme_from_title(title,label), 'eligibilityFlags':flags_from_title(title),
       'deadline':'', 'publishedAt':published, 'source':'ashby',
-      'sourceBoard':company, 'status':'active', 'note':'From employer-published Ashby feed. Confirm eligibility, location and deadline on the posting.'}
+      'sourceBoard':company, 'status':'active', 'description':str(job.get('descriptionPlain') or '')[:12000], 'guidance':cv_guidance(title,str(job.get('descriptionPlain') or '')),
+      'note':'From employer-published Ashby feed. Confirm eligibility, location and deadline on the posting.'}
+
+def cv_guidance(title, description=''):
+    text=(title+' '+description).lower()
+    show=[]; work=[]
+    if re.search(r'credit|bank|lending|treasury|working capital',text):
+        show.append('Quantify financing transactions and credit assessment experience.')
+        work.append('Review credit ratios, cash-flow analysis and financing structures.')
+    if re.search(r'consult|strategy|market entry|transformation|advisory',text):
+        show.append('Show client-facing projects and structured commercial problem solving.')
+        work.append('Practice profitability, market sizing and market entry cases.')
+    if re.search(r'investment|valuation|transaction|m&a|deal|financial model',text):
+        show.append('Highlight financial analysis, valuation projects and transaction exposure.')
+        work.append('Practice three-statement models, DCF and comparable valuations.')
+    return {'showcase':show or ['Quantified achievements and analytical projects.'],
+            'workOn':work or ['Review employer requirements and prepare relevant examples.'],
+            'method':'Keyword matching, not AI assessment'}
 
 def greenhouse_normalize(job, company):
     """Normalize Greenhouse's public Job Board API; never infer a closing date."""
@@ -90,7 +107,7 @@ def greenhouse_normalize(job, company):
       'company':company,'title':title,'url':url,'location':location,
       'programme':programme_from_title(title), 'eligibilityFlags':flags_from_title(title),
       'deadline':'','publishedAt':'','updatedAt':updated,'source':'greenhouse',
-      'sourceBoard':company,'status':'active',
+      'sourceBoard':company,'status':'active', 'description':re.sub(r'<[^>]*>',' ',str(job.get('content') or ''))[:12000], 'guidance':cv_guidance(title,str(job.get('content') or '')),
       'note':'Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.'}
 
 def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
@@ -106,7 +123,7 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
             continue
         url = ('https://api.ashbyhq.com/posting-api/job-board/'+quote(board,safe='')+'?includeCompensation=false'
                if provider=='ashby' else
-               'https://boards-api.greenhouse.io/v1/boards/'+quote(board,safe='')+'/jobs')
+               'https://boards-api.greenhouse.io/v1/boards/'+quote(board,safe='')+'/jobs?content=true')
         try:
             data=fetcher(url)
             if not isinstance(data.get('jobs'),list):
@@ -131,6 +148,8 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                 if same_seed: item['id']=same_seed['id']
                 available.add(item['id'])
                 old=existing.get(item['id'],{})
+                if not item.get('description') and old.get('description'):
+                    item['description']=old['description']; item['guidance']=old.get('guidance',cv_guidance(item['title'],old['description']))
                 item['firstSeen']=old.get('firstSeen',TODAY)
                 item['firstSeenAt']=old.get('firstSeenAt',NOW)
                 item['lastSeen']=TODAY

@@ -32,6 +32,295 @@
       "tenant": "fticonsulting",
       "host": "fticonsulting.wd108.myworkdayjobs.com",
       "site": "FTIConsultingCareers"
+    },
+    {
+      "company": "AllianceBernstein",
+      "provider": "workday",
+      "host": "abglobal.wd1.myworkdayjobs.com",
+      "tenant": "abglobal",
+      "site": "alliancebernsteincareers",
+      "board": "alliancebernsteincareers"
+    },
+    {
+      "company": "Capital Group",
+      "provider": "workday",
+      "host": "capgroup.wd1.myworkdayjobs.com",
+      "tenant": "capgroup",
+      "site": "capitalgroupcareers",
+      "board": "capitalgroupcareers"
+    },
+    {
+      "company": "Fidelity International",
+      "provider": "workday",
+      "host": "fil.wd3.myworkdayjobs.com",
+      "tenant": "fil",
+      "site": "001",
+      "board": "001"
+    },
+    {
+      "company": "GAM Investments",
+      "provider": "workday",
+      "host": "gam.wd3.myworkdayjobs.com",
+      "tenant": "gam",
+      "site": "GAM",
+      "board": "GAM"
+    },
+    {
+      "company": "M&G Investments",
+      "provider": "workday",
+      "host": "mgpru.wd3.myworkdayjobs.com",
+      "tenant": "mgpru",
+      "site": "mandgprudential",
+      "board": "mandgprudential"
+    },
+    {
+      "company": "MFS Investment Management",
+      "provider": "workday",
+      "host": "mfs.wd1.myworkdayjobs.com",
+      "tenant": "mfs",
+      "site": "MFS-Careers",
+      "board": "MFS-Careers"
+    },
+    {
+      "company": "Nuveen",
+      "provider": "workday",
+      "host": "tiaa.wd1.myworkdayjobs.com",
+      "tenant": "tiaa",
+      "site": "Search",
+      "board": "Search"
+    },
+    {
+      "company": "State Street",
+      "provider": "workday",
+      "host": "statestreet.wd1.myworkdayjobs.com",
+      "tenant": "statestreet",
+      "site": "Global",
+      "board": "Global"
+    },
+    {
+      "company": "T. Rowe Price",
+      "provider": "workday",
+      "host": "troweprice.wd5.myworkdayjobs.com",
+      "tenant": "troweprice",
+      "site": "TRowePrice",
+      "board": "TRowePrice"
+    },
+    {
+      "company": "Vontobel Asset Management",
+      "provider": "workday",
+      "host": "vontobel.wd3.myworkdayjobs.com",
+      "tenant": "vontobel",
+      "site": "Vontobel_External_Career",
+      "board": "Vontobel_External_Career"
+    },
+    {
+      "company": "Wellington Management",
+      "provider": "workday",
+      "host": "wellington.wd5.myworkdayjobs.com",
+      "tenant": "wellington",
+      "site": "External",
+      "board": "External"
+    },
+    {
+      "company": "Accenture Strategy",
+      "provider": "workday",
+      "host": "accenture.wd103.myworkdayjobs.com",
+      "tenant": "accenture",
+      "site": "AccentureCareers",
+      "board": "AccentureCareers"
+    },
+    {
+      "company": "Booz Allen Hamilton",
+      "provider": "workday",
+      "host": "bah.wd1.myworkdayjobs.com",
+      "tenant": "bah",
+      "site": "BAH_Jobs",
+      "board": "BAH_Jobs"
+    },
+    {
+      "company": "Protiviti",
+      "provider": "workday",
+      "host": "roberthalf.wd1.myworkdayjobs.com",
+      "tenant": "roberthalf",
+      "site": "ProtivitiNA",
+      "board": "ProtivitiNA"
+    },
+    {
+      "company": "Roland Berger",
+      "provider": "smartrecruiters",
+      "board": "RolandBerger"
+    },
+    {
+      "company": "DBS Bank",
+      "provider": "workday",
+      "host": "dbs.wd3.myworkdayjobs.com",
+      "tenant": "dbs",
+      "site": "DBS_Careers",
+      "board": "DBS_Careers"
+    },
+    {
+      "company": "MUFG",
+      "provider": "workday",
+      "host": "mufgub.wd3.myworkdayjobs.com",
+      "tenant": "mufgub",
+      "site": "MUFG-Careers",
+      "board": "MUFG-Careers"
+    },
+    {
+      "company": "Northern Trust",
+      "provider": "workday",
+      "host": "ntrs.wd1.myworkdayjobs.com",
+      "tenant": "ntrs",
+      "site": "northerntrust",
+      "board": "northerntrust"
+    },
+    {
+      "company": "Point72",
+      "provider": "greenhouse",
+      "board": "point72"
+    },
+    {
+      "company": "Bank of America",
+      "provider": "workday",
+      "host": "ghr.wd1.myworkdayjobs.com",
+      "tenant": "ghr",
+      "site": "lateral-us",
+      "board": "lateral-us"
+    },
+    {
+      "company": "Barclays",
+      "provider": "workday",
+      "host": "barclays.wd3.myworkdayjobs.com",
+      "tenant": "barclays",
+      "site": "External_Career_Site_Barclays",
+      "board": "External_Career_Site_Barclays"
+    },
+    {
+      "company": "Citi",
+      "provider": "workday",
+      "host": "citi.wd5.myworkdayjobs.com",
+      "tenant": "citi",
+      "site": "2",
+      "board": "2"
+    },
+    {
+      "company": "Houlihan Lokey",
+      "provider": "workday",
+      "host": "hl.wd1.myworkdayjobs.com",
+      "tenant": "hl",
+      "site": "Campus",
+      "board": "Campus"
+    },
+    {
+      "company": "Moelis & Company",
+      "provider": "workday",
+      "host": "moelis.wd1.myworkdayjobs.com",
+      "tenant": "moelis",
+      "site": "Experienced-Hires",
+      "board": "Experienced-Hires"
+    },
+    {
+      "company": "PJT Partners",
+      "provider": "workday",
+      "host": "pjtpartners.wd1.myworkdayjobs.com",
+      "tenant": "pjtpartners",
+      "site": "Careers",
+      "board": "Careers"
+    },
+    {
+      "company": "Bank of Singapore",
+      "provider": "workday",
+      "host": "ocbc.wd102.myworkdayjobs.com",
+      "tenant": "ocbc",
+      "site": "External",
+      "board": "External"
+    },
+    {
+      "company": "Swissquote",
+      "provider": "smartrecruiters",
+      "board": "Swissquote"
+    },
+    {
+      "company": "Apollo Global Management",
+      "provider": "workday",
+      "host": "athene.wd5.myworkdayjobs.com",
+      "tenant": "athene",
+      "site": "Apollo_Careers",
+      "board": "Apollo_Careers"
+    },
+    {
+      "company": "Bain Capital",
+      "provider": "workday",
+      "host": "baincapital.wd1.myworkdayjobs.com",
+      "tenant": "baincapital",
+      "site": "External_Public",
+      "board": "External_Public"
+    },
+    {
+      "company": "Blue Owl Capital",
+      "provider": "workday",
+      "host": "blueowl.wd1.myworkdayjobs.com",
+      "tenant": "blueowl",
+      "site": "blueowl",
+      "board": "blueowl"
+    },
+    {
+      "company": "Fortress Investment Group",
+      "provider": "workday",
+      "host": "fortress.wd503.myworkdayjobs.com",
+      "tenant": "fortress",
+      "site": "Careers",
+      "board": "Careers"
+    },
+    {
+      "company": "General Atlantic",
+      "provider": "greenhouse",
+      "board": "generalatlantic"
+    },
+    {
+      "company": "ICG",
+      "provider": "workday",
+      "host": "icg.wd3.myworkdayjobs.com",
+      "tenant": "icg",
+      "site": "external_careers",
+      "board": "external_careers"
+    },
+    {
+      "company": "Oaktree Capital Management",
+      "provider": "workday",
+      "host": "oaktree.wd1.myworkdayjobs.com",
+      "tenant": "oaktree",
+      "site": "Oaktree",
+      "board": "Oaktree"
+    },
+    {
+      "company": "Sixth Street",
+      "provider": "workday",
+      "host": "sixthstreet.wd1.myworkdayjobs.com",
+      "tenant": "sixthstreet",
+      "site": "sixthstreetcareers",
+      "board": "sixthstreetcareers"
+    },
+    {
+      "company": "TPG",
+      "provider": "greenhouse",
+      "board": "tpgcareers"
+    },
+    {
+      "company": "LSEG",
+      "provider": "workday",
+      "host": "lseg.wd3.myworkdayjobs.com",
+      "tenant": "lseg",
+      "site": "Careers",
+      "board": "Careers"
+    },
+    {
+      "company": "S&P Global Ratings",
+      "provider": "workday",
+      "host": "spgi.wd5.myworkdayjobs.com",
+      "tenant": "spgi",
+      "site": "SPGI_Careers",
+      "board": "SPGI_Careers"
     }
   ],
   "location_keywords": [

@@ -31,12 +31,14 @@ jobs:
           python-version: '3.12'
       - name: Pull official job postings
         run: python scripts/update_jobs.py
+      - name: Build updated website
+        run: python scripts/build_site.py
       - name: Commit refreshed listings
         shell: bash
         run: |
           git config user.name 'career-watch-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/jobs.json
+          git add data/jobs.json index.html
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh official career feeds'
             git push

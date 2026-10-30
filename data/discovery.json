@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T10:53:00Z",
+  "generatedAt": "2026-10-30T12:12:52Z",
   "employers": 177,
   "results": [
     {
       "company": "abrdn",
       "careersUrl": "https://www.abrdn.com/en/corporate/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -14,21 +14,15 @@
     {
       "company": "AllianceBernstein",
       "careersUrl": "https://www.alliancebernstein.com/corporate/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers"
-        }
-      ],
-      "finalUrl": "https://www.alliancebernstein.com/corporate/en/careers.html"
+      "detectedPlatforms": []
     },
     {
       "company": "Allianz Global Investors",
       "careersUrl": "https://careers.allianz.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -37,7 +31,7 @@
     {
       "company": "Allspring Global Investments",
       "careersUrl": "https://allspringglobal.com/about-us/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -46,7 +40,7 @@
     {
       "company": "Amundi",
       "careersUrl": "https://www.amundi.com/globaldistributor/About-Amundi/Careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -55,7 +49,7 @@
     {
       "company": "AXA Investment Managers",
       "careersUrl": "https://careers.axa.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [
@@ -69,7 +63,7 @@
     {
       "company": "BlackRock",
       "careersUrl": "https://careers.blackrock.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -78,7 +72,7 @@
     {
       "company": "Candriam",
       "careersUrl": "https://www.candriam.com/en/professional/about-us/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -87,21 +81,15 @@
     {
       "company": "Capital Group",
       "careersUrl": "https://www.capitalgroup.com/about-us/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers"
-        }
-      ],
-      "finalUrl": "https://www.capitalgroup.com/about-us/careers.html"
+      "detectedPlatforms": []
     },
     {
       "company": "DWS Group",
       "careersUrl": "https://group.dws.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -110,7 +98,7 @@
     {
       "company": "Eurizon Capital",
       "careersUrl": "https://www.eurizoncapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -119,7 +107,7 @@
     {
       "company": "Federated Hermes",
       "careersUrl": "https://www.federatedhermes.com/us/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -128,21 +116,15 @@
     {
       "company": "Fidelity International",
       "careersUrl": "https://careers.fidelityinternational.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://fil.wd3.myworkdayjobs.com/en-US/001"
-        }
-      ],
-      "finalUrl": "https://careers.fidelityinternational.com/"
+      "detectedPlatforms": []
     },
     {
       "company": "Franklin Templeton",
       "careersUrl": "https://www.franklintempletoncareers.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -151,7 +133,7 @@
     {
       "company": "Franklin Templeton Alternatives",
       "careersUrl": "https://careers.franklintempleton.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -160,21 +142,15 @@
     {
       "company": "GAM Investments",
       "careersUrl": "https://www.gam.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://gam.wd3.myworkdayjobs.com/GAM"
-        }
-      ],
-      "finalUrl": "https://www.gam.com/en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Invesco",
       "careersUrl": "https://careers.invesco.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -183,7 +159,7 @@
     {
       "company": "Janus Henderson",
       "careersUrl": "https://www.janushenderson.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -192,7 +168,7 @@
     {
       "company": "Lombard Odier Investment Managers",
       "careersUrl": "https://www.lombardodier.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -201,35 +177,23 @@
     {
       "company": "M&G Investments",
       "careersUrl": "https://www.mandg.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential"
-        }
-      ],
-      "finalUrl": "https://group.mandg.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "MFS Investment Management",
       "careersUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://mfs.wd1.myworkdayjobs.com/MFS-Careers"
-        }
-      ],
-      "finalUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html"
+      "detectedPlatforms": []
     },
     {
       "company": "Neuberger Berman",
       "careersUrl": "https://www.nb.com/en/global/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -238,7 +202,7 @@
     {
       "company": "Ninety One",
       "careersUrl": "https://ninetyone.com/en/international/about-us/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -247,21 +211,15 @@
     {
       "company": "Nuveen",
       "careersUrl": "https://www.nuveen.com/global/about-us/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://tiaa.wd1.myworkdayjobs.com/en-US/Search/introduceYourself"
-        }
-      ],
-      "finalUrl": "https://www.nuveen.com/global/careers-and-job-search"
+      "detectedPlatforms": []
     },
     {
       "company": "PIMCO",
       "careersUrl": "https://careers.pimco.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -270,7 +228,7 @@
     {
       "company": "Robeco",
       "careersUrl": "https://www.robeco.com/en-int/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -279,86 +237,56 @@
     {
       "company": "Schroders",
       "careersUrl": "https://www.schroders.com/en/global/individual/about-us/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "fetch_failed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
-      "error": "The read operation timed out"
+      "finalUrl": "https://www.schroders.com/en/global/individual/about-us/careers/"
     },
     {
       "company": "State Street",
       "careersUrl": "https://careers.statestreet.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/introduceYourself"
-        }
-      ],
-      "finalUrl": "https://careers.statestreet.com/global/en"
+      "detectedPlatforms": []
     },
     {
       "company": "T. Rowe Price",
       "careersUrl": "https://www.troweprice.com/corporate/us/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/jobs"
-        }
-      ],
-      "finalUrl": "https://www.troweprice.com/en/us/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Vontobel Asset Management",
       "careersUrl": "https://www.vontobel.com/en-int/about-vontobel/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://vontobel.wd3.myworkdayjobs.com/en-US/Vontobel_External_Career/login"
-        }
-      ],
-      "finalUrl": "https://www.vontobel.com/en/about-vontobel/careers/"
+      "detectedPlatforms": []
     },
     {
       "company": "Wellington Management",
       "careersUrl": "https://www.wellington.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://wellington.wd5.myworkdayjobs.com/External"
-        }
-      ],
-      "finalUrl": "https://www.wellington.com/en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Accenture Strategy",
       "careersUrl": "https://www.accenture.com/us-en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/userHome"
-        }
-      ],
-      "finalUrl": "https://www.accenture.com/us-en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "AlixPartners",
       "careersUrl": "https://www.alixpartners.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -367,7 +295,7 @@
     {
       "company": "Alvarez & Marsal",
       "careersUrl": "https://www.alvarezandmarsal.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -376,7 +304,7 @@
     {
       "company": "Arthur D. Little",
       "careersUrl": "https://www.adlittle.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -385,7 +313,7 @@
     {
       "company": "Bain & Company",
       "careersUrl": "https://www.bain.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -394,7 +322,7 @@
     {
       "company": "BDO",
       "careersUrl": "https://www.bdo.global/en-gb/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -403,7 +331,7 @@
     {
       "company": "BearingPoint",
       "careersUrl": "https://www.bearingpoint.com/en/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -412,21 +340,15 @@
     {
       "company": "Booz Allen Hamilton",
       "careersUrl": "https://careers.boozallen.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs"
-        }
-      ],
-      "finalUrl": "https://www.boozallen.com/careers.html"
+      "detectedPlatforms": []
     },
     {
       "company": "Boston Consulting Group",
       "careersUrl": "https://careers.bcg.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -435,7 +357,7 @@
     {
       "company": "Capgemini Invent",
       "careersUrl": "https://www.capgemini.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -444,7 +366,7 @@
     {
       "company": "Deloitte Deals",
       "careersUrl": "https://www.deloitte.com/global/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -453,7 +375,7 @@
     {
       "company": "EY-Parthenon",
       "careersUrl": "https://careers.ey.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -462,7 +384,7 @@
     {
       "company": "FTI Consulting",
       "careersUrl": "https://www.fticonsulting.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []
@@ -470,7 +392,7 @@
     {
       "company": "Gartner Consulting",
       "careersUrl": "https://jobs.gartner.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -479,7 +401,7 @@
     {
       "company": "Grant Thornton",
       "careersUrl": "https://www.grantthornton.global/en/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -488,7 +410,7 @@
     {
       "company": "IBM Consulting",
       "careersUrl": "https://www.ibm.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -497,7 +419,7 @@
     {
       "company": "Kearney",
       "careersUrl": "https://www.kearney.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -506,7 +428,7 @@
     {
       "company": "KPMG Deal Advisory",
       "careersUrl": "https://kpmg.com/xx/en/home/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -515,7 +437,7 @@
     {
       "company": "Kroll",
       "careersUrl": "https://careers.kroll.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -524,7 +446,7 @@
     {
       "company": "L.E.K. Consulting",
       "careersUrl": "https://www.lek.com/join-lek",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -533,7 +455,7 @@
     {
       "company": "McKinsey & Company",
       "careersUrl": "https://www.mckinsey.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -542,7 +464,7 @@
     {
       "company": "Mercer",
       "careersUrl": "https://careers.marshmclennan.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -551,7 +473,7 @@
     {
       "company": "Oliver Wyman",
       "careersUrl": "https://www.oliverwyman.com/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -560,21 +482,15 @@
     {
       "company": "Protiviti",
       "careersUrl": "https://www.protiviti.com/us-en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://roberthalf.wd1.myworkdayjobs.com/ProtivitiNA"
-        }
-      ],
-      "finalUrl": "https://www.protiviti.com/us-en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Publicis Sapient",
       "careersUrl": "https://careers.publicissapient.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -583,7 +499,7 @@
     {
       "company": "PwC Deals",
       "careersUrl": "https://www.pwc.com/gx/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -592,21 +508,15 @@
     {
       "company": "Roland Berger",
       "careersUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "smartrecruiters",
-          "example": "https://jobs.smartrecruiters.com/RolandBerger"
-        }
-      ],
-      "finalUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/"
+      "detectedPlatforms": []
     },
     {
       "company": "Simon-Kucher",
       "careersUrl": "https://www.simon-kucher.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -615,7 +525,7 @@
     {
       "company": "Strategy&",
       "careersUrl": "https://www.strategyand.pwc.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -624,7 +534,7 @@
     {
       "company": "Teneo",
       "careersUrl": "https://www.teneo.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []
@@ -632,7 +542,7 @@
     {
       "company": "Bank of China",
       "careersUrl": "https://www.boc.cn/en/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -641,7 +551,7 @@
     {
       "company": "Bank of New York Mellon",
       "careersUrl": "https://www.bny.com/corporate/global/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -650,7 +560,7 @@
     {
       "company": "Banque Transatlantique",
       "careersUrl": "https://www.banquetransatlantique.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -659,7 +569,7 @@
     {
       "company": "BNP Paribas",
       "careersUrl": "https://group.bnpparibas/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -668,7 +578,7 @@
     {
       "company": "BPCE / Groupe BPCE",
       "careersUrl": "https://recrutement.bpce.fr/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -677,7 +587,7 @@
     {
       "company": "China Construction Bank",
       "careersUrl": "https://en.ccb.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -686,7 +596,7 @@
     {
       "company": "CIC (Crédit Mutuel Alliance Fédérale)",
       "careersUrl": "https://www.creditmutuelalliancefederale.fr/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -695,7 +605,7 @@
     {
       "company": "Commerzbank",
       "careersUrl": "https://www.commerzbank.com/career/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -704,7 +614,7 @@
     {
       "company": "Crédit Agricole CIB",
       "careersUrl": "https://jobs.ca-cib.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -713,7 +623,7 @@
     {
       "company": "Crédit Agricole Indosuez",
       "careersUrl": "https://careers.ca-indosuez.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -722,7 +632,7 @@
     {
       "company": "Crédit Mutuel",
       "careersUrl": "https://recrutement.creditmutuel.fr/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -731,21 +641,15 @@
     {
       "company": "DBS Bank",
       "careersUrl": "https://www.dbs.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers"
-        }
-      ],
-      "finalUrl": "https://www.dbs.com/careers/default.page"
+      "detectedPlatforms": []
     },
     {
       "company": "HSBC",
       "careersUrl": "https://www.hsbc.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -754,7 +658,7 @@
     {
       "company": "ICBC",
       "careersUrl": "https://www.icbc.com.cn/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -763,7 +667,7 @@
     {
       "company": "ING",
       "careersUrl": "https://careers.ing.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -772,7 +676,7 @@
     {
       "company": "Mizuho",
       "careersUrl": "https://www.mizuhogroup.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -781,21 +685,15 @@
     {
       "company": "MUFG",
       "careersUrl": "https://careers.mufgamericas.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers"
-        }
-      ],
-      "finalUrl": "https://careers.mufgamericas.com/"
+      "detectedPlatforms": []
     },
     {
       "company": "Natixis CIB",
       "careersUrl": "https://recrutement.natixis.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -804,7 +702,7 @@
     {
       "company": "Natixis Investment Managers",
       "careersUrl": "https://www.im.natixis.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -813,21 +711,15 @@
     {
       "company": "Northern Trust",
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://ntrs.wd1.myworkdayjobs.com/northerntrust"
-        }
-      ],
-      "finalUrl": "https://www.northerntrust.com/united-states/about-us/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "RBC Capital Markets",
       "careersUrl": "https://www.rbccm.com/en/careers.page",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -836,7 +728,7 @@
     {
       "company": "SMBC",
       "careersUrl": "https://www.smbcgroup.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -845,7 +737,7 @@
     {
       "company": "Société Générale",
       "careersUrl": "https://careers.societegenerale.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -854,7 +746,7 @@
     {
       "company": "Standard Bank Group",
       "careersUrl": "https://www.standardbank.com/sbg/standard-bank-group/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -863,7 +755,7 @@
     {
       "company": "Standard Chartered",
       "careersUrl": "https://www.sc.com/en/global-careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -872,7 +764,7 @@
     {
       "company": "UniCredit",
       "careersUrl": "https://www.unicreditgroup.eu/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -881,7 +773,7 @@
     {
       "company": "Balyasny Asset Management",
       "careersUrl": "https://www.bamfunds.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -890,7 +782,7 @@
     {
       "company": "Baron Capital",
       "careersUrl": "https://www.baroncapitalgroup.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -899,7 +791,7 @@
     {
       "company": "BlueCrest Capital Management",
       "careersUrl": "https://www.bluecrestcapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -908,7 +800,7 @@
     {
       "company": "Brevan Howard",
       "careersUrl": "https://www.brevanhoward.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -917,7 +809,7 @@
     {
       "company": "Citadel",
       "careersUrl": "https://www.citadel.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -926,7 +818,7 @@
     {
       "company": "Citadel Securities",
       "careersUrl": "https://www.citadelsecurities.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -935,7 +827,7 @@
     {
       "company": "Dymon Asia Capital",
       "careersUrl": "https://www.dymonasia.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -944,7 +836,7 @@
     {
       "company": "ExodusPoint Capital",
       "careersUrl": "https://www.exoduspoint.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -953,7 +845,7 @@
     {
       "company": "Hudson Bay Capital Management",
       "careersUrl": "https://www.hudsonbaycapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -962,7 +854,7 @@
     {
       "company": "Man Group",
       "careersUrl": "https://www.man.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -971,7 +863,7 @@
     {
       "company": "Marshall Wace",
       "careersUrl": "https://www.mwam.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -980,7 +872,7 @@
     {
       "company": "Millennium Management",
       "careersUrl": "https://www.mlp.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -989,7 +881,7 @@
     {
       "company": "Naya Capital Management",
       "careersUrl": "https://www.nayacapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -998,7 +890,7 @@
     {
       "company": "Nine Masts Capital",
       "careersUrl": "https://www.ninemasts.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1007,7 +899,7 @@
     {
       "company": "North Rock Capital",
       "careersUrl": "https://www.northrockllc.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1016,21 +908,15 @@
     {
       "company": "Point72",
       "careersUrl": "https://careers.point72.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "greenhouse",
-          "example": "https://boards.greenhouse.io/point72"
-        }
-      ],
-      "finalUrl": "https://careers.point72.com/"
+      "detectedPlatforms": []
     },
     {
       "company": "Qube Research & Technologies",
       "careersUrl": "https://www.qube-rt.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1039,7 +925,7 @@
     {
       "company": "Schonfeld Strategic Advisors",
       "careersUrl": "https://job-boards.greenhouse.io/schonfeld",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []
@@ -1047,7 +933,7 @@
     {
       "company": "Select Equity Group",
       "careersUrl": "https://www.selectequity.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1056,7 +942,7 @@
     {
       "company": "Silver Point Capital",
       "careersUrl": "https://www.silverpointcapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1065,7 +951,7 @@
     {
       "company": "Squarepoint Capital",
       "careersUrl": "https://www.squarepoint-capital.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1074,7 +960,7 @@
     {
       "company": "Varenne Capital Partners",
       "careersUrl": "https://www.varennecapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1083,7 +969,7 @@
     {
       "company": "Verition Fund Management",
       "careersUrl": "https://www.verition.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1092,49 +978,31 @@
     {
       "company": "Bank of America",
       "careersUrl": "https://careers.bankofamerica.com/en-us/job-search",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://ghr.wd1.myworkdayjobs.com/en-us/lateral-us/login"
-        }
-      ],
-      "finalUrl": "https://careers.bankofamerica.com/en-us/job-search"
+      "detectedPlatforms": []
     },
     {
       "company": "Barclays",
       "careersUrl": "https://search.jobs.barclays/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/login"
-        }
-      ],
-      "finalUrl": "https://search.jobs.barclays/"
+      "detectedPlatforms": []
     },
     {
       "company": "Citi",
       "careersUrl": "https://jobs.citi.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://citi.wd5.myworkdayjobs.com/en-US/2/userHome"
-        }
-      ],
-      "finalUrl": "https://jobs.citi.com/"
+      "detectedPlatforms": []
     },
     {
       "company": "Deutsche Bank",
       "careersUrl": "https://careers.db.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1143,7 +1011,7 @@
     {
       "company": "Evercore",
       "careersUrl": "https://www.evercore.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1152,7 +1020,7 @@
     {
       "company": "Goldman Sachs",
       "careersUrl": "https://www.goldmansachs.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1161,21 +1029,15 @@
     {
       "company": "Houlihan Lokey",
       "careersUrl": "https://hl.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://hl.wd1.myworkdayjobs.com/Campus"
-        }
-      ],
-      "finalUrl": "https://hl.com/careers/"
+      "detectedPlatforms": []
     },
     {
       "company": "Jefferies",
       "careersUrl": "https://www.jefferies.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1184,7 +1046,7 @@
     {
       "company": "JPMorgan Chase",
       "careersUrl": "https://careers.jpmorgan.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [
@@ -1198,7 +1060,7 @@
     {
       "company": "Lazard",
       "careersUrl": "https://www.lazard.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1207,21 +1069,15 @@
     {
       "company": "Moelis & Company",
       "careersUrl": "https://www.moelis.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://moelis.wd1.myworkdayjobs.com/Experienced-Hires"
-        }
-      ],
-      "finalUrl": "https://www.moelis.com/careers/"
+      "detectedPlatforms": []
     },
     {
       "company": "Morgan Stanley",
       "careersUrl": "https://www.morganstanley.com/people-opportunities/students-graduates",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1230,7 +1086,7 @@
     {
       "company": "Nomura",
       "careersUrl": "https://www.nomura.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1239,7 +1095,7 @@
     {
       "company": "Perella Weinberg",
       "careersUrl": "https://pwpartners.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1248,21 +1104,15 @@
     {
       "company": "PJT Partners",
       "careersUrl": "https://www.pjtpartners.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://pjtpartners.wd1.myworkdayjobs.com/Careers"
-        }
-      ],
-      "finalUrl": "https://www.pjtpartners.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Rothschild & Co",
       "careersUrl": "https://www.rothschildandco.com/en/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1271,7 +1121,7 @@
     {
       "company": "UBS",
       "careersUrl": "https://www.ubs.com/global/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1280,21 +1130,15 @@
     {
       "company": "Bank of Singapore",
       "careersUrl": "https://www.bankofsingapore.com/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://ocbc.wd102.myworkdayjobs.com/External"
-        }
-      ],
-      "finalUrl": "https://www.bankofsingapore.com/careers.html"
+      "detectedPlatforms": []
     },
     {
       "company": "Edmond de Rothschild",
       "careersUrl": "https://www.edmond-de-rothschild.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1303,7 +1147,7 @@
     {
       "company": "EFG International",
       "careersUrl": "https://www.efginternational.com/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1312,7 +1156,7 @@
     {
       "company": "Indosuez Wealth Management",
       "careersUrl": "https://www.ca-indosuez.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1321,7 +1165,7 @@
     {
       "company": "J. Safra Sarasin",
       "careersUrl": "https://www.jsafrasarasin.com/internet/com/en/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1330,7 +1174,7 @@
     {
       "company": "Julius Baer",
       "careersUrl": "https://www.juliusbaer.com/global/en/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1339,7 +1183,7 @@
     {
       "company": "Lombard Odier",
       "careersUrl": "https://www.lombardodier.com/careers.html",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1348,7 +1192,7 @@
     {
       "company": "Mirabaud",
       "careersUrl": "https://www.mirabaud.com/en/careers/job-opportunities",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1357,7 +1201,7 @@
     {
       "company": "Pictet",
       "careersUrl": "https://www.pictet.com/global/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1366,21 +1210,15 @@
     {
       "company": "Swissquote",
       "careersUrl": "https://www.swissquote.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "smartrecruiters",
-          "example": "https://careers.smartrecruiters.com/Swissquote"
-        }
-      ],
-      "finalUrl": "https://www.swissquote.com/en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Union Bancaire Privée (UBP)",
       "careersUrl": "https://www.ubp.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1389,21 +1227,15 @@
     {
       "company": "Apollo Global Management",
       "careersUrl": "https://www.apollo.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://athene.wd5.myworkdayjobs.com/Apollo_Careers"
-        }
-      ],
-      "finalUrl": "https://www.apollo.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Ardian",
       "careersUrl": "https://www.ardian.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1412,7 +1244,7 @@
     {
       "company": "Ares Credit Group",
       "careersUrl": "https://www.aresmgmt.com/about-us/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1421,7 +1253,7 @@
     {
       "company": "Ares Management",
       "careersUrl": "https://www.aresmgmt.com/about-ares-management/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1430,21 +1262,15 @@
     {
       "company": "Bain Capital",
       "careersUrl": "https://www.baincapital.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://baincapital.wd1.myworkdayjobs.com/External_Public"
-        }
-      ],
-      "finalUrl": "https://www.baincapital.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Blackstone",
       "careersUrl": "https://www.blackstone.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1453,21 +1279,15 @@
     {
       "company": "Blue Owl Capital",
       "careersUrl": "https://www.blueowl.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://blueowl.wd1.myworkdayjobs.com/blueowl"
-        }
-      ],
-      "finalUrl": "https://www.blueowl.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Brookfield",
       "careersUrl": "https://www.brookfield.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1476,7 +1296,7 @@
     {
       "company": "Carlyle",
       "careersUrl": "https://www.carlyle.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1485,7 +1305,7 @@
     {
       "company": "CVC Capital Partners",
       "careersUrl": "https://www.cvc.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1494,7 +1314,7 @@
     {
       "company": "EQT",
       "careersUrl": "https://eqtgroup.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1503,35 +1323,23 @@
     {
       "company": "Fortress Investment Group",
       "careersUrl": "https://www.fortress.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://fortress.wd503.myworkdayjobs.com/Careers"
-        }
-      ],
-      "finalUrl": "https://www.fortress.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "General Atlantic",
       "careersUrl": "https://www.generalatlantic.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "greenhouse",
-          "example": "https://job-boards.greenhouse.io/generalatlantic"
-        }
-      ],
-      "finalUrl": "https://www.generalatlantic.com/careers/"
+      "detectedPlatforms": []
     },
     {
       "company": "Hayfin Capital Management",
       "careersUrl": "https://www.hayfincapital.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1540,7 +1348,7 @@
     {
       "company": "HPS Investment Partners",
       "careersUrl": "https://www.hpspartners.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1549,21 +1357,15 @@
     {
       "company": "ICG",
       "careersUrl": "https://www.icgam.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://icg.wd3.myworkdayjobs.com/external_careers"
-        }
-      ],
-      "finalUrl": "https://www.icgam.com/people-and-careers/"
+      "detectedPlatforms": []
     },
     {
       "company": "Investcorp",
       "careersUrl": "https://www.investcorp.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1572,7 +1374,7 @@
     {
       "company": "KKR",
       "careersUrl": "https://www.kkr.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1581,7 +1383,7 @@
     {
       "company": "Oak Hill Advisors",
       "careersUrl": "https://www.oakhilladvisors.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1590,21 +1392,15 @@
     {
       "company": "Oaktree Capital Management",
       "careersUrl": "https://www.oaktreecapital.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://oaktree.wd1.myworkdayjobs.com/Oaktree"
-        }
-      ],
-      "finalUrl": "https://www.oaktreecapital.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Partners Group",
       "careersUrl": "https://www.partnersgroup.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1613,7 +1409,7 @@
     {
       "company": "Pemberton Asset Management",
       "careersUrl": "https://pembertonam.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1622,21 +1418,15 @@
     {
       "company": "Sixth Street",
       "careersUrl": "https://sixthstreet.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://sixthstreet.wd1.myworkdayjobs.com/sixthstreetcareers"
-        }
-      ],
-      "finalUrl": "https://sixthstreet.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Starwood Capital Group",
       "careersUrl": "https://www.starwoodcapital.com/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1645,21 +1435,15 @@
     {
       "company": "TPG",
       "careersUrl": "https://www.tpg.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "greenhouse",
-          "example": "https://job-boards.greenhouse.io/tpgcareers"
-        }
-      ],
-      "finalUrl": "https://www.tpg.com/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Warburg Pincus",
       "careersUrl": "https://warburgpincus.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1668,7 +1452,7 @@
     {
       "company": "Addepar",
       "careersUrl": "https://job-boards.greenhouse.io/addepar1",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []
@@ -1676,7 +1460,7 @@
     {
       "company": "Bloomberg",
       "careersUrl": "https://www.bloomberg.com/company/careers/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1685,7 +1469,7 @@
     {
       "company": "CFA Institute",
       "careersUrl": "https://www.cfainstitute.org/about/careers-at-cfa-institute",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1694,7 +1478,7 @@
     {
       "company": "FactSet",
       "careersUrl": "https://www.factset.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1703,7 +1487,7 @@
     {
       "company": "Fitch Ratings",
       "careersUrl": "https://careers.fitch.group/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1712,21 +1496,15 @@
     {
       "company": "LSEG",
       "careersUrl": "https://www.lseg.com/en/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://lseg.wd3.myworkdayjobs.com/Careers"
-        }
-      ],
-      "finalUrl": "https://www.lseg.com/en/careers"
+      "detectedPlatforms": []
     },
     {
       "company": "Moody’s",
       "careersUrl": "https://careers.moodys.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1735,7 +1513,7 @@
     {
       "company": "Morningstar",
       "careersUrl": "https://careers.morningstar.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1744,7 +1522,7 @@
     {
       "company": "MSCI",
       "careersUrl": "https://careers.msci.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "page_reachable_no_verified_feed",
       "jobs": [],
       "detectedPlatforms": [
@@ -1758,25 +1536,15 @@
     {
       "company": "S&P Global Ratings",
       "careersUrl": "https://careers.spglobal.com/",
-      "checkedAt": "2026-10-30T10:53:00Z",
-      "status": "page_reachable_no_verified_feed",
+      "checkedAt": "2026-10-30T12:12:52Z",
+      "status": "handled_by_verified_feed",
       "jobs": [],
-      "detectedPlatforms": [
-        {
-          "platform": "workday",
-          "example": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers"
-        },
-        {
-          "platform": "icims",
-          "example": "https://www.icims.com"
-        }
-      ],
-      "finalUrl": "https://careers.spglobal.com/jobs"
+      "detectedPlatforms": []
     },
     {
       "company": "SimCorp",
       "careersUrl": "https://www.simcorp.com/careers",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "fetch_failed",
       "jobs": [],
       "detectedPlatforms": [],
@@ -1785,7 +1553,7 @@
     {
       "company": "Guidepoint",
       "careersUrl": "https://job-boards.greenhouse.io/guidepoint",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []
@@ -1793,7 +1561,7 @@
     {
       "company": "Third Bridge",
       "careersUrl": "https://job-boards.greenhouse.io/thirdbridge",
-      "checkedAt": "2026-10-30T10:53:00Z",
+      "checkedAt": "2026-10-30T12:12:52Z",
       "status": "handled_by_verified_feed",
       "jobs": [],
       "detectedPlatforms": []

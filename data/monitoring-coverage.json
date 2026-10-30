@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-30T10:53:50.713294+00:00",
+  "generatedAt": "2026-10-30T12:13:42.166646+00:00",
   "employers": 177,
-  "verifiedFeeds": 6,
-  "notConfigured": 171,
+  "verifiedFeeds": 37,
+  "notConfigured": 133,
   "rows": [
     {
       "company": "abrdn",
@@ -16,10 +16,10 @@
     {
       "company": "AllianceBernstein",
       "careersUrl": "https://www.alliancebernstein.com/corporate/en/careers.html",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -79,10 +79,10 @@
     {
       "company": "Capital Group",
       "careersUrl": "https://www.capitalgroup.com/about-us/careers.html",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -115,10 +115,10 @@
     {
       "company": "Fidelity International",
       "careersUrl": "https://careers.fidelityinternational.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -142,10 +142,10 @@
     {
       "company": "GAM Investments",
       "careersUrl": "https://www.gam.com/en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -178,19 +178,19 @@
     {
       "company": "M&G Investments",
       "careersUrl": "https://www.mandg.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
       "company": "MFS Investment Management",
       "careersUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -214,10 +214,10 @@
     {
       "company": "Nuveen",
       "careersUrl": "https://www.nuveen.com/global/about-us/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -250,47 +250,47 @@
     {
       "company": "State Street",
       "careersUrl": "https://careers.statestreet.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "T. Rowe Price",
       "careersUrl": "https://www.troweprice.com/corporate/us/en/careers.html",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
       "company": "Vontobel Asset Management",
       "careersUrl": "https://www.vontobel.com/en-int/about-vontobel/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
       "company": "Wellington Management",
       "careersUrl": "https://www.wellington.com/en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 1,
       "error": ""
     },
     {
       "company": "Accenture Strategy",
       "careersUrl": "https://www.accenture.com/us-en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "AlixPartners",
@@ -349,11 +349,11 @@
     {
       "company": "Booz Allen Hamilton",
       "careersUrl": "https://careers.boozallen.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "Boston Consulting Group",
@@ -396,7 +396,7 @@
       "careersUrl": "https://www.fticonsulting.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 5,
       "error": ""
     },
@@ -493,10 +493,10 @@
     {
       "company": "Protiviti",
       "careersUrl": "https://www.protiviti.com/us-en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -520,10 +520,10 @@
     {
       "company": "Roland Berger",
       "careersUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "smartrecruiters",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 4,
       "error": ""
     },
     {
@@ -549,7 +549,7 @@
       "careersUrl": "https://www.teneo.com/careers/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 2,
       "error": ""
     },
@@ -655,11 +655,11 @@
     {
       "company": "DBS Bank",
       "careersUrl": "https://www.dbs.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "HSBC",
@@ -700,10 +700,10 @@
     {
       "company": "MUFG",
       "careersUrl": "https://careers.mufgamericas.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -727,10 +727,10 @@
     {
       "company": "Northern Trust",
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -925,10 +925,10 @@
     {
       "company": "Point72",
       "careersUrl": "https://careers.point72.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 1,
       "error": ""
     },
     {
@@ -945,7 +945,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/schonfeld",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 1,
       "error": ""
     },
@@ -997,29 +997,29 @@
     {
       "company": "Bank of America",
       "careersUrl": "https://careers.bankofamerica.com/en-us/job-search",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "Barclays",
       "careersUrl": "https://search.jobs.barclays/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 1,
       "error": ""
     },
     {
       "company": "Citi",
       "careersUrl": "https://jobs.citi.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "Deutsche Bank",
@@ -1051,10 +1051,10 @@
     {
       "company": "Houlihan Lokey",
       "careersUrl": "https://hl.com/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 1,
       "error": ""
     },
     {
@@ -1087,10 +1087,10 @@
     {
       "company": "Moelis & Company",
       "careersUrl": "https://www.moelis.com/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1123,10 +1123,10 @@
     {
       "company": "PJT Partners",
       "careersUrl": "https://www.pjtpartners.com/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1150,11 +1150,11 @@
     {
       "company": "Bank of Singapore",
       "careersUrl": "https://www.bankofsingapore.com/careers.html",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
+      "provider": "workday",
+      "monitoringStatus": "failed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": null,
-      "error": ""
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
     },
     {
       "company": "Edmond de Rothschild",
@@ -1231,10 +1231,10 @@
     {
       "company": "Swissquote",
       "careersUrl": "https://www.swissquote.com/en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "smartrecruiters",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1249,10 +1249,10 @@
     {
       "company": "Apollo Global Management",
       "careersUrl": "https://www.apollo.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1285,10 +1285,10 @@
     {
       "company": "Bain Capital",
       "careersUrl": "https://www.baincapital.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1303,10 +1303,10 @@
     {
       "company": "Blue Owl Capital",
       "careersUrl": "https://www.blueowl.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1348,19 +1348,19 @@
     {
       "company": "Fortress Investment Group",
       "careersUrl": "https://www.fortress.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
       "company": "General Atlantic",
       "careersUrl": "https://www.generalatlantic.com/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1384,10 +1384,10 @@
     {
       "company": "ICG",
       "careersUrl": "https://www.icgam.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1420,10 +1420,10 @@
     {
       "company": "Oaktree Capital Management",
       "careersUrl": "https://www.oaktreecapital.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1447,10 +1447,10 @@
     {
       "company": "Sixth Street",
       "careersUrl": "https://sixthstreet.com/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1465,10 +1465,10 @@
     {
       "company": "TPG",
       "careersUrl": "https://www.tpg.com/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "greenhouse",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1485,7 +1485,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/addepar1",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 1,
       "error": ""
     },
@@ -1528,10 +1528,10 @@
     {
       "company": "LSEG",
       "careersUrl": "https://www.lseg.com/en/careers",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1564,10 +1564,10 @@
     {
       "company": "S&P Global Ratings",
       "careersUrl": "https://careers.spglobal.com/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
-      "lastCheckedAt": null,
-      "matchingJobs": null,
+      "provider": "workday",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
+      "matchingJobs": 0,
       "error": ""
     },
     {
@@ -1584,7 +1584,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/guidepoint",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 0,
       "error": ""
     },
@@ -1593,7 +1593,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/thirdbridge",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-10-30T10:52:54Z",
+      "lastCheckedAt": "2026-10-30T12:08:31Z",
       "matchingJobs": 0,
       "error": ""
     }

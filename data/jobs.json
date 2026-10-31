@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-10-30T12:22:05Z",
-    "lastAttemptAt": "2026-10-30T12:22:05Z",
-    "lastSuccessfulAt": "2026-10-30T12:22:05Z",
+    "generatedAt": "2026-10-31T10:25:16Z",
+    "lastAttemptAt": "2026-10-31T10:25:16Z",
+    "lastSuccessfulAt": "2026-10-31T10:25:16Z",
     "newRolesLastRun": 0,
     "deadlineChangesLastRun": 0,
     "deadlineChangedIds": [],
@@ -11,74 +11,74 @@
         "company": "Schonfeld Strategic Advisors",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "Addepar",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "Teneo",
         "status": "ok",
         "count": 2,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "Guidepoint",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "Third Bridge",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "FTI Consulting",
         "status": "ok",
         "count": 5,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 245
+        "totalBoardPostings": 246
       },
       {
         "company": "AllianceBernstein",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 93
+        "totalBoardPostings": 91
       },
       {
         "company": "Capital Group",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 180
+        "totalBoardPostings": 177
       },
       {
         "company": "Fidelity International",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 84
+        "totalBoardPostings": 64
       },
       {
         "company": "GAM Investments",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 2
       },
@@ -86,15 +86,15 @@
         "company": "M&G Investments",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 112
+        "totalBoardPostings": 81
       },
       {
         "company": "MFS Investment Management",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 30
       },
@@ -102,47 +102,47 @@
         "company": "Nuveen",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 160
+        "totalBoardPostings": 150
       },
       {
         "company": "State Street",
-        "status": "failed",
-        "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "status": "ok",
+        "count": 0,
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+        "totalBoardPostings": 1099
       },
       {
         "company": "T. Rowe Price",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 133
+        "totalBoardPostings": 131
       },
       {
         "company": "Vontobel Asset Management",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 40
+        "totalBoardPostings": 41
       },
       {
         "company": "Wellington Management",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 128
+        "totalBoardPostings": 125
       },
       {
         "company": "Accenture Strategy",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -150,7 +150,7 @@
         "company": "Booz Allen Hamilton",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -158,23 +158,23 @@
         "company": "Protiviti",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 153
+        "totalBoardPostings": 154
       },
       {
         "company": "Roland Berger",
         "status": "ok",
         "count": 4,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "smartrecruiters",
-        "totalBoardPostings": 215
+        "totalBoardPostings": 212
       },
       {
         "company": "DBS Bank",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -182,7 +182,7 @@
         "company": "MUFG",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 661
       },
@@ -190,22 +190,22 @@
         "company": "Northern Trust",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 655
+        "totalBoardPostings": 618
       },
       {
         "company": "Point72",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "Bank of America",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -213,15 +213,15 @@
         "company": "Barclays",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 718
+        "totalBoardPostings": 676
       },
       {
         "company": "Citi",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -229,15 +229,15 @@
         "company": "Houlihan Lokey",
         "status": "ok",
         "count": 1,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 33
+        "totalBoardPostings": 38
       },
       {
         "company": "Moelis & Company",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 36
       },
@@ -245,7 +245,7 @@
         "company": "PJT Partners",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 55
       },
@@ -253,7 +253,7 @@
         "company": "Bank of Singapore",
         "status": "failed",
         "count": null,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
       },
@@ -261,15 +261,15 @@
         "company": "Swissquote",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "smartrecruiters",
-        "totalBoardPostings": 47
+        "totalBoardPostings": 48
       },
       {
         "company": "Apollo Global Management",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 53
       },
@@ -277,23 +277,23 @@
         "company": "Bain Capital",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 33
+        "totalBoardPostings": 32
       },
       {
         "company": "Blue Owl Capital",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 43
+        "totalBoardPostings": 44
       },
       {
         "company": "Fortress Investment Group",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 10
       },
@@ -301,14 +301,14 @@
         "company": "General Atlantic",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "ICG",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 18
       },
@@ -316,15 +316,15 @@
         "company": "Oaktree Capital Management",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 45
+        "totalBoardPostings": 46
       },
       {
         "company": "Sixth Street",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
         "totalBoardPostings": 17
       },
@@ -332,28 +332,28 @@
         "company": "TPG",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "greenhouse"
       },
       {
         "company": "LSEG",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 672
+        "totalBoardPostings": 671
       },
       {
         "company": "S&P Global Ratings",
         "status": "ok",
         "count": 0,
-        "checkedAt": "2026-10-30T12:22:05Z",
+        "checkedAt": "2026-10-31T10:25:16Z",
         "provider": "workday",
-        "totalBoardPostings": 316
+        "totalBoardPostings": 344
       }
     ],
     "note": "Configured official Ashby, Greenhouse and Workday public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.",
-    "sourceCoverage": "Automated: Schonfeld Strategic Advisors, Addepar, Teneo, Guidepoint, Third Bridge, FTI Consulting, AllianceBernstein, Capital Group, Fidelity International, GAM Investments, M&G Investments, MFS Investment Management, Nuveen, T. Rowe Price, Vontobel Asset Management, Wellington Management, Protiviti, Roland Berger, MUFG, Northern Trust, Point72, Barclays, Houlihan Lokey, Moelis & Company, PJT Partners, Swissquote, Apollo Global Management, Bain Capital, Blue Owl Capital, Fortress Investment Group, General Atlantic, ICG, Oaktree Capital Management, Sixth Street, TPG, LSEG, S&P Global Ratings. Other employers: official career portals."
+    "sourceCoverage": "Automated: Schonfeld Strategic Advisors, Addepar, Teneo, Guidepoint, Third Bridge, FTI Consulting, AllianceBernstein, Capital Group, Fidelity International, GAM Investments, M&G Investments, MFS Investment Management, Nuveen, State Street, T. Rowe Price, Vontobel Asset Management, Wellington Management, Protiviti, Roland Berger, MUFG, Northern Trust, Point72, Barclays, Houlihan Lokey, Moelis & Company, PJT Partners, Swissquote, Apollo Global Management, Bain Capital, Blue Owl Capital, Fortress Investment Group, General Atlantic, ICG, Oaktree Capital Management, Sixth Street, TPG, LSEG, S&P Global Ratings. Other employers: official career portals."
   },
   "jobs": [
     {
@@ -385,8 +385,8 @@
       "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -424,8 +424,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Job Description          Purpose of the role   To participate in the day-to-day activities of the Investment Banking division. Gain broad exposure to different types of clients, transactions and focus on specialist areas.     Accountabilities     Collaboration on live deals, client pitches, support the team with advising on a broad range of corporate clients, delivering holistic, structured solutions to deliver on client goals.    Collaboration with cross-functional teams to support business initiatives.    Participation in training and development programs to enhance skills and knowledge.    Identification of opportunities, development of business cases, management of the deployment and launch of new products and services for investment banking.    Management of client relationships and provision of customer service support to clients and customers, under steadily decreasing supervision, responding to questions about products and services, processing of transactions.    Development and implementation of financial models and strategies that support in decision making in investment banking. Understand how businesses work and learn from experts in the industry.       Analyst Expectations     To perform prescribed activities in a timely manner and to a high standard consistently driving continuous improvement.    Requires in-depth technical knowledge and experience in their assigned area of expertise.    Thorough understanding of the underlying principles and concepts within the area of expertise.    They lead and supervise a team, guiding and supporting professional development, allocating work requirements and coordinating team resources.    If the position has leadership responsibilities, People Leaders are expected to demonstrate a clear set of leadership behaviours to create an environment for colleagues to thrive and deliver to a consistently excellent standard. The four LEAD behaviours are: L – Listen and be authentic, E – Energise and inspire, A – Align across the enterprise, D – Develop others.    OR for an individual contributor, they develop technical expertise in work area, acting as an advisor where appropriate.    Will have an impact on the work of related teams within the area.    Partner with other functions and business areas.    Takes responsibility for end results of a team’s operational processing and activities.    Escalate breaches of policies / procedure appropriately.    Take responsibility for embedding new policies/ procedures adopted due to risk mitigation.    Advise and influence decision making within own area of expertise.    Take ownership for managing risk and strengthening controls in relation to the work you own or contribute to. Deliver your work and areas of responsibility in line with relevant rules, regulation and codes of conduct.    Maintain and continually build an understanding of how own sub-function integrates with function, alongside knowledge of the organisation&#39;s products, services and processes within the function.    Demonstrate understanding of how areas coordinate and contribute to the achievement of the objectives of the organisation sub-function.    Make evaluative judgements based on the analysis of factual information, paying attention to detail.    Resolve problems by identifying and selecting solutions through the application of acquired technical experience and will be guided by precedents.    Guide and persuade team members and communicate complex / sensitive information.    Act as contact point for stakeholders outside of the immediate function, while building a network of contacts outside team and external to the organisation.      All colleagues will be expected to demonstrate the Barclays Values of Respect, Integrity, Service, Excellence and Stewardship – our moral compass, helping us do what we believe is right. They will also be expected to demonstrate the Barclays Mindset – to Empower, Challenge and Drive – the operating manual for how we behave.         Off-Cycle Internship Overview   Join us on an Off-Cycle Internship for 3-6 months. Immerse yourself in our work and culture and gain invaluable insights into life as a Full-time Analyst with this longer internship.   Why the Banking Off-Cycle intern Programme?   Feel the pace of international finance as you get involved in delivering financial advisory, capital raising, financing and risk management services to clients worldwide. Our bankers advise on everything from privatisations and mergers and acquisitions to debt and equity financings and restructuring. Want in? Apply to become an Off-Cycle Analyst.     As an Off-Cycle Analyst, you’ll be surprised by what you can achieve. This is a unique opportunity to work within one of our Banking teams for an extended period, with longer exposure to projects compared to a summer internship. This allows you to truly immerse yourself in our work and culture and gain invaluable insight. You&#39;ll have ample opportunities to expand your horizons across different sectors and products within Banking, and across the Investment Bank as a whole. The internship programme will provide you with the support and networking opportunities you need to find your place in our world.    You may also work on projects that include:   Financial analysis and modelling  Valuation  Industry research  Client due diligence  Developing written materials, including offering memoranda and new business presentations.     Investment Banking at Barclays   Barclays is one of the world’s top-tier investment banks. We are one of the only non-US, full-service rivals to the biggest US investment banks and being headquartered in Europe gives us a unique advantage. We think and act differently. From Hong Kong to Houston, and Tel Aviv to Tokyo, everyone at Barclays enjoys a real sense of purpose, because they work for a business that fosters innovation, champions sustainability, and deploys finance responsibly for the common good and the long term. We provide comprehensive financial advisory, capital raising, financing and risk management services to corporations, governments and financial institutions worldwide. We take an integrated approach to client coverage, providing access to bankers who have industry and geography specific expertise across all investment banking products.   Who we&#39;re looking for   To be considered for this programme, you must be in your penultimate or final year of your degree, in any discipline.    Language requirements: fluent in English and Arabic desirable.     Ideally, you&#39;ll have a keen interest in business and finance and a curiosity to learn. We value resourcefulness, teamwork, enthusiasm and an entrepreneurial spirit, all of which might be showcased through your involvement in extracurricular activities.       Working in Dubai    For more than 150 years, Barclays has been a member of the Middle East business community. From our Dubai office you’ll work on corporate banking solutions, to financial institutions and multinationals, supporting them to fulfil their financing needs, risk management, cash and liquidity management, as well as trade and working capital requirements.       ",
       "deadlineSource": ""
     },
@@ -456,8 +456,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Who We Are    FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world’s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations.  At FTI Consulting, you’ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you’ll be an integral part of a focused team where you can make a real impact. You’ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you.  Are you ready to make your impact?     About The Role    The    Strategic Communications segment    within FTI Consulting designs, develops and executes communications strategies for clients managing financial, regulatory, and reputational challenges.  For more than 35 years, we have worked with management teams and Boards of Directors to help them navigate change, manage reputational and stakeholder challenges, strengthen their positioning and communicate around important business moments. Our work spans corporate reputation, financial communications, public affairs, crisis and issues management, employee engagement and digital communications.   We help clients understand the audiences that matter to them, develop clear and credible messages, and engage effectively with stakeholders including investors, policymakers, employees, media and consumers.  Our UAE-based paid summer internship will give you exposure to a range of sectors, clients and communications disciplines over an eight-week programme. You will work alongside experienced consultants on live client assignments in a fast-paced environment, with your development supported through hands-on learning, regular feedback and guidance from colleagues across the team.   During your time with us, you will:    Gain insight into the complex business, reputational and stakeholder challenges organisations and their leaders face  Learn how strategic communications can help clients manage issues, strengthen their positioning and achieve their objectives  Understand how communications strategies are developed to reach the right audiences with clear, relevant and credible messages         What You’ll Do    Your typical day might include the following:   Supporting client teams on day-to-day strategic communications programmes and advisory work  Conducting research and analysis to understand industries, stakeholders, media landscapes and emerging issues relevant to our clients  Supporting the development of communications strategies, key messages and stakeholder engagement approaches  Drafting a range of communications materials, including press releases, briefing notes, talking points, Q&amp;As and other client content  Monitoring and analysing traditional and digital media coverage, identifying relevant trends and assessing communications impact  Supporting the preparation of client meetings, executive engagements, speaking opportunities and events  Contributing to new business proposals, research and pitch development  Working alongside colleagues across different sectors and specialisms on a range of client assignments         How You’ll Grow    We are committed to investing and supporting you in your professional development and we have developed a range of programs focused on fostering leadership, growth and development opportunities. We aim to promote continuous learning and individual skills development through on-the-job learning, self-guided professional development courses and certifications. You’ll be assigned a dedicated coach to mentor, guide and support you through regular coaching sessions and serve as an advocate for your professional growth.     As you progress through your career at FTI Consulting, we offer tailored programs for critical professional milestones to ensure you are prepared and empowered to take on your next role.         What You Will Need to Succeed         Basic Qualifications    Wanting to a build a career in communications and PR  Be in your penultimate year of study (graduating in 2028) and be expected to obtain a 2:1 degree (or equivalent) at any university or degree discipline  Must be available to conduct a 10-week internship from June 14 till to August 20, 2027      Preferred Qualifications    A strong work ethic, positive attitude and proactive approach.  A genuine interest in business, current affairs, communications and the issues shaping organisations and their stakeholders.  An understanding of traditional, digital and social media.  Excellent writing, analytical and communication skills, with the ability to communicate clearly and concisely.  Strong interpersonal skills and the ability to build effective relationships with colleagues and stakeholders.  Excellent organisation, time management and attention to detail, with the ability to work independently and collaboratively.  Curiosity, creativity and adaptability, with a willingness to take initiative and approach challenges from different perspectives.  The ability to work effectively under pressure, think on their feet and quickly understand and succinctly summarise complex issues.     Please note: this is  NOT  a management consulting, strategy consulting or marketing role.    Our Application Process    The deadline for applications is:  19th November 2026      STEP 1 : Complete our online application form and submit your CV (no cover letter required).   STEP 2 : Complete a pre-recorded video interview to explore motivations for this role.   STEP 3 : Attend two virtual interviews to explore your skills and motivations for the role in more detail.   STEP 4 : Job offers are made to successful candidates at the end of February 2027.      #EMEAJT   #LI-DW1  #LI-Hybrid            FTI Consulting is an equal opportunity employer and does not discriminate on the basis of race, color, national origin, ancestry, citizenship status, protected veteran status, religion, physical or mental disability, marital status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.     ",
       "deadlineSource": ""
     },
@@ -488,8 +488,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Who We Are    FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world’s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations.  At FTI Consulting, you’ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you’ll be an integral part of a focused team where you can make a real impact. You’ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you.  Are you ready to make your impact?    About The Role     At FTI Capital Advisors, we specialize in Mergers &amp; Acquisitions (M&amp;A), equity and debt raising and independent financial advisory services across several industry sectors, the most relevant ones being telecommunications, media and technology (TMT), power renewables and energy transition, healthcare, industrials, aviation and aerospace.     With our comprehensive service offering and the backing of FTI Consulting’s worldwide network of professionals, we stand at the forefront of innovation in the financial advisory sector. We combine deep industry expertise with investment banking and transaction execution experience to deliver value-enhancing outcomes for our clients.     Are you prepared to support the origination and execution of M&amp;A transactions? You’ll participate in multiple stages of transaction execution, from the initial phase to closing.     At FTI Capital Advisors, you’ll work on the most challenging mandates across multiple industries and geographies. Our strategically placed offices around the world offer opportunities to work on diverse international mandates and you will have significant client exposure and impact.     FTI Capital Advisors is looking to invest in your future by considering you for an Investment Banking Analyst Intern position, starting in June, 14, 2027 and ending in August, 20, 2027.      What You will Do     As an Investment Banking Intern, you will play a key role in supporting the origination and execution of M&amp;A mandates and transactions, getting involved in multiple stages from origination to closing. You’ll help build business and financial models and perform valuation analyses. Furthermore, you will assist in designing and creating documents for client meetings covering strategic alternatives, M&amp;A, and corporate finance. Conducting thorough research to gather project-specific information and synthesizing complex analyses into actionable conclusions will be essential aspects of your responsibilities.      How You’ll Grow      From your first day at FTI Capital Advisors, you&#39;ll be equipped with the necessary support from a dedicated coach and mentor and training to excel in your role.  Our targeted training programs are designed to develop deep expertise and keep you updated on the latest industry trends. We are committed to the success of our clients and the growth of our team members. Our career paths are clearly defined, provide guidelines for advancement, and recognize exceptional performance.       As an Investment Banking Intern you&#39;ll find a variety of opportunities to develop your skills.      What You Will Need To Succeed         Basic Qualifications      Bachelor’s or Master’s degree in Business, Finance, Management, Engineering or relatedted field field      Actively pursuing a full-time bachelor&#39;s or master&#39;s degree with graduation date or gap year/semester between June 2027 – June 2028      Ability to work 40 hours per week for the entire duration of the internship      Minimum 3.0 Cumulative GPA .      Fluency in English, with excellent written and verbal communication skills.          Preferred Qualifications      An understanding of Corporate Finance principles and methodologies.     Advanced level in Microsoft Office applications, including Outlook, Excel, Word, and PowerPoint.     Additional language skills are considered an asset.        Our Application Process    The deadline for applications is:  19th November 2026     STEP 1 : Complete our online application form and submit your CV (no cover letter required).    STEP 2 : Complete a recorded video interview, showcasing your understanding of the work we do.    STEP 3 : Attend three virtual, competency-based interviews.    STEP 4 : Job offers are made to successful candidates at the end of February 2027.      #EMEAJT #LI-RR1       FTI Consulting is an equal opportunity employer and does not discriminate on the basis of race, color, national origin, ancestry, citizenship status, protected veteran status, religion, physical or mental disability, marital status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.     ",
       "deadlineSource": ""
     },
@@ -521,8 +521,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Who We Are    FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world’s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations.  At FTI Consulting, you’ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you’ll be an integral part of a focused team where you can make a real impact. You’ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you.  Are you ready to make your impact?      About The Role             Are you ready to dive into complex business environments and contribute to high-impact recommendations that drive client success? As a Consultant Intern at FTI     Consulting  , you will be immersed in a dynamic and collaborative working environment where our experienced consultants will mentor you in the journey to     identify     challenges, perform in-depth analysis and generate insights that shape strategic decisions.               You will be part of our Strategy &amp; Transformation team, which brings together top-tier consultants and former industry executives to deliver practical, actionable solutions. Our work spans from strategic planning to hands-on execution, enabling business transformation that drives sustainable performance and long-term value, ensuring that we not only design solutions but also help our clients implement them effectively. As trusted advisors to our clients, you will work side-by-side with them to drive measurable impact from day one.             This role requires extremely solid problem-solving skills, end-to-end financial modelling skills, being capable of leading content discussion and the ability to work effectively in a team setting. You will be expected to handle multiple tasks simultaneously and deliver high-quality work under tight deadlines. You will have the opportunity to work closely with recognized experts in small teams that encourage and reward collaboration.              You will     be part of a rapidly growing environment — not only within our firm, but also across the Middle East region, particularly the GCC countries — where we continue to operate with strong momentum, building on a foundation of consistent performance and meaningful client impact.             This dynamic role is ideal for innovative, collaborative, and motivated students, eager to take ownership of modules of the project and responsibility for full chapters of documents on their own.               FTI Consulting is looking to invest in your future by considering you for an Analyst Intern position, starting in June,  14  , and ending in     August,       20  , 2027.                  What     You’ll     Do                 As a Consultant Intern in FTI Consulting, you will be an integral part of a team. You will engage in activities that support our clients’ projects and contribute to our firm’s business development and intellectual capital development efforts.             Your responsibilities will include identification and structuring of complex issues, autonomously conducting accurate and thorough research for client projects and proposals, generating insightful analyses showcasing advance MS Excel modelling skills and ensuring consistency across all outputs, and being able to synthesize and present the findings within the larger context in a clear and structured format.               In addition, you will manage project modules with guidance from senior team members, demonstrate the ability to prioritize tasks, manage workloads efficiently, communicate project statuses, be able to deliver     high quality     outputs within deadlines and proactively implement feedback to address areas of improvement.               You will     be required     to thrive in a high-paced, dynamic environment, managing multiple priorities efficiently and adapting quickly to changing project needs.           This internship is designed to hone your analytical and problem-solving skills while fostering your ability to deliver high-quality work efficiently, positioning you as a key member of our team.                        How     You’ll     Grow              At FTI Consulting we are committed to the professional development and growth of all our team members. Our career paths are clearly defined, supported by a comprehensive training curriculum that provides guidelines for advancement and fosters exceptional performance.               From your first day, you will be equipped with the necessary tools and opportunities to develop your skills and excel in your role as Business Analyst Intern. Some of these include:               Mentorship : You will be assigned a mentor who will provide learning and development guidance and support throughout the internship.             Training programs:  You can     benefit     from a variety of training formats including in-person workshops and virtual courses. Our training program is designed to enhance your consulting skills and develop deep industry     expertise  , keeping you updated on the latest industry trends. Training will provide you with practical tools and methods you can apply directly to your work.             Networking opportunities : You will have the opportunity to engage with the senior team members and industry leaders and expand your professional network through various events and activities.            On-the-work: You will learn through daily interaction with your teams and clients.                       What You Will Need     To     Succeed              Basic Qualifications  :             Currently pursuing an MBA with an expected graduation     between       December 202  7     and Ju  ly     202  8               Minimum 3.0 Cumulative GPA                Ability to work 40 hours per week for the entire duration of the internship                Ability to travel to clients and FTI Consulting office(s)                      Preferred Qualifications:              Excellent analytical and problem-solving skills                Undergraduate degree major(s): Business Administration, Management, Finance, Engineering, Computer Science, Data Analytics, Mathematics, Statistics, or a related field                A logical and lateral thinker, who is intellectually curious, highly organized, and structured                Exceptional communication and interpersonal skills, with the ability to influence and add value in an international environment                A team player, who can work in a truly diverse setting,     possessing     cultural awareness                   Extensive experience with Financial     Modeling  , Valuations, and/or Due Diligence                Ability to successfully deliver in under pressure environments                Proficiency     in the use the Microsoft Office Suite (Excel, PowerPoint) in a professional environment                A keen interest in strategy consulting across the various industries FTI Consulting focuses on.                      #EMEAJT #LI-IL1                   FTI Consulting is an equal opportunity employer and does not discriminate on the basis of race, color, national origin, ancestry, citizenship status, protected veteran status, religion, physical or mental disability, marital status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.     ",
       "deadlineSource": ""
     },
@@ -553,8 +553,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Who We Are    FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world’s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations.  At FTI Consulting, you’ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you’ll be an integral part of a focused team where you can make a real impact. You’ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you.  Are you ready to make your impact?    About the Role   As a trusted partner to companies, boards of directors, investors, lenders and creditors around the world, the Corporate Finance &amp; Restructuring segment is focused on delivering restructuring, valuations and tax advisory solutions.    Committed to our clients’ success, our award-winning professionals address the full spectrum of financial, operational and transactional risks and opportunities across diverse industries. Included among our core strengths is providing expertise in guiding companies through the value-creation life cycle.   FTI Consulting expanded its practice offering in the Middle East region by introducing a dedicated Corporate Finance &amp; Restructuring practice, providing solutions to a wide range of stakeholders in the banking, private equity, sovereign wealth, and corporate sectors in acquisitions and disposals as well as stressed and distressed situations across the Middle East.   As the Middle Eastern markets become ever more sophisticated, our clients require a combination of financial, technical, business, and industry experience. They rely on us to provide strategic advice and comprehensive, results-focused solutions. We are dedicated to helping organizations protect and enhance their enterprise value in an increasingly complex and evolving legal, regulatory, and economic environment. No matter how challenging or complex the assignment, clients benefit from our extensive local, regional, and global experience and expert knowledge.    What You Will Do   As a Summer Intern, your day-to-day responsibilities may include:   Assisting with the preparation of new business proposals  Conducting research and analysis to support client engagements and internal projects  Summarizing key information and performing analytical reviews  Attending internal and external meetings and drafting clear, concise meeting minutes  Supporting on ongoing project work, including:   Preparing data books and financial models using Excel  Analyzing financial and operational data, and discussing insights with the team  Assisting in the preparation of client reports and deliverables using PowerPoint  Participating in internal training sessions and completing relevant eLearning modules to enhance your technical and professional skills       How You Will Grow   Our Dubai-based internship will provide you with the opportunity to work in one of our practices, including Restructuring, Valuations and Tax advisory. You will be immersed in a fast-paced learning environment, where your development will be supported as much by colleagues and senior members of your team.  Throughout the internship, you will be supported by your performance coach and a buddy who can support and guide you through your career goals and development.    What You Will Need to Succeed    Basic Qualifications:    A penultimate year student studying at university and due to graduate in 2028  Must be available to conduct a 10-week internship from June 14, to August 20, 2027  Interested in the opportunity to work in one of our practices, including Restructuring, Valuations and Tax advisory      Preferred Qualifications:     Ability to articulate ideas clearly, both verbally and in writing   Proficient in Microsoft Office, specifically Excel and PowerPoint  Comfortable working both independently and as part of a team  A strong work ethic, demonstrating reliability, commitment and a willingness to learn  Creative thinking and the ability to think outside the box  Proactivity and confidence to volunteer for a task without being asked  Able to think on your feet, also in fast-paced and high-pressure situations  Has a good understanding of financial statements and accounting principles       Our Application Process   The deadline for applications is:  19th November 2026   STEP 1: Complete our online application form and submit your CV (no cover letter required).  STEP 2: Complete online numerical, logical and verbal reasoning test.  STEP 3: Complete a recorded video interview, showcasing your understanding of the work we do.  STEP 4: Attend two virtual, competency-based interviews with senior managers.  STEP 5: Job offers are made to successful candidates at the end of February 2027.   #EMEAJT #LI-RR1       FTI Consulting is an equal opportunity employer and does not discriminate on the basis of race, color, national origin, ancestry, citizenship status, protected veteran status, religion, physical or mental disability, marital status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.     ",
       "deadlineSource": ""
     },
@@ -583,8 +583,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T08:16:38Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Who We Are    FTI Consulting is the leading global expert firm for organizations facing crisis and transformation. We work with many of the world’s top multinational corporations, law firms, banks and private equity firms on their most important issues to deliver impact that makes a difference. From resolving disputes, navigating crises, managing risk and optimizing performance, our teams respond rapidly to dynamic and complex situations.  At FTI Consulting, you’ll work side-by side with leaders who have shaped history, helping solve the biggest challenges making headlines today. From day one, you’ll be an integral part of a focused team where you can make a real impact. You’ll be surrounded by an open, collaborative culture that embraces diversity, recognition, professional development and, most importantly, you.  Are you ready to make your impact?    About The Role    Are you ready to dive into complex business environments and contribute to high-impact recommendations that drive client success?  As an Engagement Manager at FTI, you will play a key role in formulating strategic recommendations and implementing changes to clients by managing individual project modules, deploying commercial acumen in structuring and performing key analysis/ deliverables with little support and develop areas of focus as well as identify leads from existing projects. You will also have the opportunity to formally coach junior staff.     What You’ll Do    As a Manager, you will manage modules of a project or designated scope in client billable project work. You will play a key role in problem solving through data gathering, problem structuring, independently form insights and actions from analysis with holistic view of the engagement, coach team members to build complex financial, operational, or market models applying your Excel and financial proficiency. You will be expected to lay out problem solving approaches and structures by translating project scope, then independently identify the required analysis and critical path of work under the framework. You will be responsible for delivering high-quality output, and be able to balance delegation of duties vs  “doing the work” under challenging engagement conditions. Key to this will be your ability to connect findings to strategic and operational recommendations.  You will leverage your communication and presentation skills to communicate assignments and direction to internal project teams; communicate upward with the project leadership, and with clients. You will provide formal coaching to junior staff.  You will structure and present analyses / deliverables with limited support from the engagement lead. If required you will be capable of covering senior team roles / client interactions when senior team is not available.  In addition, you will manage project small module teams and demonstrate the ability to identify time scales, understand priorities and resource requirements and dynamically make decisions on delegation and priorities to meet deadlines.  Beyond this, you will also play an important role in career development of junior staff through coaching and providing constructive feedback to set them up for success. Beyond project-based work, you will support Senior Managing Directors from a commercial standpoint by developing intellectual capital, (eg. white papers) and developing client pitches and proposals, and start identifying areas of focus and leads from existing projects.  This role demands a logical and lateral thinker who is curious, structured and organized, has exceptional communication and interpersonal skills. You will build strong professional and personal relationships with client teams. As a team player who can work in a truly diverse setting you have the ability to deliver under pressure keeping a mature demeanor and most importantly be a leader who will act as a role model and mentor to junior consultants.     How You’ll Grow     At FTI Consulting, we are committed to the professional development and growth of all our team members. Our career paths are clearly defined, supported by a comprehensive training curriculum that provides guidelines for advancement and fosters exceptional performance. From your first day, you will be equipped with the necessary tools and opportunities to develop your skills and excel in your role as a Director.  Some of these include:   Mentorship: You will be assigned a mentor who will provide learning and development guidance and support throughout your journey in the company.  Training programs: You can benefit from a variety of training formats including in-person workshops and virtual courses. Our training program is designed to enhance your consulting skills, foster leadership and develop deep industry expertise, keeping you updated on the latest industry trends. Training will provide you with practical tools and methods you can apply directly to your work.   Networking opportunities: You will have the opportunity to engage with senior team members and industry leaders and expand your professional network through various events and activities.  On-the-job: You will learn through daily interaction with your teams and clients.    What You Will Need to Succeed      Basic Qualifications     Bachelor’s degree in Business Administration, Management, Finance, Engineering, Computer Science, Data Analytics, Mathematics, Statistics, or a related field   Demonstrable experience in a professional services firm  Prior experience in professional services, consulting or prior experience in a Telecom, Media &amp; Technology company.     Preferred Qualifications     Masters in Business Administration degree, or equivalent     #LI-BA1      FTI Consulting is an equal opportunity employer and does not discriminate on the basis of race, color, national origin, ancestry, citizenship status, protected veteran status, religion, physical or mental disability, marital status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.     ",
       "deadlineSource": ""
     },
@@ -619,8 +619,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "  Business Unit:  Financial Restructuring Group  Industry:  No Industry&amp;#xa;&amp;#xa;  Overview  Houlihan Lokey, Inc. (NYSE:HLI) is a leading global investment bank recognized for delivering independent strategic and financial advice to corporations, financial sponsors, and governments. With uniquely deep industry expertise, broad international reach, and a partnership approach rooted in trust, the firm provides innovative, integrated solutions across mergers and acquisitions, capital solutions, financial restructuring, and financial and valuation advisory. Our unmatched transaction volumes provide differentiated, data-driven perspectives that help our clients achieve their most critical goals. To learn more about Houlihan Lokey, please visit HL.com.&amp;#xa;&amp;#xa;  Financial Restructuring  Houlihan Lokey has the largest worldwide financial restructuring practice of any investment banking firm, with offices and experienced professionals located across the globe. Since its inception in 1988, the restructuring group has advised on more than 1,900 restructuring transactions with aggregate debt claims in excess of $4 trillion. With nearly 300 dedicated restructuring professionals worldwide, our group has a significant global presence. We serve clients domestically and around the world, providing extensive resources to staff each case. Our broad base of clients and extensive experience allow us to understand the dynamics of each restructuring situation and the needs, attitudes, and positions of all parties in interest.&amp;#xa;&amp;#xa;  Scope     The Financial Restructuring Group is expanding and we are looking for an Off-Cycle Intern to be based in our Dubai office. Interns work specifically with the group, assisting with a variety of transactions, including creditor- and debtor-side restructurings and distressed mergers &amp; acquisitions.     Responsibilities   As an Intern, you will have the opportunity to work on projects that provide exposure to various financial advisory and investment banking products and industries. These services include:   Advising companies and stakeholders in out-of-court restructuring transactions  Provide advisory services in stressed and distressed situations  Participating in complex negotiations on behalf of our clients    Providing distressed M&amp;A advisory  Advisory in relation to debt and equity raising in the context of stressed and distressed situations     Interns play a similar role to Financial Analyst and are typically members of deal teams comprising at least one managing director, director, vice president, associate and financial analyst.     Requirements/Qualifications   The environment at Houlihan Lokey is results-driven and entrepreneurial and rewards top performers with substantial responsibility and interaction with senior-level professionals and clients.    The following qualifications are required:   Have a strong academic track record  A demonstrated genuine interest in Financial Restructuring and/or in working on complex and large financial transactions  Have an understanding of valuation theory, methodologies and applications  Strong quantitative, financial and analytical skills  Strong LBO and DCF modelling skills  Excellent verbal and written communication skills in English  At least some experience within Leverage Finance or Financial Restructuring desirable  Ability to work independently in a fast-paced environment  An exceptional strong work ethic     The candidate must be motivated and have the ability to work cooperatively with all levels of staff in a rapidly changing, demanding, but ultimately rewarding environment.     &amp;#xa;&amp;#xa;   We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, gender identity, sexual orientation, protected veteran status, or any other characteristic protected by law.   &amp;#xa;&amp;#xa;#LI-115419",
       "deadlineSource": ""
     },
@@ -634,7 +634,7 @@
       "eligibilityFlags": [],
       "deadline": "",
       "publishedAt": "",
-      "updatedAt": "2026-10-22",
+      "updatedAt": "2026-10-30",
       "source": "greenhouse",
       "sourceBoard": "Point72",
       "status": "active",
@@ -653,8 +653,8 @@
       "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -691,8 +691,8 @@
       "description": " Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.   We are seeking a detail-oriented and analytical Business Analyst to join our dynamic team in Abu Dhabi, United Arab Emirates. As a Business Analyst, you will play a crucial role in helping our organization make data-driven decisions and improve business processes.   Collaborate with stakeholders to identify business needs and gather requirements  Analyze complex data sets and prepare comprehensive reports to support strategic decision-making  Develop and maintain financial models and forecasts  Conduct market research and competitive analysis to identify business opportunities  Create and present business cases for new initiatives or process improvements  Facilitate workshops and meetings to elicit information from various departments  Design and document business processes using appropriate modeling techniques  Support the implementation of new systems and processes  Monitor and report on key performance indicators (KPIs)  Provide analytical support for due diligence activities and strategic planning     Bachelor's degree in Business Administration, Finance, Economics, or a related field  Proven experience as a Business Analyst in a consulting environment  Strong analytical and problem-solving skills with attention to detail  Excellent communication skills, both written and verbal  Proficiency in data analysis tools such as Excel, SQL, and Tableau  Knowledge of business process modeling techniques  Familiarity with project management methodologies  Ability to work collaboratively in a diverse team environment  Customer-focused mindset with a goal-oriented approach  Excellent research and information-gathering skills  Fluency in English; Arabic is a plus  Adaptability to work in a fast-paced, international business environment  Emirati nationals ONLY.     What will you get?    An exciting international environment of projects, customers and consultants  Extensive training opportunities in data analytics and data engineering.  Competitive salary  ",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "deadlineSource": ""
     },
     {
@@ -723,8 +723,8 @@
       "description": " Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.    Job Summary   We are seeking a highly skilled and motivated  UAE National  to join our consulting team. In this role, you will lead and deliver complex consulting projects across various industries, providing strategic insights and driving initiatives that enhance organizational performance and innovation. You will work closely with clients and internal teams to manage full project lifecycles and ensure the delivery of impactful, high-quality solutions.   Key Responsibilities    Project &amp; Engagement Management    Lead and manage complex consulting projects, ensuring timely delivery, high-quality outcomes, and alignment with client expectations.  Develop and maintain project plans, schedules, budgets, and resource allocations.  Monitor project progress, conduct regular reviews, and adjust strategies to meet goals and milestones.  Identify and mitigate project risks, issues, and dependencies throughout the engagement lifecycle.    Strategic Analysis &amp; Advisory    Conduct detailed analysis of client business operations and processes to identify opportunities for improvement.  Develop strategic recommendations to enhance efficiency, productivity, and organizational effectiveness.  Provide expert insights on process optimization, change management, and digital transformation initiatives.  Stay updated on industry trends, consulting methodologies, and emerging business practices.    Stakeholder &amp; Team Leadership    Collaborate with clients, internal teams, and senior stakeholders to define project scope, objectives, and deliverables.  Build strong, trust-based relationships with clients through effective communication and engagement.  Lead and mentor cross-functional teams, promoting collaboration, innovation, and continuous improvement.    Business Development &amp; Client Engagement    Identify new engagement opportunities or areas for additional client value.  Support proposal development, client presentations, and other business development initiatives.  Maintain strong and ongoing client relationships that foster long-term partnerships.     Bachelor's degree in Business Administration, Finance, Economics, or a related field  Proven experience as a Business Analyst in a consulting environment  Strong analytical and problem-solving skills with attention to detail  Excellent communication skills, both written and verbal  Proficiency in data analysis tools such as Excel, SQL, and Tableau  Knowledge of business process modeling techniques  Familiarity with project management methodologies  Ability to work collaboratively in a diverse team environment  Customer-focused mindset with a goal-oriented approach  Excellent research and information-gathering skills  Fluency in English; Arabic is a plus  Adaptability to work in a fast-paced, international business environment  Emirati nationals ONLY.     What will you get?    An exciting international environment of projects, customers and consultants  Extensive training opportunities in data analytics and data engineering.  Competitive salary  ",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "deadlineSource": ""
     },
     {
@@ -753,8 +753,8 @@
       "description": " Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.   Are you a motivated and analytical student looking to gain hands-on experience in strategy consulting? Join our team in  Abu Dhabi&#xa0; as a Consulting Intern and build a strong foundation in problem-solving, business analysis, and client engagement.    UAE Nationals ONLY   Collaborate with project teams on assignments for top companies in various industries  Conduct research and gather data to support project objectives  Assist in analyzing complex business problems and developing innovative solutions  Prepare presentations and reports to communicate findings and recommendations  Participate in client meetings and interviews to gather information and present results  Support the development of project deliverables, including strategic plans and organizational redesigns  Contribute to internal knowledge-building initiatives and team discussions  Assist in market analysis, production strategies, and sourcing optimization projects.     Bachelors Degree in Business Administration, STEM, Data Analytics  Excellent academic record   Applicant preferably based in Abu Dhabi   Demonstrated analytical and problem-solving skills  Excellent English and Arabic&#xa0;communication skills  Proficiency in Microsoft Excel and PowerPoint  Ability to work collaboratively in a fast-paced, team-oriented environment  Proactive, hard-working, and enthusiastic attitude with a willingness to learn  Confident and personable demeanor with a sense of humor  Adaptability and openness to feedback and continuous improvement  Strong time management and organizational skills  Ability to think critically and make data-driven decisions  Previous internship or relevant experience.     Start Date:  Immediate start   ",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "deadlineSource": ""
     },
     {
@@ -783,8 +783,8 @@
       "description": " Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.   Are you a motivated and analytical student looking to gain hands-on experience in strategy consulting? Join our team in  Dubai&#xa0; as a Consulting Intern and build a strong foundation in problem-solving, business analysis, and client engagement.   Collaborate with project teams on assignments for top companies in various industries  Conduct research and gather data to support project objectives  Assist in analyzing complex business problems and developing innovative solutions  Prepare presentations and reports to communicate findings and recommendations  Participate in client meetings and interviews to gather information and present results  Support the development of project deliverables, including strategic plans and organizational redesigns  Contribute to internal knowledge-building initiatives and team discussions  Assist in market analysis, production strategies, and sourcing optimization projects.     Bachelors Degree in Business Administration, STEM, Data Analytics  Excellent academic record   Applicant preferably based in Dubai   Demonstrated analytical and problem-solving skills  Excellent English and Arabic&#xa0;communication skills  Proficiency in Microsoft Excel and PowerPoint  Ability to work collaboratively in a fast-paced, team-oriented environment  Proactive, hard-working, and enthusiastic attitude with a willingness to learn  Confident and personable demeanor with a sense of humor  Adaptability and openness to feedback and continuous improvement  Strong time management and organizational skills  Ability to think critically and make data-driven decisions  Previous internship or relevant experience.     Start Date: Immediately  ",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "deadlineSource": ""
     },
     {
@@ -816,8 +816,8 @@
       "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -855,8 +855,8 @@
       "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -894,8 +894,8 @@
       "note": "Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.",
       "firstSeen": "2026-10-29",
       "firstSeenAt": "2026-10-29T11:09:04Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "previousDeadline": "",
       "deadlineChangedAt": "",
       "deadlineSource": "",
@@ -931,8 +931,8 @@
       "note": "Employer Workday listing; confirm location, eligibility and deadline on the official posting.",
       "firstSeen": "2026-10-30",
       "firstSeenAt": "2026-10-30T12:08:31Z",
-      "lastSeen": "2026-10-30",
-      "lastSeenAt": "2026-10-30T12:22:05Z",
+      "lastSeen": "2026-10-31",
+      "lastSeenAt": "2026-10-31T10:25:16Z",
       "description": "     About Us       Wellington Management  offers comprehensive investment management capabilities that span nearly all segments of the global capital markets. Our investment solutions, tailored to the unique return and risk objectives of institutional clients in more than 60 countries, draw on a robust body of proprietary research and a collaborative culture that encourages independent thought and healthy debate. As a private partnership, we believe our ownership structure fosters a long-term view that aligns our perspectives with those of our clients.           About the Role        As part of the continued growth of our business in EMEA, we are currently recruiting a Relationship Analyst to join our Business Development &amp; Relationship Management Group (the Client Group). This individual will be an integral member of the institutional team supporting the business activities with a broad range of prospects and clients in the Middle East region within this global prestigious firm and will be based in Dubai.      Relationship Analysts (RAs) provide centralised coordination of various functions to service clients across various entity types. They support the Business Development and Relationship Management objectives in their teams working with our existing client and/or consultant relationships and prospects. The core role of the RA is to ensure that client and/or consultant needs are met and to support our business development efforts, delivering service alpha across the board.      Success in this role requires the RA to have the ability to be proactive in supporting our business development activities, looking to assess and support our prospect and cross-selling opportunities.  In addition, RAs also support our existing client relationships. This requires the RA to maintain and update client CRM data, analyse opportunities for our clients and prospective clients, and oversee and coordinate the completion of information requests.  RAs will work with internal stakeholders to ensure we meet our clients’ expectations and to ensure deadlines are met. Attention to detail is critical – the ability not only to pull data from the various applications available, but also to analyse the data and understand whether that data makes sense. RAs need to have the ability to work independently, in a fast-paced and team-oriented environment, where priorities change frequently and deadlines often need to be met under significant time pressure. Finally, RAs should have a solid knowledge of investments, such that they are able to fully understand, and respond to, client enquiries and requests. The successful candidate will have the opportunity to grow within this highly regarded, exceptional Asset Management house. On-hand training and support from senior stakeholders provide the opportunity to learn from the best in the business and enable strong contributions to the firm.      Division   The Client Group is responsible for strengthening and growing our prospect, client, and consultant relationships around the world. Wellington Management serves an extremely diverse mix of institutional investors located in over 50 countries. Our clients include public funds, central banks, insurance entities, endowments, foundations, mutual fund sponsors, retirement plan sponsors — both defined benefit and defined contribution — and many other types of institutions.  We view business development and relationship management as a point of differentiation among our peers.  Our experienced professionals are typically specialized by client type and geography.   In carrying out their respective functions, they will take into consideration local nuances and channel differences to ensure a thorough understanding of the unique needs of prospects and clients by being proactive, forward-thinking, and effective communicators.      Responsibilities      Commanding a thorough knowledge of our business, coupled with the interpersonal skills to deal effectively with institutional clients and consultants, the RA will work closely with all members of the Middle East team, as well as many other functional areas of the firm, on a portfolio of assigned accounts in the ME region. He/she will conduct analysis of client portfolios, initiate investigations, respond to inquiries on a wide variety of topics, and perform other tasks as appropriate. The RA will coordinate prospect reporting, presentations, account maintenance, and ad hoc requests.       Principal responsibilities will include:     Driving the preparation of high impact presentations of standard and/or customized client and prospect presentation materials, briefing books and collateral materials as well as meeting notes if in attendance and follow ups required for external meetings,    Participating in client, consultant and prospect meetings and conference calls as appropriate.    Conducting analysis, initiating investigations and responding to internal and external ad-hoc inquiries on a wide variety of topics, including portfolio and product specific information, investment guidelines, market trends, regulation considerations and fees.    Acting as a point of contact for various groups within client organisations.    Coordinating key client communications acting as a trusted liaison between clients and internal teams.    Supporting the local Relationship and Business Development Managers in the organisation of client roadshows and client review meetings.    Capturing and maintaining client data in relevant internal systems.    Qualifying and coordinating Requests for Information (RFI’s) /Due Diligence Questionnaires (DDQ) and Requests for Proposals (RFP’s) and working with internal teams to ensure that each one receives the proper response.    Developing an understanding of the depth and breadth of Wellington Management’s investment approaches and those products most relevant to the Middle East channel.    Champion data accuracy and insight-driven reporting leveraging the DMP (Delivery Management Platform) for client reporting, updating requirements on existing accounts and creating new templates during onboarding, working in partnership with our Investec team for SMA’s.    Working with the CSO (Client Service Operations) team to provide responses on operational questions.    Working alongside our internal Funds Group as needed for fund prospecting, onboarding and servicing requirements/questions.       Qualifications   The successful candidate is likely to:    Have 2-3 years of relevant client service experience, preferably gained within the Investment Management industry. Experience of working with institutional clients and consultants would be advantageous.    Demonstrate a solid understanding of capital markets and/or investment products.    Have a clear understanding of the Middle East market.    Have a strong academic background. Ideally this will include progress towards a professional qualification (e.g. CFA/CAIA or equivalent).    Demonstrate excellent verbal and written English language skills. Other languages would be advantageous.    Be self-motivated, creative and enthusiastic.    Be a natural collaborator who can work well in a small team.    Strong interpersonal skills    Please note that we are only able to respond to successful applicants.      As a Relationship Analyst, you’ll gain:     Unparalleled exposure  to global investment strategies and institutional client needs     Hands-on experience  supporting business development and relationship management in one of the firms most dynamic financial hubs     Mentorship and collaboration  with seasoned professionals across investment, operations, and client service teams     A front-row seat  to how investment decisions are communicated, structured, and supported for world-class clients      If you’re driven, detail-oriented, and excited to grow in a fast-paced, global environment—we’d love to hear from you.        Not sure you meet 100% of our qualifications?  That’s ok. If you believe that you could excel in this role, we encourage you to apply and welcome a chance to review your background. We are dedicated to building and maintaining a diversified workforce and considering a broad array of candidates with a variety of skill, workplace experiences, and backgrounds.       As an equal opportunity employer, Wellington Management ensures that all qualified applicants will receive equal consideration for employment without regard to   r ace, color, sex, sexual orientation, gender identity, gender expression, religion, creed, national origin, age, ancestry, disability (physical or mental), medical condition, citizenship, marital status, pregnancy, veteran or military status, genetic information or any other characteristic  protected by applicable law   .  If you are a candidate with a disability, or are assisting a candidate with a disability, and require an accommodation to apply for one of our jobs, please email us at  GMWTalentOperations&#64;wellington.com   .      We believe that in person interactions inspire and energize our community and are essential to our culture. In support of this commitment, our employees work from our offices 4 days a week with flexibility to work remotely 1 day a week. We believe that this approach ultimately supports our mission to deliver investment excellence to our clients and their beneficiaries over the long term.  ",
       "deadlineSource": ""
     },

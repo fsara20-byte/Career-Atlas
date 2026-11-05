@@ -45,3 +45,13 @@ To validate: `python -m unittest discover -s tests -v` then `python scripts/buil
 ## Deployment note
 
 The workflow explicitly publishes the site using `actions/deploy-pages` on every daily run. This is important because commits pushed using GitHub Actions’ built-in `GITHUB_TOKEN` do not trigger an ordinary branch-based GitHub Pages rebuild. You do not need a personal access token or external API keys for the five current public Greenhouse boards.
+
+## International insight programs, mentorships and events
+
+- Visit `events.html` or select **Events & programs** in the main Career Atlas navigation.
+- Dataset: `data/events.json`; initially researched 5 November 2026. Coverage: Hong Kong, UAE, France, Netherlands and Singapore, plus relevant cross-border virtual events.
+- Each record includes organization, title, event category, regions/location, date, verified employer-published deadline if available, eligibility details, restrictions, source URL, and application status. **Open** is not the same as **eligible**: where external-campus or local residency rules are unclear, the record says so explicitly.
+- Filter by country, priority, application status or keyword. Update **My progress** and personal notes; these are stored in your own browser (localStorage) rather than committed to the public repository. Use **Export my progress** for a backup; progress is not automatically synchronized across browsers.
+- The source data is curated and NOT an automated scrape of all event websites. An additional ChatGPT recurring watch checks relevant employer and organizer pages, reports material changes, and attempts to update `data/events.json` using the GitHub connection when available. Do not assume a scheduled check or failed connection updated the repository; inspect the commit or the recorded last-reviewed date.
+- The Pages workflow `.github/workflows/publish-events.yml` republishes the static site when event data or the events page changes. The separate daily job-feeds workflow continues monitoring vacancies. These are independent systems.
+- Never invent event dates, published deadlines, or eligibility, and never infer that a Hong Kong/Singapore program accepts UOWD students merely because the degree issuer has an Australian campus. Past-cycle dates must be labeled as historical.

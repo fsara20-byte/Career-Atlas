@@ -9,7 +9,19 @@
       "Singapore"
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
-    "sourcePolicy": "Official organizer and employer pages prioritized; unknown eligibility and registration treated as unverified, and future-cycle watchlist never shown as confirmed open."
+    "sourcePolicy": "Official organizer and employer pages prioritized; unknown eligibility and registration treated as unverified, and future-cycle watchlist never shown as confirmed open.",
+    "lastSourceAudit": "Official 100 Women in Finance event pages, Female x Finance official Luma listings and FSR organizer pages checked 2026-11-05",
+    "organizersMonitored": [
+      "100 Women in Finance",
+      "Female x Finance",
+      "FSR/FAECTOR",
+      "Bain",
+      "BCG",
+      "Oliver Wyman",
+      "Jane Street",
+      "BlackRock",
+      "GIC"
+    ]
   },
   "events": [
     {
@@ -74,7 +86,8 @@
       "eligibility": "Open to postgraduate students or professionals with 0–5 years of experience who join 100 Women in Finance.",
       "restriction": "none",
       "notes": "Applications open each September; 2027 mentorship generally runs January–June. Apply through the membership/Qooper portal; not a recruiting placement programme.",
-      "url": "https://100women.org/launchme/"
+      "url": "https://100women.org/launchme/",
+      "theme": "Women in Finance"
     },
     {
       "id": "jane-street-hk-insight-2027",
@@ -160,7 +173,8 @@
       "eligibility": "Check next-cycle criteria and entry requirements once applications reopen.",
       "restriction": "verify",
       "notes": "Workshops, consultant networking, Dubai visit and first-round interview; official website says applications currently closed.",
-      "url": "https://www.strategyand.pwc.com/m1/en/careers/women-fellowship.html"
+      "url": "https://www.strategyand.pwc.com/m1/en/careers/women-fellowship.html",
+      "theme": "Women in Finance"
     },
     {
       "id": "oliver-wyman-mentorship-me-2027",
@@ -200,7 +214,8 @@
       "eligibility": "Undergraduate and master's students accepted; country applications differ. Middle East and France have participated before. Netherlands office historically required Dutch.",
       "restriction": "verify",
       "notes": "French university page anticipates May 2027 workshop; official global page still displays 2026 details. Check 2027 office applications before treating any deadline as confirmed.",
-      "url": "https://careers.bcg.com/global/en/featured-events/aspire-womens-workshop"
+      "url": "https://careers.bcg.com/global/en/featured-events/aspire-womens-workshop",
+      "theme": "Women in Finance"
     },
     {
       "id": "bcg-women-paris-2027",
@@ -219,7 +234,8 @@
       "eligibility": "University students and recent graduates; local office admission criteria will apply. French-speaking background helpful.",
       "restriction": "verify",
       "notes": "BCG university calendar lists March 2027; registration expected ~6 weeks before. Confirm if external Dubai-based students can register.",
-      "url": "https://careers.bcg.com/global/en/on-campus/emlyon"
+      "url": "https://careers.bcg.com/global/en/on-campus/emlyon",
+      "theme": "Women in Finance"
     },
     {
       "id": "blackrock-insight-sg-2027",
@@ -300,7 +316,8 @@
       "restriction": "verify",
       "notes": "Official programme confirms December 2027–July 2028 graduation window and 3 mentorship sessions March–May. No deadline published; overseas student participation not explicit.",
       "url": "https://gic.careers/programmes/gic-inspires-women-mentorship-programme/",
-      "lastReviewedAt": "2026-11-05"
+      "lastReviewedAt": "2026-11-05",
+      "theme": "Women in Finance"
     },
     {
       "id": "bcg-amsterdam-grow-2026-27",
@@ -319,7 +336,8 @@
       "eligibility": "Student-focused Amsterdam mentorship; check Netherlands university/residency, Dutch-language and attendance rules.",
       "restriction": "verify",
       "notes": "Official Dutch page lists programme running 8 Dec 2026–10 Jun 2027 with registration link.",
-      "url": "https://careers.bcg.com/global/en/locations/the-netherlands"
+      "url": "https://careers.bcg.com/global/en/locations/the-netherlands",
+      "theme": "Women in Finance"
     },
     {
       "id": "bcg-amsterdam-diversity-2027",
@@ -357,7 +375,8 @@
       "eligibility": "Open invitation on Netherlands event listing; admission and external-student rules need checking.",
       "restriction": "verify",
       "notes": "27 May 2027, 17:30–21:00; Amsterdam office.",
-      "url": "https://careers.bcg.com/global/en/locations/the-netherlands"
+      "url": "https://careers.bcg.com/global/en/locations/the-netherlands",
+      "theme": "Women in Finance"
     },
     {
       "id": "imc-women-trading-amsterdam",
@@ -376,7 +395,8 @@
       "eligibility": "Finance and economics degrees are listed among relevant subjects. Verify study-location restriction, date and quantitative selection criteria.",
       "restriction": "verify",
       "notes": "Two-day event; IMC says costs are covered. No verified 2027 dates.",
-      "url": "https://www.imc.com/eu/careers/students-graduates/programs/womens-talent"
+      "url": "https://www.imc.com/eu/careers/students-graduates/programs/womens-talent",
+      "theme": "Women in Finance"
     },
     {
       "id": "jane-street-preview-hk",
@@ -436,7 +456,8 @@
       "restriction": "verify",
       "notes": "10 November 2026, 18:00–20:00 GMT. New near-term listing from official Jane Street event directory. This is not evidence of eligibility for the 2029-graduate INSIGHT cohort.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
-      "lastReviewedAt": "2026-11-05"
+      "lastReviewedAt": "2026-11-05",
+      "theme": "Women in Finance"
     },
     {
       "id": "jane-street-get-to-know-sales-trading-2026",
@@ -542,7 +563,8 @@
       "eligibility": "2026 event welcomed female bachelor's and master's students graduating in 2027, 2028 or 2029; outside-university registrations must be checked.",
       "restriction": "verify",
       "notes": "Meeting sales, trading, structuring and research teams. 2026 event was 11 August; next edition unannounced. University-hosted registration may be restricted to institution students.",
-      "url": "https://www.nus.edu.sg/cfg/events/details/81d7cb7506cbda1fba0b7894dd8a67d1"
+      "url": "https://www.nus.edu.sg/cfg/events/details/81d7cb7506cbda1fba0b7894dd8a67d1",
+      "theme": "Women in Finance"
     },
     {
       "id": "hsbc-women-finance-sg-2027",
@@ -561,7 +583,276 @@
       "eligibility": "The 2026 edition was open to all academic disciplines, graduating in 2027 or 2028; verify whether overseas university students can attend future editions.",
       "restriction": "verify",
       "notes": "2026 event was 26 March (deadline 19 March). Event covered investment banking with team panels; 2027 date and registration not announced.",
-      "url": "https://www.nus.edu.sg/cfg/events/details/4003eedb63ef77982eda683710d817b7"
+      "url": "https://www.nus.edu.sg/cfg/events/details/4003eedb63ef77982eda683710d817b7",
+      "theme": "Women in Finance"
+    },
+    {
+      "id": "100wf-dubai-career-identity-2026",
+      "firm": "100 Women in Finance",
+      "name": "Who Are You When the Phone Stops Ringing?",
+      "type": "Women's career networking breakfast",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · Morgan Lewis, One Za'abeel",
+      "eventDate": "2026-11-10",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good for local industry networking; leadership topic rather than technical finance",
+      "eligibility": "100WF members and non-members within its guest policy; RSVP required and space limited. Confirm guest admission before attending.",
+      "restriction": "verify",
+      "notes": "10 Nov 2026, 08:00–10:00 Dubai. Hosted by Morgan Lewis; career transitions, purpose and networking breakfast. No walk-ins.",
+      "url": "https://app.100women.org/pages/event.php?e=4536"
+    },
+    {
+      "id": "100wf-abu-dhabi-trade-capital-2026",
+      "firm": "100 Women in Finance",
+      "name": "Routes of Capital — Louvre Abu Dhabi with Winton",
+      "type": "Investment industry networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Abu Dhabi · Louvre Abu Dhabi",
+      "eventDate": "2026-11-12",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Strong professional networking because Winton Capital Management hosts",
+      "eligibility": "100WF members and guests subject to organizer guest policy; advance RSVP essential. Confirm capacity.",
+      "restriction": "verify",
+      "notes": "12 Nov 2026, registration 17:30, private tour 17:45 and networking reception afterwards. Hosted by Winton Capital Management. No walk-ins.",
+      "url": "https://app.100women.org/pages/event.php?e=4559"
+    },
+    {
+      "id": "100wf-paris-early-careers-2026",
+      "firm": "100 Women in Finance",
+      "name": "Paris Early Careers: Building Connections, Creating Opportunities",
+      "type": "Early-career finance networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "France"
+      ],
+      "location": "Paris · 11 Rue du Faubourg Saint-Honoré",
+      "eventDate": "2026-11-12",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent for early-career banking/investment networking; prior work experience fits 0–10 years",
+      "eligibility": "Designed for 100WF members with up to 10 years of professional experience. Guest admission may be possible subject to space and organizer policy. In-person presence required.",
+      "restriction": "verify",
+      "notes": "12 Nov 2026, registration 17:30, event 18:00; inaugural Paris Early Careers Community event. RSVP required, no walk-ins.",
+      "url": "https://app.100women.org/pages/event.php?e=4568"
+    },
+    {
+      "id": "100wf-hongkong-ai-finance-2026",
+      "firm": "100 Women in Finance",
+      "name": "AI in Action: Reshaping Financial Services",
+      "type": "Banking & investment networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong · Three Exchange Square",
+      "eventDate": "2026-11-10",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong topic and speakers from JPMorgan Asset Management, HSBC and Endowus",
+      "eligibility": "FULLY BOOKED; organizer is taking a waitlist. 100WF membership/guest terms apply; requires in-person attendance.",
+      "restriction": "verify",
+      "notes": "10 Nov 2026, 11:45 HK registration; WAITLIST ONLY as checked 5 Nov. Hosted by S&P Global.",
+      "url": "https://app.100women.org/pages/event.php?e=4528"
+    },
+    {
+      "id": "100wf-hongkong-point72-2026",
+      "firm": "100 Women in Finance",
+      "name": "Resilience and Redefining Success — Hosted by Point72",
+      "type": "Women in hedge funds networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong · Point72, The Henderson",
+      "eventDate": "2026-11-17",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Strong networking access to Point72; programme topic is resilience, not investing",
+      "eligibility": "100WF members and guest attendees subject to available space; RSVP required. Confirm residency or guest restrictions and availability.",
+      "restriction": "verify",
+      "notes": "17 Nov 2026 at 18:00 registration, 18:30 start; Point72 Asset Management host with networking reception.",
+      "url": "https://app.100women.org/pages/event.php?e=4544"
+    },
+    {
+      "id": "100wf-hongkong-gala-2026",
+      "firm": "100 Women in Finance",
+      "name": "Hong Kong Gala — 25 Years of Impact",
+      "type": "Finance industry fundraising gala",
+      "theme": "Women in Finance",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong · Cloud 39, The Henderson",
+      "eventDate": "2026-11-19",
+      "deadline": null,
+      "status": "check",
+      "priority": "P3",
+      "fit": "High-profile finance networking but paid gala, likely limited value versus cost of travel",
+      "eligibility": "Tickets/tables available subject to pricing and capacity; not a student discovery program. Confirm ticket cost with organiser.",
+      "restriction": "verify",
+      "notes": "19 Nov 2026, 18:30 cocktail reception and 19:30 dinner. Black tie; sponsor and ticket-based event.",
+      "url": "https://fundraisers.100women.org/hong-kong-gala/"
+    },
+    {
+      "id": "100wf-ai-agents-webinar-2026",
+      "firm": "100 Women in Finance",
+      "name": "AI Academy: Agents in the Wild — Finance Risk & Governance",
+      "type": "Virtual finance webinar",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Virtual · global (Nasdaq-hosted)",
+      "eventDate": "2026-11-09",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good fintech and risk exposure; relevant to prior working capital fintech background",
+      "eligibility": "RSVP required; 100WF member or approved guest. Virtual access allows participation from Dubai; verify registration availability.",
+      "restriction": "verify",
+      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Hosted by Nasdaq, no technical background required.",
+      "url": "https://app.100women.org/pages/event.php?e=4550"
+    },
+    {
+      "id": "100wf-singapore-eq-2026",
+      "firm": "100 Women in Finance",
+      "name": "Emotional Intelligence as an Investing Edge",
+      "type": "Investment psychology workshop",
+      "theme": "Women in Finance",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore · 1 Raffles Place",
+      "eventDate": "2026-11-05",
+      "deadline": null,
+      "status": "check",
+      "priority": "P3",
+      "fit": "Relevant to investment judgement, but the event occurs today in Singapore and requires travel",
+      "eligibility": "RSVP required, subject to space; in-person only. Same-day Singapore event, not practical from Dubai without travel already arranged.",
+      "restriction": "verify",
+      "notes": "5 Nov 2026 at 18:00 local Singapore registration, 18:30 workshop then networking. Hosted by St James's Place.",
+      "url": "https://app.100women.org/pages/event.php?e=4543"
+    },
+    {
+      "id": "femalexfinance-kpmg-amsterdam-dec2026",
+      "firm": "Female x Finance / KPMG",
+      "name": "Deals over Dinner: Meet the Women of KPMG Deals",
+      "type": "M&A / valuation / strategy networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam · VESSEL, Revaleiland 500",
+      "eventDate": "2026-12-02",
+      "deadline": "2026-11-16",
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent for transaction services, M&A advisory, valuation and strategy consulting",
+      "eligibility": "Open application with host approval; 30 seats. Organizer does not explicitly exclude international applicants; in-person attendance required.",
+      "restriction": "verify",
+      "notes": "2 Dec 2026, 18:30–21:30; six professionals from KPMG Transaction Services, Strategy and Corporate Finance & Valuations. Registration deadline 16 Nov 2026.",
+      "url": "https://luma.com/femalex-vuve"
+    },
+    {
+      "id": "femalexfinance-academy-amsterdam-2026",
+      "firm": "Female x Finance / Rabobank / Emendo Capital",
+      "name": "Corporate Finance Academy 2026 — Amsterdam",
+      "type": "M&A case + valuation academy",
+      "theme": "Women in Finance",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam · Female x Finance office, Damrak 89",
+      "eventDate": "2026-11-11",
+      "deadline": "2026-10-16",
+      "status": "closed",
+      "priority": "P3",
+      "fit": "Excellent content, but 2026 applications closed and Dutch fluency required",
+      "eligibility": "Dutch-speaking candidates with prior internship experience; the 2026 registration is closed. Do not assume that being based at a Dubai university qualifies.",
+      "restriction": "likely-ineligible",
+      "notes": "Two-day event 11/18 November 2026 with Rabobank and Emendo Capital. Track organizer's 2027 editions; do not apply to the closed cycle.",
+      "url": "https://luma.com/femalex-x550"
+    },
+    {
+      "id": "femalexfinance-ailab-amsterdam-2026",
+      "firm": "Female x Finance",
+      "name": "The AI Lab — Finance & Consulting",
+      "type": "Paid professional training",
+      "theme": "Women in Finance",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam",
+      "eventDate": "2026-11-27",
+      "deadline": null,
+      "status": "check",
+      "priority": "P3",
+      "fit": "Skills workshop rather than recruiting; low priority given €1,815 ticket",
+      "eligibility": "Finance and consulting professionals; event is ticketed at €1,815, not a free insight programme.",
+      "restriction": "verify",
+      "notes": "27 Nov 2026; one-day AI training. Avoid treating this as an employer recruitment or insight day.",
+      "url": "https://luma.com/femalexfinance"
+    },
+    {
+      "id": "fsr-women-consultancy-days-amsterdam-2027",
+      "firm": "FSR / FAECTOR",
+      "name": "Women Consultancy Days 2027 — Six Leading Consultancies",
+      "type": "Strategy consulting workshops",
+      "theme": "Women in Finance",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam · two-day event with hotel",
+      "eventDate": "2027-01-21",
+      "deadline": "2027-01-10",
+      "status": "open",
+      "priority": "P3",
+      "fit": "Excellent firm access, but Dutch fluency explicitly required",
+      "eligibility": "Women in final bachelor year or master's, any discipline; FLUENCY IN DUTCH REQUIRED. Ineligible unless user is Dutch-fluent.",
+      "restriction": "likely-ineligible",
+      "notes": "21–22 Jan 2027; McKinsey, Bain, BCG, Roland Berger, OC&C and Simon-Kucher. Deadline 10 Jan 2027 at 23:59; CV and transcript.",
+      "url": "https://fsr.nl/events/fsr-x-faector-women-consultancy-days-2027"
+    },
+    {
+      "id": "100wf-fundwomen-2027-watch",
+      "firm": "100 Women in Finance",
+      "name": "FundWomen Event Series — 2027 Watchlist",
+      "type": "Institutional investing / private markets education",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Global · virtual and in-person events",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Strong for alternative investments, institutional investing and private markets exposure",
+      "eligibility": "Event-specific RSVP and membership/guest conditions. No confirmed upcoming event currently on organizer's FundWomen page.",
+      "restriction": "verify",
+      "notes": "Watch for new FundWomen Spotlight and portfolio/institutional allocator sessions. Do not present as an open 2027 application.",
+      "url": "https://100women.org/initiatives/fundwomen/"
     }
   ]
 }

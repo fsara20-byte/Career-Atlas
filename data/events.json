@@ -9,7 +9,7 @@
       "Singapore"
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
-    "sourcePolicy": "Only employer/program-owned pages or credible organizer listings. Do not infer deadlines or overseas eligibility."
+    "sourcePolicy": "Official organizer and employer pages prioritized; unknown eligibility and registration treated as unverified, and future-cycle watchlist never shown as confirmed open."
   },
   "events": [
     {
@@ -49,8 +49,9 @@
       "fit": "Strong",
       "eligibility": "University students across cohorts; registration with CV is selective. Paris attendance required; French-language event.",
       "restriction": "travel",
-      "notes": "Evening event 30 November 2026. Optional team challenge registration already closed on 2 November; main event remains separately available.",
-      "url": "https://careers.bcg.com/global/en/locations/france/bcg-inside"
+      "notes": "30 November 2026, 19:00 at Hôtel InterContinental Paris Le Grand. Upload CV by 25 November. Separate Everest team challenge registration closed 2 November. Invitation selective; on-site, no general international travel funding stated.",
+      "url": "https://careers.bcg.com/global/en/locations/france/bcg-inside",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "women-finance-launchme-2027",
@@ -89,10 +90,11 @@
       "status": "open",
       "priority": "P3",
       "fit": "Good subject fit, likely ineligible",
-      "eligibility": "Application form reportedly requires enrollment in an Asia-Pacific program; studying at the Dubai campus may not qualify. Ask recruiter before applying.",
+      "eligibility": "Hong Kong INSIGHT application asks about enrollment in an Asia-Pacific programme. UOWD Dubai campus is not APAC; do not assume eligibility. Confirm with Jane Street recruiter.",
       "restriction": "likely-ineligible",
       "notes": "3–10 January 2027. Employer asks applicants to select nearest program. Do not misclassify as eligible solely based on parent university in Australia.",
-      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/"
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "jane-street-sp-virtual-2026",
@@ -137,8 +139,9 @@
       "fit": "Strong",
       "eligibility": "Virtual employer event; confirm registration or target-student conditions from the event page.",
       "restriction": "verify",
-      "notes": "17 November 2026 at 18:00 GMT; recruiter guidance and timelines.",
-      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+      "notes": "17 November 2026, 18:00–19:30 US Eastern (ET), not GMT. Official virtual recruiting and offer-timeline session; verify registration link.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "strategy-middle-east-fellowship",
@@ -234,8 +237,9 @@
       "fit": "Excellent academically",
       "eligibility": "Previous edition accepted bachelor's and master's students graduating Sep 2027–Aug 2028, any discipline; students based in Singapore were encouraged, not stated as mandatory.",
       "restriction": "verify",
-      "notes": "2026 edition was 20–21 May; 2027 not announced. APAC candidate FAQ says applications open in January (historical pattern).",
-      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience"
+      "notes": "Official site still shows 20–21 May 2026 and 19 April 2026 deadline. 2027 not announced. Historical Insight Experience application opening month is January, per BlackRock APAC FAQ.",
+      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "blackrock-insight-hk-2027",
@@ -253,8 +257,9 @@
       "fit": "Excellent academically",
       "eligibility": "Previous edition accepted bachelor's and master's students graduating Sep 2027–Aug 2028; overseas enrollment not expressly excluded, local students prioritized.",
       "restriction": "verify",
-      "notes": "2026 edition was 10–11 June; 2027 date/deadline not announced. Two BlackRock virtual Learning Series sessions prioritize applicants.",
-      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience"
+      "notes": "Official site still shows 10–11 June 2026 and 10 May 2026 deadline. 2027 not announced. Historical Insight Experience application opening month is January, per BlackRock APAC FAQ.",
+      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "blackrock-learning-series-apac-2027",
@@ -293,8 +298,9 @@
       "fit": "Excellent if graduating Dec 2027–Jul 2028",
       "eligibility": "Female bachelor's/master's students graduating December 2027–July 2028; all degrees accepted. Check whether Dubai campus enrollment is allowed.",
       "restriction": "verify",
-      "notes": "Three mentorship sessions March–May; no 2027 application deadline visible on official page.",
-      "url": "https://gic.careers/programmes/gic-inspires-women-mentorship-programme/"
+      "notes": "Official programme confirms December 2027–July 2028 graduation window and 3 mentorship sessions March–May. No deadline published; overseas student participation not explicit.",
+      "url": "https://gic.careers/programmes/gic-inspires-women-mentorship-programme/",
+      "lastReviewedAt": "2026-11-05"
     },
     {
       "id": "bcg-amsterdam-grow-2026-27",
@@ -409,6 +415,76 @@
       "restriction": "verify",
       "notes": "Watchlist only, not confirmed 2027 Hong Kong registration.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+    },
+    {
+      "id": "jane-street-women-sp-2026",
+      "firm": "Jane Street",
+      "name": "Strategy & Product at Jane Street — Women+ Information Session",
+      "type": "Recruitment information session",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands"
+      ],
+      "location": "London / DSQ · attendance format not explicit",
+      "eventDate": "2026-11-10",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Relevant for Strategy & Product internship, not 2027 INSIGHT",
+      "eligibility": "Official event says upcoming SP INSIGHT is mainly for 2029 graduates; also covers SP internship for 2028 graduates. Confirm if the event admits international/remote attendees.",
+      "restriction": "verify",
+      "notes": "10 November 2026, 18:00–20:00 GMT. New near-term listing from official Jane Street event directory. This is not evidence of eligibility for the 2029-graduate INSIGHT cohort.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "lastReviewedAt": "2026-11-05"
+    },
+    {
+      "id": "jane-street-get-to-know-sales-trading-2026",
+      "firm": "Jane Street",
+      "name": "Get to Know Sales & Trading — Virtual Session",
+      "type": "Virtual information session",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Virtual",
+      "eventDate": "2026-11-11",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong capital markets and institutional client relevance",
+      "eligibility": "Student-oriented sales and trading internship information session; no specific graduation or APAC enrollment criteria on public event summary. Confirm registration and time-zone access.",
+      "restriction": "verify",
+      "notes": "11 November 2026, 17:30–18:30 GMT. Employer-hosted virtual event.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "lastReviewedAt": "2026-11-05"
+    },
+    {
+      "id": "jane-street-get-to-know-sales-trading-us-2026",
+      "firm": "Jane Street",
+      "name": "Get to Know Sales & Trading — Virtual Info Session",
+      "type": "Virtual information session",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Virtual",
+      "eventDate": "2026-11-12",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong capital markets relevance",
+      "eligibility": "Official listing says virtual session for students interested in sales & trading internship; no region/graduation eligibility stated in event excerpt.",
+      "restriction": "verify",
+      "notes": "12 November 2026, 18:00–19:30 US Eastern (ET). Confirm whether duplicate of Nov 11 London-focused session.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "lastReviewedAt": "2026-11-05"
     }
   ]
 }

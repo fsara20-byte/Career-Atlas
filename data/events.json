@@ -485,6 +485,83 @@
       "notes": "12 November 2026, 18:00–19:30 US Eastern (ET). Confirm whether duplicate of Nov 11 London-focused session.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
       "lastReviewedAt": "2026-11-05"
+    },
+    {
+      "id": "goldman-apac-academy-sg-2027",
+      "firm": "Goldman Sachs",
+      "name": "APAC Business Academy — Singapore (next cycle)",
+      "type": "Banking / markets insight academy",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore office",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "The 2026 edition targeted penultimate-year bachelor's and master's students graduating August 2027–July 2028; check whether the next cycle accepts overseas campuses.",
+      "restriction": "verify",
+      "notes": "2026 event covered Investment Banking, Asset Management, Private Wealth, and FICC/Equities; selected students could be fast-tracked for internships. The 2027 program is not announced. Prior event was hosted/advertised through NUS.",
+      "url": "https://www.nus.edu.sg/cfg/events/details/9ffe6e698235aabf65393efe1cf4e2f2"
+    },
+    {
+      "id": "jpm-morning-morgan-hk-sg-2027",
+      "firm": "JPMorganChase",
+      "name": "Morning @ Morgan — Asset & Wealth Management (next cycle)",
+      "type": "Investing / wealth networking",
+      "regions": [
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Hong Kong and Singapore offices",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "The 2026 edition targeted all academic disciplines, graduating Dec 2027–Jun 2028. Overseas-university and 2027 event eligibility need confirmation.",
+      "restriction": "verify",
+      "notes": "2026 events were 14 April (Hong Kong) and 20 April (Singapore); previous deadline 13 April. 2027 dates not announced; student registration was advertised through NUS.",
+      "url": "https://nus.edu.sg/cfg/events/details/9b4ea296d51c639f5db96206d61523d4"
+    },
+    {
+      "id": "nomura-women-markets-sg-2027",
+      "firm": "Nomura",
+      "name": "Women in Markets — Singapore (next cycle)",
+      "type": "Markets networking",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Nomura Singapore office",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P2",
+      "fit": "Strong",
+      "eligibility": "2026 event welcomed female bachelor's and master's students graduating in 2027, 2028 or 2029; outside-university registrations must be checked.",
+      "restriction": "verify",
+      "notes": "Meeting sales, trading, structuring and research teams. 2026 event was 11 August; next edition unannounced. University-hosted registration may be restricted to institution students.",
+      "url": "https://www.nus.edu.sg/cfg/events/details/81d7cb7506cbda1fba0b7894dd8a67d1"
+    },
+    {
+      "id": "hsbc-women-finance-sg-2027",
+      "firm": "HSBC",
+      "name": "Women in Finance — Singapore (next cycle)",
+      "type": "Investment banking networking",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "HSBC Singapore office",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "The 2026 edition was open to all academic disciplines, graduating in 2027 or 2028; verify whether overseas university students can attend future editions.",
+      "restriction": "verify",
+      "notes": "2026 event was 26 March (deadline 19 March). Event covered investment banking with team panels; 2027 date and registration not announced.",
+      "url": "https://www.nus.edu.sg/cfg/events/details/4003eedb63ef77982eda683710d817b7"
     }
   ]
 }

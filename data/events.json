@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "lastReviewedAt": "2026-11-05",
+    "coverage": [
+      "Hong Kong",
+      "UAE",
+      "France",
+      "Netherlands",
+      "Singapore"
+    ],
+    "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
+    "sourcePolicy": "Only employer/program-owned pages or credible organizer listings. Do not infer deadlines or overseas eligibility."
+  },
+  "events": [
+    {
+      "id": "bain-lead-inspire-2026",
+      "firm": "Bain & Company",
+      "name": "Lead to Inspire Masterclass",
+      "type": "Mentorship + workshops",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands"
+      ],
+      "location": "EMEA programme · Dubai, Abu Dhabi, Paris, Amsterdam offices",
+      "eventDate": null,
+      "deadline": "2026-11-22",
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Bachelor's and master's students graduating in 2027 or 2028 and studying in Europe or the Middle East. UOWD enrollment meets the geographical wording.",
+      "restriction": "none",
+      "notes": "CV, university transcript, short motivation answer and digital assessment. Select preferred Bain office.",
+      "url": "https://www.consultancy.nl/events/12512/bain-company/2026-emea-lead-to-inspire-masterclass-for-college-or-university-students-applications"
+    },
+    {
+      "id": "bcg-inside-paris-2026",
+      "firm": "Boston Consulting Group",
+      "name": "BCG Inside — Paris",
+      "type": "Networking + case exposure",
+      "regions": [
+        "France"
+      ],
+      "location": "Paris, France",
+      "eventDate": "2026-11-30",
+      "deadline": "2026-11-25",
+      "status": "open",
+      "priority": "P1",
+      "fit": "Strong",
+      "eligibility": "University students across cohorts; registration with CV is selective. Paris attendance required; French-language event.",
+      "restriction": "travel",
+      "notes": "Evening event 30 November 2026. Optional team challenge registration already closed on 2 November; main event remains separately available.",
+      "url": "https://careers.bcg.com/global/en/locations/france/bcg-inside"
+    },
+    {
+      "id": "women-finance-launchme-2027",
+      "firm": "100 Women in Finance",
+      "name": "LaunchMe Global Mentorship — 2027",
+      "type": "Mentorship",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Global · virtual",
+      "eventDate": null,
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Open to postgraduate students or professionals with 0–5 years of experience who join 100 Women in Finance.",
+      "restriction": "none",
+      "notes": "Applications open each September; 2027 mentorship generally runs January–June. Apply through the membership/Qooper portal; not a recruiting placement programme.",
+      "url": "https://100women.org/launchme/"
+    },
+    {
+      "id": "jane-street-hk-insight-2027",
+      "firm": "Jane Street",
+      "name": "INSIGHT — Hong Kong (Strategy & Product)",
+      "type": "Insight week",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong",
+      "eventDate": "2027-01-03",
+      "deadline": "2026-11-08",
+      "status": "open",
+      "priority": "P3",
+      "fit": "Good subject fit, likely ineligible",
+      "eligibility": "Application form reportedly requires enrollment in an Asia-Pacific program; studying at the Dubai campus may not qualify. Ask recruiter before applying.",
+      "restriction": "likely-ineligible",
+      "notes": "3–10 January 2027. Employer asks applicants to select nearest program. Do not misclassify as eligible solely based on parent university in Australia.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/"
+    },
+    {
+      "id": "jane-street-sp-virtual-2026",
+      "firm": "Jane Street",
+      "name": "Get to Know Strategy & Product — virtual",
+      "type": "Virtual information session",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Virtual · hosted from London",
+      "eventDate": "2026-11-23",
+      "deadline": null,
+      "status": "check",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "The event listing describes a virtual information session about Strategy & Product internships; no explicit regional enrollment condition is listed there.",
+      "restriction": "verify",
+      "notes": "23 November 2026 at 17:30 GMT. Confirm registration and whether overseas attendees may join.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+    },
+    {
+      "id": "jane-street-streetology-virtual-2026",
+      "firm": "Jane Street",
+      "name": "Streetology — recruiting effectively",
+      "type": "Virtual information session",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Virtual",
+      "eventDate": "2026-11-17",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong",
+      "eligibility": "Virtual employer event; confirm registration or target-student conditions from the event page.",
+      "restriction": "verify",
+      "notes": "17 November 2026 at 18:00 GMT; recruiter guidance and timelines.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+    },
+    {
+      "id": "strategy-middle-east-fellowship",
+      "firm": "Strategy&",
+      "name": "Middle East Women's Fellowship",
+      "type": "Fellowship + workshop",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai office visit + virtual",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Check next-cycle criteria and entry requirements once applications reopen.",
+      "restriction": "verify",
+      "notes": "Workshops, consultant networking, Dubai visit and first-round interview; official website says applications currently closed.",
+      "url": "https://www.strategyand.pwc.com/m1/en/careers/women-fellowship.html"
+    },
+    {
+      "id": "oliver-wyman-mentorship-me-2027",
+      "firm": "Oliver Wyman",
+      "name": "International Mentorship — Middle East",
+      "type": "Mentorship",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Middle East · virtual",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Previous edition targeted penultimate- and final-year students seeking internships or full-time roles in the Middle East.",
+      "restriction": "verify",
+      "notes": "Previous deadline 22 September 2026; next cycle not announced. Offers mentor pairing, workshops and interview preparation.",
+      "url": "https://www.oliverwyman.com/careers/recruiting-events/international-mentorship-program/middle-east.html"
+    },
+    {
+      "id": "bcg-aspire-2027",
+      "firm": "Boston Consulting Group",
+      "name": "ASPIRE Women's Workshop — 2027",
+      "type": "Consulting workshop",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands"
+      ],
+      "location": "Barcelona event · apply through participating country office",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Undergraduate and master's students accepted; country applications differ. Middle East and France have participated before. Netherlands office historically required Dutch.",
+      "restriction": "verify",
+      "notes": "French university page anticipates May 2027 workshop; official global page still displays 2026 details. Check 2027 office applications before treating any deadline as confirmed.",
+      "url": "https://careers.bcg.com/global/en/featured-events/aspire-womens-workshop"
+    },
+    {
+      "id": "bcg-women-paris-2027",
+      "firm": "Boston Consulting Group",
+      "name": "BCG Women — Paris",
+      "type": "Networking + workshops",
+      "regions": [
+        "France"
+      ],
+      "location": "Paris, France",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Strong",
+      "eligibility": "University students and recent graduates; local office admission criteria will apply. French-speaking background helpful.",
+      "restriction": "verify",
+      "notes": "BCG university calendar lists March 2027; registration expected ~6 weeks before. Confirm if external Dubai-based students can register.",
+      "url": "https://careers.bcg.com/global/en/on-campus/emlyon"
+    },
+    {
+      "id": "blackrock-insight-sg-2027",
+      "firm": "BlackRock",
+      "name": "APAC Insight Experience — Singapore",
+      "type": "Insight days",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent academically",
+      "eligibility": "Previous edition accepted bachelor's and master's students graduating Sep 2027–Aug 2028, any discipline; students based in Singapore were encouraged, not stated as mandatory.",
+      "restriction": "verify",
+      "notes": "2026 edition was 20–21 May; 2027 not announced. APAC candidate FAQ says applications open in January (historical pattern).",
+      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience"
+    },
+    {
+      "id": "blackrock-insight-hk-2027",
+      "firm": "BlackRock",
+      "name": "APAC Insight Experience — Hong Kong",
+      "type": "Insight days",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent academically",
+      "eligibility": "Previous edition accepted bachelor's and master's students graduating Sep 2027–Aug 2028; overseas enrollment not expressly excluded, local students prioritized.",
+      "restriction": "verify",
+      "notes": "2026 edition was 10–11 June; 2027 date/deadline not announced. Two BlackRock virtual Learning Series sessions prioritize applicants.",
+      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-experience"
+    },
+    {
+      "id": "blackrock-learning-series-apac-2027",
+      "firm": "BlackRock",
+      "name": "APAC Insight Learning Series — virtual",
+      "type": "Virtual information series",
+      "regions": [
+        "Singapore",
+        "Hong Kong",
+        "UAE"
+      ],
+      "location": "Virtual APAC sessions",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent",
+      "eligibility": "Open to bachelor's and master's students across academic backgrounds; confirm 2027 overseas attendance.",
+      "restriction": "verify",
+      "notes": "2026 virtual sessions ran March–April; 2027 not announced. Attending 2 sessions improved Insight Experience priority in 2026.",
+      "url": "https://careers.blackrock.com/students-and-graduates-apac-insight-learning-series"
+    },
+    {
+      "id": "gic-inspires-2027",
+      "firm": "GIC",
+      "name": "INSPIRES — Women's Mentorship",
+      "type": "Investment mentorship",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore · programme format to confirm",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P1",
+      "fit": "Excellent if graduating Dec 2027–Jul 2028",
+      "eligibility": "Female bachelor's/master's students graduating December 2027–July 2028; all degrees accepted. Check whether Dubai campus enrollment is allowed.",
+      "restriction": "verify",
+      "notes": "Three mentorship sessions March–May; no 2027 application deadline visible on official page.",
+      "url": "https://gic.careers/programmes/gic-inspires-women-mentorship-programme/"
+    },
+    {
+      "id": "bcg-amsterdam-grow-2026-27",
+      "firm": "Boston Consulting Group",
+      "name": "Grow with BCG — Women's Mentorship",
+      "type": "Mentorship",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam, Netherlands",
+      "eventDate": "2026-12-08",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong subject fit",
+      "eligibility": "Student-focused Amsterdam mentorship; check Netherlands university/residency, Dutch-language and attendance rules.",
+      "restriction": "verify",
+      "notes": "Official Dutch page lists programme running 8 Dec 2026–10 Jun 2027 with registration link.",
+      "url": "https://careers.bcg.com/global/en/locations/the-netherlands"
+    },
+    {
+      "id": "bcg-amsterdam-diversity-2027",
+      "firm": "Boston Consulting Group",
+      "name": "Diversity@BCG Networking Event",
+      "type": "Networking",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam, Netherlands",
+      "eventDate": "2027-02-11",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong",
+      "eligibility": "Entry and overseas-student conditions not specified on summary page; verify before travel.",
+      "restriction": "verify",
+      "notes": "11 February 2027, 17:00–21:00. Amsterdam office.",
+      "url": "https://careers.bcg.com/global/en/locations/the-netherlands"
+    },
+    {
+      "id": "bcg-amsterdam-growth-2027",
+      "firm": "Boston Consulting Group",
+      "name": "Women@BCG — Growth Driven",
+      "type": "Networking",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam, Netherlands",
+      "eventDate": "2027-05-27",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Strong",
+      "eligibility": "Open invitation on Netherlands event listing; admission and external-student rules need checking.",
+      "restriction": "verify",
+      "notes": "27 May 2027, 17:30–21:00; Amsterdam office.",
+      "url": "https://careers.bcg.com/global/en/locations/the-netherlands"
+    },
+    {
+      "id": "imc-women-trading-amsterdam",
+      "firm": "IMC Trading",
+      "name": "Women in Trading & Technology",
+      "type": "Trading insight",
+      "regions": [
+        "Netherlands"
+      ],
+      "location": "Amsterdam, Netherlands",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P2",
+      "fit": "Moderate",
+      "eligibility": "Finance and economics degrees are listed among relevant subjects. Verify study-location restriction, date and quantitative selection criteria.",
+      "restriction": "verify",
+      "notes": "Two-day event; IMC says costs are covered. No verified 2027 dates.",
+      "url": "https://www.imc.com/eu/careers/students-graduates/programs/womens-talent"
+    },
+    {
+      "id": "jane-street-preview-hk",
+      "firm": "Jane Street",
+      "name": "Preview — future Hong Kong dates",
+      "type": "Discovery day",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong · location/date to confirm",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P2",
+      "fit": "Good",
+      "eligibility": "Programme overview explicitly mentions master's students; confirm Hong Kong offering and Asia-Pacific enrollment restrictions.",
+      "restriction": "verify",
+      "notes": "A watchlist entry only, not a confirmed Hong Kong event.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+    },
+    {
+      "id": "jane-street-see-hk",
+      "firm": "Jane Street",
+      "name": "SEE — future Hong Kong dates",
+      "type": "Trading/strategy workshop",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Hong Kong · location/date to confirm",
+      "eventDate": null,
+      "deadline": null,
+      "status": "watch",
+      "priority": "P3",
+      "fit": "Moderate; eligibility unclear",
+      "eligibility": "See program page for enrollment and graduation criteria; no 2027 Hong Kong session confirmed.",
+      "restriction": "verify",
+      "notes": "Watchlist only, not confirmed 2027 Hong Kong registration.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/"
+    }
+  ]
+}

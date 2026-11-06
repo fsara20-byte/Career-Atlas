@@ -9,7 +9,7 @@
       "Singapore"
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
-    "sourcePolicy": "Official organizer and employer pages prioritized; unknown eligibility and registration treated as unverified, and future-cycle watchlist never shown as confirmed open.",
+    "sourcePolicy": "Program pages checked individually; RSVP closed, waitlist, sold-out and registration conditions override generic event descriptions. Do not treat an event as open just because it is in the future.",
     "lastSourceAudit": "2026-11-06 official Jane Street programme/events pages, 100 Women in Finance calendar/event detail, Female x Finance official Luma calendar and KPMG Deals event registration. Other entries not fully reverified on this date.",
     "organizersMonitored": [
       "100 Women in Finance",
@@ -618,13 +618,16 @@
       "location": "Abu Dhabi · Louvre Abu Dhabi",
       "eventDate": "2026-11-12",
       "deadline": null,
-      "status": "open",
+      "status": "closed",
       "priority": "P1",
       "fit": "Strong professional networking because Winton Capital Management hosts",
       "eligibility": "100WF members and guests subject to organizer guest policy; advance RSVP essential. Confirm capacity.",
       "restriction": "verify",
-      "notes": "12 Nov 2026, registration 17:30, private tour 17:45 and networking reception afterwards. Hosted by Winton Capital Management. No walk-ins.",
-      "url": "https://app.100women.org/pages/event.php?e=4559"
+      "notes": "As of 6 Nov 2026, official 100WF page explicitly states 'This event is now closed for RSVPs'. No public waitlist offered and no walk-ins. Private tour 17:45–20:00 with 17:30 registration. Could contact 100WF Middle East committee to ask about cancellations, but no allocation guaranteed.",
+      "url": "https://app.100women.org/pages/event.php?e=4559",
+      "closedReason": "RSVP closed",
+      "rsvpStatus": "Closed — organizer no longer accepting RSVPs",
+      "lastVerifiedAt": "2026-11-06"
     },
     {
       "id": "100wf-paris-early-careers-2026",

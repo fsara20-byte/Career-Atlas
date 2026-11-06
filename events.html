@@ -43,7 +43,7 @@ const save=()=>{try{localStorage.setItem('career_atlas_events_v1',JSON.stringify
 const my=e=>(progress[e.id]||{}).status||'Not started';
 function liveStatus(e){if(e.deadline&&e.deadline<today)return 'closed';if(e.eventDate&&e.eventDate<today)return 'closed';return e.status||'watch'}
 function score(e){let s=liveStatus(e);let x=s==='open'?0:s==='check'?1:s==='watch'?2:3;let due=e.deadline&&s==='open'?Math.max(0,remain(e.deadline)):99999;return x*100000+due*10+(e.priority==='P1'?0:e.priority==='P2'?1:2)}
-function statusTag(e){let s=liveStatus(e);let label={open:'Applications open',check:'Check registration',watch:'Watch next cycle',closed:'Past / closed'}[s]||s;return '<span class="badge '+(s==='open'?'good':s==='closed'?'closed':'')+'">'+label+'</span>'}
+function statusTag(e){let s=liveStatus(e);let label=e.closedReason||({open:'Applications open',check:'Check registration',watch:'Watch next cycle',closed:(e.eventDate&&e.eventDate>=today?'Registration closed':'Past / closed')}[s]||s);return '<span class="badge '+(s==='open'?'good':s==='closed'?'closed':'')+'">'+label+'</span>'}
 function card(e){
 const days=e.deadline?remain(e.deadline):null;
 const urg=liveStatus(e)==='open'&&days!==null&&days>=0&&days<=21;
@@ -52,7 +52,7 @@ const p=progress[e.id]||{};
 return '<article class="event '+(e.priority==='P1'?'featured':'')+'"><div class="badges">'+statusTag(e)+'<span class="badge priority">'+esc(e.priority)+'</span>'+eligibility+(urg?'<span class="badge urgent">'+days+' days to deadline</span>':'')+'</div>'+
 '<div><div class="firm">'+esc(e.firm)+'</div><h3>'+esc(e.name)+'</h3></div>'+
 '<div class="meta"><span>'+esc(e.type)+'</span><span>'+esc(e.location)+'</span></div>'+
-'<div class="meta">'+(e.deadline?'<span class="deadline">Application deadline: '+fmt(e.deadline)+'</span>':'<span>Deadline not announced</span>')+(e.eventDate?'<span>Starts: '+fmt(e.eventDate)+'</span>':'')+'</div>'+
+'<div class="meta">'+(e.rsvpStatus?'<span class="deadline">'+esc(e.rsvpStatus)+'</span>':(e.deadline?'<span class="deadline">Application deadline: '+fmt(e.deadline)+'</span>':(liveStatus(e)==='closed'?'<span>Registration closed</span>':'<span>Deadline not announced</span>')))+(e.eventDate?'<span>Starts: '+fmt(e.eventDate)+'</span>':'')+'</div>'+
 '<p class="details"><b>Fit: '+esc(e.fit)+'</b>. '+esc(e.eligibility)+'</p>'+
 '<p class="details">'+esc(e.notes)+'</p>'+
 '<div class="event-bottom"><div class="links"><a class="visit" href="'+href(e.url)+'" target="_blank" rel="noopener noreferrer">Official programme page ↗</a><span class="saveinfo">'+esc((e.regions||[]).join(' · '))+'</span></div>'+

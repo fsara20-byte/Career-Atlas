@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-05",
+    "lastReviewedAt": "2026-11-06",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Official organizer and employer pages prioritized; unknown eligibility and registration treated as unverified, and future-cycle watchlist never shown as confirmed open.",
-    "lastSourceAudit": "Official 100 Women in Finance event pages, Female x Finance official Luma listings and FSR organizer pages checked 2026-11-05",
+    "lastSourceAudit": "2026-11-06 official Jane Street programme/events pages, 100 Women in Finance calendar/event detail, Female x Finance official Luma calendar and KPMG Deals event registration. Other entries not fully reverified on this date.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -105,7 +105,7 @@
       "fit": "Good subject fit, likely ineligible",
       "eligibility": "Hong Kong INSIGHT application asks about enrollment in an Asia-Pacific programme. UOWD Dubai campus is not APAC; do not assume eligibility. Confirm with Jane Street recruiter.",
       "restriction": "likely-ineligible",
-      "notes": "3–10 January 2027. Employer asks applicants to select nearest program. Do not misclassify as eligible solely based on parent university in Australia.",
+      "notes": "3–10 January 2027. Employer asks applicants to select nearest program. Do not misclassify as eligible solely based on parent university in Australia. Official page confirms Jane Street covers travel, housing and meals; overseas APAC-campus requirement needs direct confirmation.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/",
       "lastReviewedAt": "2026-11-05"
     },
@@ -454,7 +454,7 @@
       "fit": "Relevant for Strategy & Product internship, not 2027 INSIGHT",
       "eligibility": "Official event says upcoming SP INSIGHT is mainly for 2029 graduates; also covers SP internship for 2028 graduates. Confirm if the event admits international/remote attendees.",
       "restriction": "verify",
-      "notes": "10 November 2026, 18:00–20:00 GMT. New near-term listing from official Jane Street event directory. This is not evidence of eligibility for the 2029-graduate INSIGHT cohort.",
+      "notes": "10 November 2026, 18:00–20:00 GMT. New near-term listing from official Jane Street event directory. This is not evidence of eligibility for the 2029-graduate INSIGHT cohort. The official event focuses on 2029 SP INSIGHT and also covers 2028 SP internship; user may be eligible for latter if graduating early 2028.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
       "lastReviewedAt": "2026-11-05",
       "theme": "Women in Finance"
@@ -709,7 +709,7 @@
     {
       "id": "100wf-ai-agents-webinar-2026",
       "firm": "100 Women in Finance",
-      "name": "AI Academy: Agents in the Wild — Finance Risk & Governance",
+      "name": "AI Academy: Agents in the Wild — Recent AI Breaches",
       "type": "Virtual finance webinar",
       "theme": "Women in Finance",
       "regions": [
@@ -727,8 +727,8 @@
       "fit": "Good fintech and risk exposure; relevant to prior working capital fintech background",
       "eligibility": "RSVP required; 100WF member or approved guest. Virtual access allows participation from Dubai; verify registration availability.",
       "restriction": "verify",
-      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Hosted by Nasdaq, no technical background required.",
-      "url": "https://app.100women.org/pages/event.php?e=4550"
+      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov.",
+      "url": "https://app.100women.org/pages/event.php?e=4550&inc=A&kw=&loc=0&p=3&yr=2026"
     },
     {
       "id": "100wf-singapore-eq-2026",
@@ -767,7 +767,7 @@
       "fit": "Excellent for transaction services, M&A advisory, valuation and strategy consulting",
       "eligibility": "Open application with host approval; 30 seats. Organizer does not explicitly exclude international applicants; in-person attendance required.",
       "restriction": "verify",
-      "notes": "2 Dec 2026, 18:30–21:30; six professionals from KPMG Transaction Services, Strategy and Corporate Finance & Valuations. Registration deadline 16 Nov 2026.",
+      "notes": "2 Dec 2026, 18:30–21:30; six professionals from KPMG Transaction Services, Strategy and Corporate Finance & Valuations. Registration deadline 16 Nov 2026. Official registration requires host approval and closes November 16. Do not book travel without an approved place.",
       "url": "https://luma.com/femalex-vuve"
     },
     {
@@ -853,6 +853,28 @@
       "restriction": "verify",
       "notes": "Watch for new FundWomen Spotlight and portfolio/institutional allocator sessions. Do not present as an open 2027 application.",
       "url": "https://100women.org/initiatives/fundwomen/"
+    },
+    {
+      "id": "jane-street-london-insight-2027",
+      "firm": "Jane Street",
+      "name": "INSIGHT London — Strategy & Product",
+      "type": "Women's insight week",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands"
+      ],
+      "location": "London, United Kingdom · closest EMEA programme",
+      "eventDate": "2027-04-05",
+      "deadline": "2027-01-03",
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent subject fit for finance master's and financing background; graduation/year eligibility needs verification",
+      "eligibility": "For self-identifying women, transgender or gender-expansive students. Jane Street says apply only to location nearest you; London is EMEA option for Dubai. Verify exact degree/graduation eligibility before applying.",
+      "restriction": "verify",
+      "notes": "5–10 April 2027, deadline 3 January 2027 at 23:59 GMT. Strategy & Product includes treasury, funding, financing, operations and regulatory projects. Travel, housing and meals covered by Jane Street. Confirm eligibility for a current Dubai-based master's student.",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/"
     }
   ]
 }

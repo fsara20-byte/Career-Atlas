@@ -9,8 +9,8 @@
       "Singapore"
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
-    "sourcePolicy": "Program pages checked individually; RSVP closed, waitlist, sold-out and registration conditions override generic event descriptions. Do not treat an event as open just because it is in the future.",
-    "lastSourceAudit": "2026-11-06 official Jane Street programme/events pages, 100 Women in Finance calendar/event detail, Female x Finance official Luma calendar and KPMG Deals event registration. Other entries not fully reverified on this date.",
+    "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
+    "lastSourceAudit": "2026-11-06 official Dubai/Singapore organizer pages (CFA Societies, Bloomberg Live, Singapore FinTech Festival, DIFC Academy, UAE Financial Markets Association, BAFT, Collaborative WIM).",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -878,6 +878,240 @@
       "restriction": "verify",
       "notes": "5–10 April 2027, deadline 3 January 2027 at 23:59 GMT. Strategy & Product includes treasury, funding, financing, operations and regulatory projects. Travel, housing and meals covered by Jane Street. Confirm eligibility for a current Dubai-based master's student.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/insight/"
+    },
+    {
+      "id": "bloomberg-invest-dubai-nov2026",
+      "firm": "Bloomberg Live",
+      "name": "Bloomberg Invest Dubai — Family Offices and Future of Wealth",
+      "type": "Invitation-only investing conference",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · One&Only Royal Mirage",
+      "eventDate": "2026-11-12",
+      "deadline": null,
+      "status": "check",
+      "priority": "P1",
+      "fit": "Strong; PIMCO, Investcorp and family-office exposure",
+      "eligibility": "Request-to-attend process; organizer selects delegates; not a student recruitment program.",
+      "restriction": "verify",
+      "notes": "Nov 12 2026, 08:15–14:00. Featured speakers include senior representatives of PIMCO and Investcorp Capital. Attendance not guaranteed; check approval before making arrangements.",
+      "url": "https://events.bloomberglive.com/event/InvestDubai/summary"
+    },
+    {
+      "id": "gcc-treasury-dubai-nov2026",
+      "firm": "UAE Financial Markets Association",
+      "name": "6th GCC Financial Markets & Treasury Conference",
+      "type": "Capital markets and treasury networking",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · Kempinski The Boulevard",
+      "eventDate": "2026-11-19",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Strong for structured finance, capital markets and regional bank networking",
+      "eligibility": "Open paid registration with USD 950 non-member fee and USD 500 eligible financial markets association member rate (organizer page). No student discount verified.",
+      "restriction": "verify",
+      "notes": "19–20 Nov 2026. Investment, treasury, derivatives and regional financial markets; audience skews senior. Fee may outweigh networking value; confirm budget.",
+      "url": "https://www.gccfmt.com/"
+    },
+    {
+      "id": "fx-structured-dubai-nov2026",
+      "firm": "UAE Financial Markets Association",
+      "name": "FX Structured Products Masterclass with Uwe Wystup",
+      "type": "FX derivatives masterclass",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · 6th GCC FMT Conference",
+      "eventDate": "2026-11-18",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Relevant derivatives and markets skills, less directly aligned with M&A",
+      "eligibility": "Standalone registration advertised USD 600, or USD 200 as add-on for registered conference delegates.",
+      "restriction": "none",
+      "notes": "18 Nov 2026, 09:00–15:00. FX structured products, options, risk reversals, vol smiles, risk management. No special academic rate confirmed.",
+      "url": "https://www.gccfmt.com/"
+    },
+    {
+      "id": "difc-fundamentals-nov2026",
+      "firm": "DIFC Academy / Fund Academy",
+      "name": "Know the FUNDamentals — Investment Fund Workshop",
+      "type": "Funds and asset management bootcamp",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · DIFC Academy",
+      "eventDate": "2026-11-23",
+      "deadline": null,
+      "status": "check",
+      "priority": "P2",
+      "fit": "Relevant to fund operations and investment-industry transition; expensive",
+      "eligibility": "Professional training open to people entering the funds industry. Official price AED 12,000. Date listings CONFLICT: individual page says Nov 23–25, landing page Nov 24–26. Confirm directly before payment.",
+      "restriction": "verify",
+      "notes": "3 days; fund structures, regulation, NAV, pricing and reporting. No direct internship/recruitment pathway; dates need reconfirmation with academy@difc.ae.",
+      "url": "https://www.academy.difc.ae/school-of-finance/know-fundamentals"
+    },
+    {
+      "id": "difc-georgetown-ma-nov2026",
+      "firm": "DIFC Academy / Georgetown University",
+      "name": "Executive Programme in Mergers & Acquisitions",
+      "type": "Executive M&A course / case workshop",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · DIFC Academy",
+      "eventDate": "2026-11-25",
+      "deadline": null,
+      "status": "open",
+      "priority": "P3",
+      "fit": "Excellent subject fit, low cost-efficiency for a master's student",
+      "eligibility": "Executive program for corporate leaders and finance professionals, fee AED 21,484.12 (USD 5,850) before advertised early-bird discount. Program states dates subject to confirmation.",
+      "restriction": "verify",
+      "notes": "25–27 Nov 2026. M&A deal cycle, valuation, deal structuring and negotiation; not student-targeted and costly.",
+      "url": "https://academy.difc.ae/school-of-finance/executive-programme-mergers-acquisitions-m"
+    },
+    {
+      "id": "mena-investment-congress-dubai-nov2026",
+      "firm": "CFA Society Emirates / MEA Finance",
+      "name": "MENA Investment Congress 2026",
+      "type": "Investment conference",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai · Ritz-Carlton JBR",
+      "eventDate": "2026-11-24",
+      "deadline": null,
+      "status": "check",
+      "priority": "P1",
+      "fit": "Excellent thematic fit: investment, private markets, capital allocation",
+      "eligibility": "Organizer event site offers ticket registration, but CFA Society Emirates calendar labels its event ON HOLD. Do not assume registration works; confirm with organizer.",
+      "restriction": "verify",
+      "notes": "24 Nov 2026 conference agenda includes CIO allocation and private equity/private credit panels; external event directory mentions 23–24 Nov but main conference on 24th. Status conflicting.",
+      "url": "https://mea-finance.com/menainvestmentcongress/2026/"
+    },
+    {
+      "id": "baft-mena-forum-dubai-jan2027",
+      "firm": "BAFT — Bankers Association for Finance and Trade",
+      "name": "2027 MENA Forum",
+      "type": "Transaction banking conference",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Dubai",
+      "eventDate": "2027-01-26",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good for corporate banking and trade finance; less directly for PE/IB",
+      "eligibility": "Conference registration advertised; pricing and attendance rules vary. No student-targeted intake specified.",
+      "restriction": "verify",
+      "notes": "26–27 Jan 2027, capital flows, banking partnerships and trade finance in MENA. Professional event, not job insight program.",
+      "url": "https://baft.org/event/2027-mena-forum/"
+    },
+    {
+      "id": "sff-pay-it-forward-sg-nov2026",
+      "firm": "Singapore FinTech Festival / MAS / GFTN",
+      "name": "Pay It Forward — Business, Finance & Strategy Mentorship",
+      "type": "One-to-one mentorship / finance networking",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore EXPO · Hall 3 PIF Lounge",
+      "eventDate": "2026-11-18",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent for fintech/finance/strategy networking; in-person travel needed",
+      "eligibility": "Register for festival pass, indicate mentorship interest and obtain acceptance for a 15-minute mentor meeting. Trade Visitor and Academic passes listed as complimentary with access to session, subject to pass rules.",
+      "restriction": "verify",
+      "notes": "18–20 Nov 2026, 12:30–16:30. A dedicated Business Finance & Strategy mentor track is available. Mentor matching is selective; pass alone does not guarantee a mentor.",
+      "url": "https://www.fintechfestival.sg/pay-it-forward"
+    },
+    {
+      "id": "cfasgs-damodaran-valuation-nov2026",
+      "firm": "CFA Society Singapore",
+      "name": "2-Day Business Valuation Masterclass — Aswath Damodaran",
+      "type": "Valuation masterclass",
+      "regions": [
+        "Singapore",
+        "UAE"
+      ],
+      "location": "Singapore · hybrid/online participation listed",
+      "eventDate": "2026-11-12",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Excellent for IB, valuation, M&A and equity research",
+      "eligibility": "Society advertises open registration for hybrid learning, with fees. Check live pricing, online access and final seat availability.",
+      "restriction": "verify",
+      "notes": "12–13 Nov 2026, 09:00–17:00 Singapore time. Damodaran teaches fundamental valuation framework. Online attendance from Dubai may be possible; confirm during registration.",
+      "url": "https://cfasocietysingapore.org/"
+    },
+    {
+      "id": "cfasgs-digital-assets-nov2026",
+      "firm": "CFA Society Singapore",
+      "name": "Digital Assets Symposium 2026 — Investment to Infrastructure",
+      "type": "Investment and tokenization symposium",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore",
+      "eventDate": "2026-11-26",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Strong for fintech/market infrastructure/alternative investments",
+      "eligibility": "Society lists public registration; check fee and eligibility on linked form.",
+      "restriction": "verify",
+      "notes": "26 Nov 2026, 09:30–12:30 Singapore time. Investment strategy, tokenization and market infrastructure with Caladan and Marketnode.",
+      "url": "https://cfasocietysingapore.org/"
+    },
+    {
+      "id": "cfasgs-sustainability-nov2026",
+      "firm": "CFA Society Singapore",
+      "name": "Sustainability Essentials: Risk & Client Engagement",
+      "type": "Sustainable finance professional workshop",
+      "regions": [
+        "Singapore"
+      ],
+      "location": "Singapore · CFA Society office",
+      "eventDate": "2026-11-17",
+      "deadline": null,
+      "status": "open",
+      "priority": "P3",
+      "fit": "Moderate: sustainable finance and credit risk, not direct IB recruiting",
+      "eligibility": "Public course registration advertised; confirm cost and seat availability.",
+      "restriction": "verify",
+      "notes": "17–18 Nov 2026, 09:00–18:00. ESG risk, sustainable financing and client discussions.",
+      "url": "https://cfasocietysingapore.org/"
+    },
+    {
+      "id": "cwim-global-virtual-summit-nov2026",
+      "firm": "Collaborative Women in Investment Management / CFA Societies",
+      "name": "4th Annual Collaborative WIM Global Summit",
+      "type": "Women's finance professional virtual summit",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE",
+        "Singapore",
+        "Hong Kong",
+        "France",
+        "Netherlands"
+      ],
+      "location": "Virtual · cohosted by CFA Society Singapore and others",
+      "eventDate": "2026-11-19",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Strong investment and women's leadership networking; complimentary virtual",
+      "eligibility": "Public Zoom registration offered to join live or receive replay; not limited to Singapore residents.",
+      "restriction": "none",
+      "notes": "19 Nov 2026, 12:00–16:30 ET (21:00–01:30 next day Dubai; 01:00–05:30 next day Singapore). Complimentary; cohosted by CFA Societies Singapore, New York, Mexico and Switzerland.",
+      "url": "https://www.collaborativewim.org/"
     }
   ]
 }

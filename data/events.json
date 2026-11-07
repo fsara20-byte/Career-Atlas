@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-06",
+    "lastReviewedAt": "2026-11-07",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-06 official Dubai/Singapore organizer pages (CFA Societies, Bloomberg Live, Singapore FinTech Festival, DIFC Academy, UAE Financial Markets Association, BAFT, Collaborative WIM).",
+    "lastSourceAudit": "2026-11-07: 100WF live event and registration pages (Dubai 4536, Hong Kong 4528, Abu Dhabi 4559); Paris RSVP unverified; Female x Finance KPMG and Jane Street official pages.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -603,8 +603,9 @@
       "fit": "Good for local industry networking; leadership topic rather than technical finance",
       "eligibility": "100WF members and non-members within its guest policy; RSVP required and space limited. Confirm guest admission before attending.",
       "restriction": "verify",
-      "notes": "10 Nov 2026, 08:00–10:00 Dubai. Hosted by Morgan Lewis; career transitions, purpose and networking breakfast. No walk-ins.",
-      "url": "https://app.100women.org/pages/event.php?e=4536"
+      "notes": "Official registration page currently permits member RSVP and subject-to-space guest registration; no walk-ins. No guarantee of remaining capacity.",
+      "url": "https://app.100women.org/pages/event.php?e=4536",
+      "lastReviewedAt": "2026-11-07"
     },
     {
       "id": "100wf-abu-dhabi-trade-capital-2026",
@@ -627,7 +628,8 @@
       "url": "https://app.100women.org/pages/event.php?e=4559",
       "closedReason": "RSVP closed",
       "rsvpStatus": "Closed — organizer no longer accepting RSVPs",
-      "lastVerifiedAt": "2026-11-06"
+      "lastVerifiedAt": "2026-11-06",
+      "lastReviewedAt": "2026-11-07"
     },
     {
       "id": "100wf-paris-early-careers-2026",
@@ -641,13 +643,14 @@
       "location": "Paris · 11 Rue du Faubourg Saint-Honoré",
       "eventDate": "2026-11-12",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P1",
       "fit": "Excellent for early-career banking/investment networking; prior work experience fits 0–10 years",
       "eligibility": "Designed for 100WF members with up to 10 years of professional experience. Guest admission may be possible subject to space and organizer policy. In-person presence required.",
       "restriction": "verify",
-      "notes": "12 Nov 2026, registration 17:30, event 18:00; inaugural Paris Early Careers Community event. RSVP required, no walk-ins.",
-      "url": "https://app.100women.org/pages/event.php?e=4568"
+      "notes": "Event listed in 100WF calendar; exact live RSVP page could not be verified on 7 November. Do not assume registration remains open.",
+      "url": "https://app.100women.org/pages/event.php?e=4568",
+      "lastReviewedAt": "2026-11-07"
     },
     {
       "id": "100wf-hongkong-ai-finance-2026",
@@ -661,13 +664,15 @@
       "location": "Hong Kong · Three Exchange Square",
       "eventDate": "2026-11-10",
       "deadline": null,
-      "status": "check",
+      "status": "waitlist",
       "priority": "P2",
       "fit": "Strong topic and speakers from JPMorgan Asset Management, HSBC and Endowus",
       "eligibility": "FULLY BOOKED; organizer is taking a waitlist. 100WF membership/guest terms apply; requires in-person attendance.",
       "restriction": "verify",
-      "notes": "10 Nov 2026, 11:45 HK registration; WAITLIST ONLY as checked 5 Nov. Hosted by S&P Global.",
-      "url": "https://app.100women.org/pages/event.php?e=4528"
+      "notes": "Official live registration page explicitly says fully booked and running a WAITLIST. No confirmed attendance; members and guest registration subject to policy.",
+      "url": "https://app.100women.org/pages/event_registration.php?e=4528",
+      "closedReason": "Fully booked; waitlist only",
+      "lastReviewedAt": "2026-11-07"
     },
     {
       "id": "100wf-hongkong-point72-2026",
@@ -770,8 +775,9 @@
       "fit": "Excellent for transaction services, M&A advisory, valuation and strategy consulting",
       "eligibility": "Open application with host approval; 30 seats. Organizer does not explicitly exclude international applicants; in-person attendance required.",
       "restriction": "verify",
-      "notes": "2 Dec 2026, 18:30–21:30; six professionals from KPMG Transaction Services, Strategy and Corporate Finance & Valuations. Registration deadline 16 Nov 2026. Official registration requires host approval and closes November 16. Do not book travel without an approved place.",
-      "url": "https://luma.com/femalex-vuve"
+      "notes": "Official Female x Finance event page confirms registration closes 16 November 2026, 30 places, host approval required. Attendance not guaranteed.",
+      "url": "https://luma.com/femalex-vuve",
+      "lastReviewedAt": "2026-11-07"
     },
     {
       "id": "femalexfinance-academy-amsterdam-2026",

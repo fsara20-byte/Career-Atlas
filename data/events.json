@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-07",
+    "lastReviewedAt": "2026-11-08",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-07: 100WF live event and registration pages (Dubai 4536, Hong Kong 4528, Abu Dhabi 4559); Paris RSVP unverified; Female x Finance KPMG and Jane Street official pages.",
+    "lastSourceAudit": "2026-11-08: 100WF events calendar and Middle East/Paris/Hong Kong/Singapore chapters; live RSVP Dubai 4536 and Hong Kong 4528; other RSVP URLs 4544/4550/4568 inaccessible so marked check; Female x Finance calendar and KPMG Luma registration; Jane Street INSIGHT official page. No new eligible opening verified.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -603,9 +603,9 @@
       "fit": "Good for local industry networking; leadership topic rather than technical finance",
       "eligibility": "100WF members and non-members within its guest policy; RSVP required and space limited. Confirm guest admission before attending.",
       "restriction": "verify",
-      "notes": "Official registration page currently permits member RSVP and subject-to-space guest registration; no walk-ins. No guarantee of remaining capacity.",
+      "notes": "Official registration page currently permits member RSVP and subject-to-space guest registration; no walk-ins. No guarantee of remaining capacity. | Nov 8: official RSVP page explicitly accepts members and one-time non-member guests subject to space; no walk-ins.",
       "url": "https://app.100women.org/pages/event.php?e=4536",
-      "lastReviewedAt": "2026-11-07"
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "100wf-abu-dhabi-trade-capital-2026",
@@ -648,9 +648,9 @@
       "fit": "Excellent for early-career banking/investment networking; prior work experience fits 0–10 years",
       "eligibility": "Designed for 100WF members with up to 10 years of professional experience. Guest admission may be possible subject to space and organizer policy. In-person presence required.",
       "restriction": "verify",
-      "notes": "Event listed in 100WF calendar; exact live RSVP page could not be verified on 7 November. Do not assume registration remains open.",
+      "notes": "Event listed in 100WF calendar; exact live RSVP page could not be verified on 7 November. Do not assume registration remains open. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
       "url": "https://app.100women.org/pages/event.php?e=4568",
-      "lastReviewedAt": "2026-11-07"
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "100wf-hongkong-ai-finance-2026",
@@ -672,7 +672,7 @@
       "notes": "Official live registration page explicitly says fully booked and running a WAITLIST. No confirmed attendance; members and guest registration subject to policy.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4528",
       "closedReason": "Fully booked; waitlist only",
-      "lastReviewedAt": "2026-11-07"
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "100wf-hongkong-point72-2026",
@@ -686,13 +686,14 @@
       "location": "Hong Kong · Point72, The Henderson",
       "eventDate": "2026-11-17",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P2",
       "fit": "Strong networking access to Point72; programme topic is resilience, not investing",
       "eligibility": "100WF members and guest attendees subject to available space; RSVP required. Confirm residency or guest restrictions and availability.",
       "restriction": "verify",
-      "notes": "17 Nov 2026 at 18:00 registration, 18:30 start; Point72 Asset Management host with networking reception.",
-      "url": "https://app.100women.org/pages/event.php?e=4544"
+      "notes": "17 Nov 2026 at 18:00 registration, 18:30 start; Point72 Asset Management host with networking reception. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
+      "url": "https://app.100women.org/pages/event.php?e=4544",
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "100wf-hongkong-gala-2026",
@@ -730,13 +731,14 @@
       "location": "Virtual · global (Nasdaq-hosted)",
       "eventDate": "2026-11-09",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P2",
       "fit": "Good fintech and risk exposure; relevant to prior working capital fintech background",
       "eligibility": "RSVP required; 100WF member or approved guest. Virtual access allows participation from Dubai; verify registration availability.",
       "restriction": "verify",
-      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov.",
-      "url": "https://app.100women.org/pages/event.php?e=4550&inc=A&kw=&loc=0&p=3&yr=2026"
+      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
+      "url": "https://app.100women.org/pages/event.php?e=4550&inc=A&kw=&loc=0&p=3&yr=2026",
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "100wf-singapore-eq-2026",
@@ -775,9 +777,9 @@
       "fit": "Excellent for transaction services, M&A advisory, valuation and strategy consulting",
       "eligibility": "Open application with host approval; 30 seats. Organizer does not explicitly exclude international applicants; in-person attendance required.",
       "restriction": "verify",
-      "notes": "Official Female x Finance event page confirms registration closes 16 November 2026, 30 places, host approval required. Attendance not guaranteed.",
+      "notes": "Official Female x Finance event page confirms registration closes 16 November 2026, 30 places, host approval required. Attendance not guaranteed. | Nov 8: official Luma says host approval required; registration closes Nov 16, 2026; no attendance guaranteed.",
       "url": "https://luma.com/femalex-vuve",
-      "lastReviewedAt": "2026-11-07"
+      "lastReviewedAt": "2026-11-08"
     },
     {
       "id": "femalexfinance-academy-amsterdam-2026",

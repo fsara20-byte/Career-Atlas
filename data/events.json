@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-08",
+    "lastReviewedAt": "2026-11-10",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-08: 100WF events calendar and Middle East/Paris/Hong Kong/Singapore chapters; live RSVP Dubai 4536 and Hong Kong 4528; other RSVP URLs 4544/4550/4568 inaccessible so marked check; Female x Finance calendar and KPMG Luma registration; Jane Street INSIGHT official page. No new eligible opening verified.",
+    "lastSourceAudit": "2026-11-10: Live 100WF registration pages verified for Dubai 4536, Paris 4568, and virtual FinTech 4550. Paris and virtual status changed from check to open (member RSVP; guest policy applies). Abu Dhabi 4559 registration unavailable, not declared open. Female x Finance KPMG registration open subject to approval; deadline November 16. Other employer and chapter coverage incomplete.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -643,14 +643,14 @@
       "location": "Paris · 11 Rue du Faubourg Saint-Honoré",
       "eventDate": "2026-11-12",
       "deadline": null,
-      "status": "check",
+      "status": "open",
       "priority": "P1",
       "fit": "Excellent for early-career banking/investment networking; prior work experience fits 0–10 years",
       "eligibility": "Designed for 100WF members with up to 10 years of professional experience. Guest admission may be possible subject to space and organizer policy. In-person presence required.",
       "restriction": "verify",
-      "notes": "Event listed in 100WF calendar; exact live RSVP page could not be verified on 7 November. Do not assume registration remains open. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
+      "notes": "Event listed in 100WF calendar; exact live RSVP page could not be verified on 7 November. Do not assume registration remains open. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open. Live 100WF registration page verified 2026-11-10: member RSVP open; guest access subject to space and 100WF guest policy. No confirmed admission without registration.",
       "url": "https://app.100women.org/pages/event.php?e=4568",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-10"
     },
     {
       "id": "100wf-hongkong-ai-finance-2026",
@@ -731,14 +731,14 @@
       "location": "Virtual · global (Nasdaq-hosted)",
       "eventDate": "2026-11-09",
       "deadline": null,
-      "status": "check",
+      "status": "open",
       "priority": "P2",
       "fit": "Good fintech and risk exposure; relevant to prior working capital fintech background",
       "eligibility": "RSVP required; 100WF member or approved guest. Virtual access allows participation from Dubai; verify registration availability.",
       "restriction": "verify",
-      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
+      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open. Live 100WF registration page verified 2026-11-10: member RSVP open; guest access subject to space and 100WF guest policy. No confirmed admission without registration.",
       "url": "https://app.100women.org/pages/event.php?e=4550&inc=A&kw=&loc=0&p=3&yr=2026",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-10"
     },
     {
       "id": "100wf-singapore-eq-2026",

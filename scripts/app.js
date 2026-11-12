@@ -106,7 +106,7 @@ $('openingsSummary').textContent=found.length+' links shown · '+jobs.filter(j=>
 $('jobList').innerHTML=found.length?found.map(j=>jobCard(j)).join(''):'<div class="empty">No matching job links. Try fewer filters or visit the firm directory.</div>'; }
 function avatar(name){let bits=name.replace(/[^\p{L}\p{N} ]/gu,'').split(/\s+/).filter(Boolean);return clean((bits.length>1?bits.slice(0,2).map(b=>b[0]).join(''):name.slice(0,2)).toUpperCase())}
 function filterCompanies(){let q=$('companySearch').value.trim().toLowerCase(),sector=$('companySector').value,filter=$('companyFilter').value;
-return companies.map((c,i)=>({...c,_i:i})).filter(c=>{let list=jobs.filter(j=>j.company===c.name);let x=entry(kcompany(c._i));return (!q||[c.name,c.category,c.geo,c.fit,c.cfa ,...(c.aliases||[]),...(c.divisions||[]),...(c.tags||[]),...list.map(j=>j.title)].join(' ').toLowerCase().includes(q))&&(!sector||sector===c.category)&&(!filter||(filter==='withjobs'&&list.length)||(filter==='due'&&isDue(c,c._i))||(filter==='high'&&c.priority==='High')||(filter==='saved'&&x.saved)||(filter==='verified'&&c.presenceStatus==='Verified UAE vacancy example'))}).sort((a,b)=>(!!entry(kcompany(b._i)).saved)-(!!entry(kcompany(a._i)).saved)||(b.priority==='High')-(a.priority==='High')||a.name.localeCompare(b.name));}
+return companies.map((c,i)=>({...c,_i:i})).filter(c=>{let list=jobs.filter(j=>j.company===c.name);let x=entry(kcompany(c._i));return (!q||[c.name,c.category,c.geo,c.fit,...(c.aliases||[]),...(c.divisions||[]),...(c.tags||[]),...list.map(j=>j.title)].join(' ').toLowerCase().includes(q))&&(!sector||sector===c.category)&&(!filter||(filter==='withjobs'&&list.length)||(filter==='due'&&isDue(c,c._i))||(filter==='high'&&c.priority==='High')||(filter==='saved'&&x.saved)||(filter==='verified'&&c.presenceStatus==='Verified UAE vacancy example'))}).sort((a,b)=>(!!entry(kcompany(b._i)).saved)-(!!entry(kcompany(a._i)).saved)||(b.priority==='High')-(a.priority==='High')||a.name.localeCompare(b.name));}
 function renderChips(){let sec=$('companySector').value;let count={};companies.forEach(c=>count[c.category]=(count[c.category]||0)+1);$('sectorChips').innerHTML=`<button class="${sec?'':'selected'}" data-sector="">All sectors · ${companies.length}</button>`+Object.keys(count).sort().map(x=>`<button data-sector="${clean(x)}" class="${sec===x?'selected':''}">${clean(x)} · ${count[x]}</button>`).join('')}
 function renderCompanies(){let found=filterCompanies(),q=$('companySearch').value.trim().toLowerCase(),sector=$('companySector').value,filter=$('companyFilter').value;
  const n=showAll||q||sector||filter?found.length:Math.min(found.length,40);
@@ -178,7 +178,7 @@ function setPanel(name,updateHash=true){
   if(selected)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
  });
  if(updateHash)history.replaceState(null,'','#'+name);
- window.scrollTo({top:0,behavior:'instant'});
+ window.scrollTo(0,0);
 }
 document.addEventListener('click',e=>{
  const a=e.target.closest('a[href^="#"]');
@@ -209,7 +209,7 @@ $('globalSearchButton').addEventListener('click',()=>{let found=searchFirms($('g
 $('globalResults').addEventListener('click',e=>{let btn=e.target.closest('[data-suggest]');if(btn){openFirm(btn.dataset.suggest);$('globalResults').hidden=true}});
 document.addEventListener('click',e=>{if(!e.target.closest('.finder'))$('globalResults').hidden=true});
 $('closeFirm').addEventListener('click',closeFirm);$('backToFirms').addEventListener('click',closeFirm);
-$('firmModal').addEventListener('click',e=>{if(e.target.closest('[data-close-firm]')||e.target.closest('[data-close-profile]')){closeFirm();setPanel('openings')}});
+$('firmModal').addEventListener('click',e=>{if(e.target.closest('[data-close-profile]')){closeFirm();setPanel('openings')}else if(e.target.closest('[data-close-firm]'))closeFirm()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('firmModal').hidden)closeFirm()});
 $('firmModal').addEventListener('change',updateForm);
 $('firmModal').addEventListener('input',e=>{let t=e.target;if(t.tagName==='TEXTAREA'||t.type==='text'){let k=t.dataset.key,f=t.dataset.field;if(k&&f){entry(k)[f]=t.value;persist()}}});

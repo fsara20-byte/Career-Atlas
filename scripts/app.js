@@ -10,6 +10,13 @@ let companies=STATIC_COMPANIES,jobs=STATIC_JOBS,meta=STATIC_META,showAll=false;
 const lastVisitAt=saved.lastVisitAt||'';
 saved.lastVisitAt=new Date().toISOString();
 const newSince=job=>!!(lastVisitAt && job.firstSeenAt && Date.parse(job.firstSeenAt)>Date.parse(lastVisitAt));
+const addedThisWeek=job=>{
+ const since=job.firstSeenAt||job.firstSeen||job.publishedAt||'';
+ if(!since)return false;
+ const instant=Date.parse(since.length===10?since+'T00:00:00Z':since);
+ const delta=Date.now()-instant;
+ return Number.isFinite(instant)&&delta>=-86400000&&delta<=7*86400000;
+};
 const daysUntil=d=>{if(!d)return Infinity;const date=new Date(d+'T12:00:00');return Math.ceil((date-new Date(today()+'T12:00:00'))/(86400000))};
 const verifiedDeadline=j=>j.deadline&&j.deadlineSource&&(/employer/i).test(j.deadlineSource)?j.deadline:'';
 const feedFresh=j=>{let a=(meta.sources||[]).find(s=>s.company===j.sourceBoard);return !!(a&&a.status==='ok'&&j.lastSeenAt&&j.lastSeenAt===a.checkedAt)};
@@ -19,7 +26,7 @@ const roleSignals=j=>{const t=(j.title||'').toLowerCase();return {
  mba:/\bmba\b/.test(t),
  national:/uae national|emirati|emiratization|emiratisation/.test(t),
  quant:/quant|systematic|algorithmic|trader/.test(t),
- commercial:/sales|business development|client service|customer success/.test(t),
+ commercial:/sales|business development|client service|customer success/.test(t)&&!/sales.{0,12}trading|institutional sales|investment sales|mea sales/i.test(t),
  strong:/investment|financial|finance|analyst|strategy|consult|credit|risk|portfolio|capital markets|banking|deals|valuation|research|treasury/.test(t),
  uae:/dubai|abu dhabi|united arab emirates|\buae\b|\bdifc\b/i.test(j.location||'')
 }};
@@ -82,9 +89,10 @@ function jobCard(job,compact=false){
  const scoreTag=match?(match.score!==null?'<span class="pill '+(match.score>=75?'good':match.score<45?'warn':'')+'">CV fit '+match.score+'/100</span>':match.state==='eligibility_check'?'<span class="pill warn">Eligibility check</span>':''):'';
  const deadline=published?'<span class="pill '+(published<today()?'warn':'')+'">Deadline '+clean(when(published))+'</span>':'';
  const stage=x.stage&&x.stage!=='To review'?'<span class="pill">'+clean(x.stage)+'</span>':'';
+ const added=addedThisWeek(job)?'<span class="pill good">Added this week</span>':'';
  return '<article class="listitem cvJobCard"><div class="jobrow"><div class="jobInfo"><div class="jobtitle">'+clean(job.title)+'</div>'+
  '<div class="jobmeta">'+clean(job.company)+' · '+clean(job.location||'Location not specified')+'</div>'+
- '<div class="pills"><span class="pill">'+clean(job.programme||'Role')+'</span><span class="pill '+(available?'good':'line')+'">'+clean(status)+'</span>'+scoreTag+deadline+stage+'</div></div>'+
+ '<div class="pills"><span class="pill">'+clean(job.programme||'Role')+'</span><span class="pill '+(available?'good':'line')+'">'+clean(status)+'</span>'+added+scoreTag+deadline+stage+'</div></div>'+
  '<div class="jobactions"><a class="btn primary" href="'+href(job.url)+'" target="_blank" rel="noopener">Official posting ↗</a>'+
  '<label class="checklabel"><input type="checkbox" data-key="'+clean(kjob(job))+'" data-field="applied" '+(x.applied?'checked':'')+'> Applied</label></div></div>'+
  '<details class="roleDetails"><summary>CV match, requirements & application notes</summary>'+
@@ -96,13 +104,13 @@ function renderJobs(){let q=$('searchInput').value.trim().toLowerCase(),t=$('rol
 let found=sortJobs(jobs.filter(j=>{const r=roleSignals(j),deadline=verifiedDeadline(j),days=daysUntil(deadline),apply=entry(kjob(j)).applied;
 return (!q||[j.company,j.title,j.location,j.programme,j.division].join(' ').toLowerCase().includes(q))
 &&(!t||roleType(j)===t)
-&&(!f||(f==='feed'&&['ashby','greenhouse','workday','smartrecruiters'].includes(j.source)&&j.status==='active')||(f==='manual'&&j.source==='curated')||(f==='applied'&&apply)||(f==='new'&&newSince(j))||(f==='soon'&&days>=0&&days<=7)||(f==='expired'&&days<0)||(f==='unknown'&&!deadline)||(f==='watch'&&!!j.deadlineChangedAt))
+&&(!f||(f==='feed'&&['ashby','greenhouse','workday','smartrecruiters'].includes(j.source)&&j.status==='active')||(f==='manual'&&j.source==='curated')||(f==='applied'&&apply)||(f==='week'&&addedThisWeek(j))||(f==='soon'&&days>=0&&days<=7)||(f==='expired'&&days<0)||(f==='unknown'&&!deadline)||(f==='watch'&&!!j.deadlineChangedAt))
 &&(!exp||(exp==='intern'&&r.intern)||(exp==='senior'&&r.senior)||(exp==='early'&&!r.senior&&!r.intern))
 &&(!elig||(elig==='mba'&&r.mba)||(elig==='national'&&r.national)||(elig==='quant'&&r.quant)||(elig==='nominal'&&!r.mba&&!r.national&&!r.quant))
 &&(!loc||(loc==='uae'&&r.uae)||(loc==='uncertain'&&!r.uae))
 ;
 }));
-$('openingsSummary').textContent=found.length+' links shown · '+jobs.filter(j=>['ashby','greenhouse'].includes(j.source)&&j.status==='active'&&feedFresh(j)).length+' verified in the last successful employer-feed checks. Eligibility filters are TITLE-BASED signals, not verified acceptance criteria.';
+$('openingsSummary').textContent=found.length+' job links shown · '+jobs.filter(j=>j.status!=='not_in_latest_feed'&&addedThisWeek(j)).length+' added to tracker in the last 7 days · live source coverage is partial. Confirm each employer posting.';
 $('jobList').innerHTML=found.length?found.map(j=>jobCard(j)).join(''):'<div class="empty">No matching job links. Try fewer filters or visit the firm directory.</div>'; }
 function avatar(name){let bits=name.replace(/[^\p{L}\p{N} ]/gu,'').split(/\s+/).filter(Boolean);return clean((bits.length>1?bits.slice(0,2).map(b=>b[0]).join(''):name.slice(0,2)).toUpperCase())}
 function filterCompanies(){let q=$('companySearch').value.trim().toLowerCase(),sector=$('companySector').value,filter=$('companyFilter').value;
@@ -141,12 +149,12 @@ function closeFirm(){if($('firmModal').hidden)return;$('firmModal').hidden=true;
 function searchFirms(q){q=(q||'').trim().toLowerCase();if(!q)return[];return companies.map(c=>({...c,score:(c.name.toLowerCase()===q?100:c.name.toLowerCase().startsWith(q)?70:c.name.toLowerCase().includes(q)?50:0)+(c.fit||'').toLowerCase().includes(q)*10+(c.category||'').toLowerCase().includes(q)*5+[...(c.tags||[]) ,...(c.aliases||[]),...(c.divisions||[])].some(t=>t.toLowerCase().includes(q))*20+(c.priority==='High'?1:0)})).filter(c=>c.score>0).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name))}
 function suggest(q){let found=searchFirms(q).slice(0,9);$('globalResults').hidden=!q.trim();$('globalResults').innerHTML=found.length?found.map((c,i)=>`<button role="option" class="suggestion" data-suggest="${clean(c.id)}"><span><span class="suggname">${clean(c.name)}</span><br><span class="suggmeta">${clean(c.category)} · ${clean(c.fit)}</span></span><span class="keyhint">Open ↗</span></button>`).join(''):'<div class="empty">No match. Try a sector such as asset management, credit or consulting.</div>'}
 function renderDashboard(){
- let now=today(),active=jobs.filter(j=>j.status!=='not_in_latest_feed'),newJobs=active.filter(newSince).sort((a,b)=>(b.firstSeenAt||'').localeCompare(a.firstSeenAt||''));
+ let now=today(),active=jobs.filter(j=>j.status!=='not_in_latest_feed'),newJobs=active.filter(addedThisWeek).sort((a,b)=>(b.firstSeenAt||b.publishedAt||'').localeCompare(a.firstSeenAt||a.publishedAt||''));
  const soon=active.filter(j=>{const d=daysUntil(verifiedDeadline(j));return d>=0&&d<=7&&!entry(kjob(j)).applied}).sort((a,b)=>verifiedDeadline(a).localeCompare(verifiedDeadline(b)));
  const applied=jobs.filter(j=>entry(kjob(j)).applied).sort((a,b)=>(entry(kjob(b)).date||'').localeCompare(entry(kjob(a)).date||''));
  const savedFirms=companies.filter((c,i)=>entry(kcompany(i)).saved);
  const renderRole=(j,details)=>`<div class="dashitem"><div><strong>${clean(j.title)}</strong><small>${clean(j.company)}${details?' · '+clean(details):''}</small></div><a href="${href(j.url)}" target="_blank" rel="noopener">Open ↗</a></div>`;
- $('newJobs').innerHTML=!lastVisitAt?'<div class="dashmute">First visit establishes your baseline. New feed postings will appear here on your next visit.</div>':newJobs.length?newJobs.slice(0,4).map(j=>renderRole(j,when(j.firstSeen))).join(''):'<div class="dashmute">No new supported-feed postings detected since your last visit.</div>';
+ $('newJobs').innerHTML=newJobs.length?newJobs.slice(0,5).map(j=>renderRole(j,when(j.publishedAt||j.firstSeen))).join(''):'<div class="dashmute">No roles added in the last seven days among sources represented in this tracker. Employer coverage is incomplete.</div>';
  $('closingJobs').innerHTML=soon.length?soon.slice(0,4).map(j=>renderRole(j,when(verifiedDeadline(j)))).join(''):'<div class="dashmute">No verified deadlines within 7 days. Most employer feeds do not supply closing dates.</div>';
  $('myApplications').innerHTML=applied.length?applied.slice(0,4).map(j=>renderRole(j,entry(kjob(j)).stage||'Applied')).join(''):'<div class="dashmute">Nothing marked Applied yet. Open a role and tick Applied when you submit.</div>';
  $('priorityFirms').innerHTML=savedFirms.length?savedFirms.slice(0,5).map(c=>`<div class="dashitem"><div><strong>${clean(c.name)}</strong><small>${clean(c.category)}</small></div><button class="savedbtn on" data-dashboard-firm="${clean(c.id)}">Open →</button></div>`).join(''):'<div class="dashmute">Save companies in Explore firms to create your priority shortlist.</div>';

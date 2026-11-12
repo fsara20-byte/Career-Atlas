@@ -245,6 +245,13 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     item=workday_normalize(raw,company,base)
                     if not item:continue
                     count+=1
+                    # Join curated links with the same employer/title to preserve one job card
+                    # and the browser's stable job ID when a Workday feed discovers it later.
+                    normalized_title=lambda name:re.sub(r'[^a-z0-9]+',' ',str(name or '').lower()).strip()
+                    same_seed=next((j for j in existing.values()
+                                    if j.get('source')=='curated' and j.get('company')==company
+                                    and normalized_title(j.get('title'))==normalized_title(item['title'])),None)
+                    if same_seed:item['id']=same_seed['id']
                     old=existing.get(item['id'],{})
                     item['firstSeen']=old.get('firstSeen',TODAY)
                     item['firstSeenAt']=old.get('firstSeenAt',NOW)

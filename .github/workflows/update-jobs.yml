@@ -5,6 +5,7 @@ on:
     paths:
       - 'config/sources.json'
       - 'scripts/update_jobs.py'
+      - 'tests/test_update.py'
       - 'data/jobs.json'
   schedule:
     # Daily at 08:17 Dubai time (UTC+4); GitHub may delay scheduled runs.

@@ -68,9 +68,9 @@ class InvestmentSalesCoverageTests(unittest.TestCase):
         cfg = {
             'location_keywords':['dubai','abu dhabi','united arab emirates','uae'],
             'exclude_title_regex':r'(?i)(sales|business development|account executive|marketing|client service|customer success)',
-            'exclude_senior_title_regex':r'(?i)\\b(managing director|executive director|head of)\\b',
-            'include_title_regex':r'(?i)\\b(internship|intern|analyst|graduate|investment|capital markets)\\b',
-            'include_finance_sales_title_regex':r'(?i)(?:sales\\s*[,/&-]?\\s*trading|(?:institutional|investment|asset management|fund|MEA)\\s+sales|sales.{0,40}(?:intern|analyst))',
+            'exclude_senior_title_regex':r'(?i)\b(managing director|executive director|head of)\b',
+            'include_title_regex':r'(?i)\b(internship|intern|analyst|graduate|investment|capital markets)\b',
+            'include_finance_sales_title_regex':r'(?i)(?:sales\s*[,/&-]?\s*trading|(?:institutional|investment|asset management|fund|MEA)\s+sales|sales.{0,40}(?:intern|analyst))',
         }
         self.assertTrue(update_jobs.relevant({'title':'Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai','location':'Dubai'},cfg))
         self.assertTrue(update_jobs.relevant({'title':'MEA Sales Internship Programme 2027 - Dubai','location':'Dubai'},cfg))

@@ -128,6 +128,20 @@
     "presenceEvidence": ""
   },
   {
+    "name": "Capgemini",
+    "id": "capgemini",
+    "category": "Consulting & deals",
+    "geo": "Dubai / UAE",
+    "url": "https://www.capgemini.com/ae-en/join-us/",
+    "priority": "Medium",
+    "fit": "Technology, data and AI transformation; distinct from Capgemini Invent strategy",
+    "hq": "",
+    "presence": "Dubai office / recruiting",
+    "tier": "Global / established",
+    "presenceStatus": "UAE recruitment portal; confirm each programme",
+    "presenceEvidence": "Official Capgemini UAE recruitment page"
+  },
+  {
     "name": "Capital Group",
     "category": "Asset management",
     "geo": "Dubai / UAE",
@@ -373,6 +387,20 @@
     "tier": "Global / established",
     "presenceStatus": "UAE presence not independently checked",
     "presenceEvidence": ""
+  },
+  {
+    "name": "PwC Consulting",
+    "id": "pwc-consulting",
+    "category": "Consulting & deals",
+    "geo": "Dubai / Abu Dhabi / UAE",
+    "url": "https://careers.pwc.com/",
+    "priority": "High",
+    "fit": "Management consulting, strategy, financial services and transformation",
+    "hq": "",
+    "presence": "UAE operations confirmed",
+    "tier": "Global / established",
+    "presenceStatus": "UAE careers confirmed; posting eligibility varies",
+    "presenceEvidence": "Official PwC Middle East careers portal"
   },
   {
     "name": "Robeco",

@@ -7,6 +7,6 @@ root=Path(__file__).resolve().parents[1]
 txt=(root/'index.template.html').read_text()
 company=json.loads((root/'data/companies.json').read_text())
 doc=json.loads((root/'data/jobs.json').read_text())
-for k,v in {'__CV_MATCH_JS__':(root/'scripts/cv_match.js').read_text(),'__APP_JS__':(root/'scripts/app.js').read_text(),'__COMPANIES__':json.dumps(company,ensure_ascii=False),'__JOBS__':json.dumps(doc['jobs'],ensure_ascii=False),'__META__':json.dumps(doc['meta'],ensure_ascii=False)}.items():txt=txt.replace(k,v)
+for k,v in {'__CV_MATCH_JS__':(root/'scripts/cv_match.js').read_text(),'__APP_JS__':(root/'scripts/app.js').read_text(),'__COMPANIES__':json.dumps(company,ensure_ascii=False),'__JOBS__':json.dumps(doc['jobs'],ensure_ascii=False),'__META__':json.dumps(doc['meta'],ensure_ascii=False),'__COVERAGE__':json.dumps(json.loads((root/'data/monitoring-coverage.json').read_text()),ensure_ascii=False)}.items():txt=txt.replace(k,v)
 (root/'index.html').write_text(txt)
 print('Built index.html with inline offline fallback')

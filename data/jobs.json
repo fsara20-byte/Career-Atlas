@@ -1300,6 +1300,247 @@
       "deadlineSource": "",
       "deadlineVerifiedAt": "",
       "eligibilityFlags": []
+    },
+    {
+      "id": "consulting-pwc-deals-summer-2027",
+      "company": "PwC Deals",
+      "title": "Deals, COOP and Summer Internship Programme 2027 – Middle East",
+      "url": "https://careers.pwc.com/job/Middle-East-Deals%2C-COOP-and-Summer-Internship-Programme-2027-Middle-East-Midd/1455551133/",
+      "publishedAt": "2026-11-09",
+      "location": "Dubai / Abu Dhabi / Middle East",
+      "programme": "Summer internship",
+      "description": "PwC Middle East Deals Summer Internship 2027, offered in Dubai and Abu Dhabi among other locations, six to eight weeks during June–August. Exposure to Transaction Services, Valuations, Corporate Finance, Business Restructuring, Deals Strategy & Operations and Government & Infrastructure. Applicants must be currently enrolled in an undergraduate STEM or business programme with a GPA equivalent to at least 3.0/4.0 and local work eligibility. PwC's official posting does not confirm that master's-only enrolment qualifies.",
+      "eligibilityFlags": [
+        "Undergraduate enrolment required by posting; current master's-only study may not qualify",
+        "Country work authorisation required"
+      ],
+      "note": "Official PwC posting dated 9 November 2026. Location includes UAE summer intake, although the listing groups several Middle East countries. Confirm applicant eligibility and deadline.",
+      "source": "curated",
+      "sourceBoard": "PwC Deals",
+      "status": "verify_on_employer_site",
+      "deadline": "",
+      "deadlineSource": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Demonstrate genuine analytical research and client deliverables"
+        ],
+        "workOn": [
+          "Verify degree eligibility and work authorisation directly with the employer"
+        ],
+        "method": "Employer posting screening; no guarantee of eligibility"
+      }
+    },
+    {
+      "id": "consulting-pwc-consulting-summer-2027",
+      "company": "PwC Consulting",
+      "title": "Consulting, COOP and Summer Internship Programme 2027 – Middle East",
+      "url": "https://careers.pwc.com/job/Middle-East-Consulting%2C-COOP-and-Summer-Internship-Programme-2027-Middle-East-Midd/1455541633/",
+      "publishedAt": "2026-11-09",
+      "location": "Dubai / Abu Dhabi / Middle East",
+      "programme": "Summer internship",
+      "description": "PwC Middle East Consulting internship 2027, available in Dubai, Abu Dhabi and other locations. Consulting teams cover Strategy & Transformation, Management Consulting, Risk, Digital and Cyber across Financial Services, Government, TMT and healthcare. Eligible candidates must be currently enrolled in an undergraduate programme, preferably business or STEM, with GPA on track to be at least 3.5/4.0, and have legal right to work in the location. Master’s-only enrolment is not explicitly accepted by the official advert.",
+      "eligibilityFlags": [
+        "Undergraduate enrolment required by posting; current master's-only study may not qualify",
+        "Country work authorisation required"
+      ],
+      "note": "Official PwC posting dated 9 November 2026. Stored under PwC Deals employer entry because Career Atlas does not yet have a separate PwC Consulting entry; actual employer division is Consulting.",
+      "source": "curated",
+      "sourceBoard": "PwC Deals",
+      "status": "verify_on_employer_site",
+      "deadline": "",
+      "deadlineSource": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Demonstrate genuine analytical research and client deliverables"
+        ],
+        "workOn": [
+          "Verify degree eligibility and work authorisation directly with the employer"
+        ],
+        "method": "Employer posting screening; no guarantee of eligibility"
+      }
+    },
+    {
+      "id": "consulting-bcg-senior-associate-60769",
+      "company": "Boston Consulting Group",
+      "title": "Senior Associate, Experienced, UAE",
+      "url": "https://careers.bcg.com/global/en/job/60769/Senior-Associate-Experienced-UAE",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Full-time / other",
+      "description": "BCG Senior Associate experienced role. Support client project delivery; analyse data, formulate hypotheses, develop actionable recommendations, lead independent workstreams and communicate results. Requires bachelor’s or master’s degree and at least two years of relevant full-time experience after graduation. Strong analytical, stakeholder and English communication skills; Arabic is a plus.",
+      "eligibilityFlags": [
+        "At least 2 years of relevant full-time experience post-graduation required"
+      ],
+      "note": "Official BCG Dubai posting. Experience must be counted after graduation rather than from internship start.",
+      "source": "curated",
+      "sourceBoard": "Boston Consulting Group",
+      "status": "verify_on_employer_site",
+      "deadline": "",
+      "deadlineSource": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Demonstrate genuine analytical research and client deliverables"
+        ],
+        "workOn": [
+          "Verify degree eligibility and work authorisation directly with the employer"
+        ],
+        "method": "Employer posting screening; no guarantee of eligibility"
+      }
+    },
+    {
+      "id": "consulting-kearney-foresight-senior-2026",
+      "company": "Kearney",
+      "title": "Foresight Senior Business Analyst / Associate",
+      "url": "https://kearney.recsolu.com/jobs/eVRAFBgiU2dZU3ICKnVwdA?job_board_id=EPd41qlA4_03IncZMnWyRQ",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Full-time / other",
+      "description": "Kearney Foresight Middle East and Africa senior analyst / associate role. Lead strategy workstreams and high-quality research on technology, macroeconomics, geopolitics, policy, uncertainty, scenarios and growth; produce executive materials and lead workshops. Advanced MSc, MBA or equivalent preferred and typically 3–7 years of relevant experience in consulting, strategy, public policy or related demanding environments.",
+      "eligibilityFlags": [
+        "Typically 3–7 years of relevant experience (more senior than entry-level)"
+      ],
+      "note": "Official Kearney Dubai vacancy. Marked stretch / seniority mismatch; not a standard junior analyst position.",
+      "source": "curated",
+      "sourceBoard": "Kearney",
+      "status": "verify_on_employer_site",
+      "deadline": "",
+      "deadlineSource": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Demonstrate genuine analytical research and client deliverables"
+        ],
+        "workOn": [
+          "Verify degree eligibility and work authorisation directly with the employer"
+        ],
+        "method": "Employer posting screening; no guarantee of eligibility"
+      }
+    },
+    {
+      "id": "consulting-capgemini-id-internship-2026-27",
+      "company": "Capgemini",
+      "title": "Capgemini Insights & Data Internship Programme 2026/2027 (adjacent to Invent)",
+      "url": "https://careers.capgemini.com/job/Dubai-Internship-Program-20262027-Capgemini-I%26D/1444749633/",
+      "publishedAt": "2026-11-04",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Internship",
+      "description": "Capgemini Insights & Data, not Capgemini Invent's pure strategy consulting practice. Talent-pool posting for future internships, not a confirmed immediate assignment. Areas include Data & AI Strategy & Transformation, data governance, data engineering, generative AI, applied AI and SAP data transformation. Open to students currently pursuing bachelor's or master's degrees and recent graduates with analytical and communication skills.",
+      "eligibilityFlags": [
+        "Talent-pool expression of interest, not a confirmed live internship start",
+        "Technology / Data & AI track, not conventional strategy consulting"
+      ],
+      "note": "Official Capgemini role dated 4 November 2026. Employer brand is Capgemini Insights & Data; shown under existing Capgemini Invent employer group as adjacent digital consulting only, not claimed to be an Invent strategy vacancy.",
+      "source": "curated",
+      "sourceBoard": "Capgemini Invent",
+      "status": "verify_on_employer_site",
+      "deadline": "",
+      "deadlineSource": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Demonstrate genuine analytical research and client deliverables"
+        ],
+        "workOn": [
+          "Verify degree eligibility and work authorisation directly with the employer"
+        ],
+        "method": "Employer posting screening; no guarantee of eligibility"
+      }
+    },
+    {
+      "id": "consulting-mckinsey-ba-15136",
+      "company": "McKinsey & Company",
+      "title": "Business Analyst — UAE / Abu Dhabi (global posting)",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-15136",
+      "location": "Abu Dhabi / multiple global offices",
+      "programme": "Full-time / other",
+      "description": "McKinsey Business Analyst global vacancy, listing Abu Dhabi among accepted work locations. Join client service team, identify challenges, analyse quantitative and qualitative information, conduct interviews, develop recommendations and presentations. Global ongoing role; no specific UAE application deadline published in retrieved listing. Confirm office availability and candidate eligibility in the official application flow.",
+      "eligibilityFlags": [
+        "Multi-office global posting, not a newly dated UAE-specific vacancy"
+      ],
+      "note": "Official McKinsey careers role 15136, with Abu Dhabi listed. Do not interpret as newly published this week.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "McKinsey & Company",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
+    },
+    {
+      "id": "consulting-mckinsey-ba-intern-15275",
+      "company": "McKinsey & Company",
+      "title": "Business Analyst Intern — UAE / Abu Dhabi (global posting)",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+      "location": "Abu Dhabi / multiple global offices",
+      "programme": "Internship",
+      "description": "McKinsey Business Analyst Intern global role 15275 lists Abu Dhabi among locations. Eight-to-ten-week consulting internship supporting problem solving, market and client research, quantitative analysis, interviews and insight development. Internship intake dates, student-year eligibility and country-specific application windows require verification in employer system.",
+      "eligibilityFlags": [
+        "Multi-office internship listing; confirm UAE intake, master's eligibility and application window"
+      ],
+      "note": "Official McKinsey multi-location role. Do not assume November 2026 publication or confirmed open Dubai intake.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "McKinsey & Company",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
+    },
+    {
+      "id": "consulting-grant-thornton-associate-forensics",
+      "company": "Grant Thornton",
+      "title": "Associate Consultant | Forensics — Dubai",
+      "url": "https://careers.grantthornton.ae/en/uae/jobs/associate-consultant-forensics-1100017835/",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Full-time / other",
+      "description": "Grant Thornton UAE forensic consulting associate role. Analytical assignments, investigation and diligence support, Excel analysis, document and transaction research, structured client reports and presentations. Strong analytical, numerical, communication and organisation skills required; verify active status and any experience requirements on employer page.",
+      "eligibilityFlags": [
+        "Originally listed earlier in 2026; verify that application remains open"
+      ],
+      "note": "Official Grant Thornton UAE vacancy page. Rechecked 12 November 2026; employer page remains indexed, but no verified current posting date or application deadline.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "Grant Thornton",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
     }
   ]
 }

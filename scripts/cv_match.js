@@ -13,7 +13,8 @@ const RULES=[
  {name:'Financial statements and accounting',w:3,cv:/financial statements?|financial analys|financial ratios?|balance sheet|income statement|common.size|liquidity analysis/i,jd:/financial statements?|financial analys|financial reports?|accounting|balance sheet|income statement|financial performance/i},
  {name:'Corporate finance and capital structure',w:3,cv:/corporate finance|capital structure|cost of (?:equity|debt|capital)|\bWACC\b|corporate lending|financing transactions/i,jd:/corporate finance|capital structure|corporate financing|funding structure|capital markets|cost of capital|debt financing/i},
  {name:'Transaction execution and origination',w:3,cv:/origina(?:ted|tion)|transaction execution|end.to.end execution|execut(?:ed|ion) of.{0,40}financing|term sheets?/i,jd:/deal execution|transaction execution|(?:mergers|acquisitions)|\bM&A\b|investment banking|transaction support|origination|transactions? (?:through|from)/i},
- {name:'Hands-on financial modelling',w:4,cv:/three.statement (?:financial )?model|(?:built|developed|created).{0,55}(?:financial model|forecast model|DCF model|integrated model)|(?:DCF|financial) model(?:l?ing)?(?: experience| proficiency| skills)/i,jd:/financial model(?:l?ing)?|build.{0,45}model|forecast(?:ing)? models?|three.statement model|integrated forecast/i},
+ {name:'Hands-on financial modelling',w:4,cv:/three.statement (?:financial )?model|(?:built|developed|created).{0,55}(?:financial model|forecast model|DCF model|integrated model)|(?:DCF|financial) model(?:l?ing)?(?: experience| proficiency| skills)/i,jd:/financial model(?:l?ing)?|build.{0,45}model|forecast(?:ing)? models?|three.statement model|integrated forecast|(?:DCF|LBO).{0,25}model|model.{0,25}(?:DCF|LBO)/i},
+ {name:'M&A advisory experience',w:3,cv:/\bM&A\b|mergers and acquisitions|merger advisory|acquisition advisory|buy.side.{0,18}deal|sell.side.{0,18}deal/i,jd:/\bM&A\b|mergers.{0,8}acquisitions|M A transactions|merger advisory|buy.side mandate|sell.side mandate/i},
  {name:'Valuation methods and analysis',w:3,cv:/valuation|enterprise value|equity value|discounted cash flow|\bDCF\b|trading comparable|cost of capital|CAPM/i,jd:/valuation|enterprise value|equity valuation|\bDCF\b|comparab(?:le|ility) compan|valuation multiple/i},
  {name:'Credit and financial risk',w:3,cv:/credit(?: risk| assessment| analysis|worthiness)?|counterparty risk|interest coverage|debt.servicing|lending|solvency/i,jd:/credit|risk assessment|risk analys|counterparty|debt capacity|financial risk|liquidity risk|restructur/i},
  {name:'Investment and equity research',w:3,cv:/equity research|investment research|investment analysis|investment attractiveness|systematic risk|shareholder|capital iq/i,jd:/investment research|equity research|investment analys|securit(?:y|ies) analys|investment opportunit|capital markets/i},
@@ -39,7 +40,7 @@ function restrictions(job,details){
  if(/visa sponsorship is not available|no visa sponsorship|must have (?:legal )?authorization to work/.test(t))out.push('Verify work authorisation / sponsorship.');
  if(/graduation date|graduating between|expected graduation|graduate between|graduation year/.test(t))out.push('Verify exact eligible graduation month/year.');
  if(/graduation date before (?:december|dec)\s+2026/.test(t)&&/expected\s+202[78]/i.test(cv))out.push('Graduation year in CV appears outside the published requirement.');
- if(/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager)\b/.test(String(job.title||'')))out.push('Check seniority: role may require substantially more experience.');
+ if(/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director)\b/i.test(String(job.title||'')))out.push('Check seniority: role may require substantially more experience.');
  return [...new Set(out)];
 }
 function score(job){
@@ -56,13 +57,21 @@ function score(job){
  else{
   const weight=used.reduce((n,r)=>n+r.w,0);
   const covered=matched.reduce((n,r)=>n+r.w,0);
-  result={state:'scored',score:Math.round(100*covered/weight),matched:matched.map(r=>r.name),missing:missing.map(r=>r.name),warnings,signalCount:used.length};
+  const raw=Math.round(100*covered/weight);
+  const evidenceCap=used.length>=9?100:used.length>=7?94:used.length>=5?88:80;
+  let final=Math.min(raw,evidenceCap);
+  let state='scored';
+  // Mandatory or unknown eligibility must not produce an apparently perfect match.
+  if(warnings.some(w=>/Nationality restriction|MBA-specific requirement|Graduation year in CV appears outside/.test(w))){state='eligibility_check';final=null}
+  // Avoid rating senior jobs as perfect matches when no equivalent role is evidenced.
+  else if(warnings.some(w=>/Check seniority/.test(w))&&!/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director)\b/i.test(cv))final=Math.min(final,35);
+  result={state,score:final,matched:matched.map(r=>r.name),missing:missing.map(r=>r.name),warnings,signalCount:used.length};
  }
  cache.set(job,result);return result;
 }
 function panel(job,escape=clean){
  const r=score(job);
- const label=r.state==='no_cv'?'Add CV privately':r.state==='no_jd'?'Full JD unavailable':r.state==='limited_jd'?'Limited JD evidence':r.score+'/100';
+ const label=r.state==='no_cv'?'Add CV privately':r.state==='no_jd'?'Full JD unavailable':r.state==='limited_jd'?'Limited JD evidence':r.state==='eligibility_check'?'Eligibility review required':r.score+'/100';
  const pill=r.score!==null?(r.score>=75?'good':r.score<45?'warn':''):'line';
  const text=r.state==='no_cv'
   ? '<p class="small">Paste your CV once in <a href="#cvPrivate">Private CV matching</a> to compare your evidence with this job description.</p>'

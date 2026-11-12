@@ -33,6 +33,15 @@ For an *existing* GitHub repository, back up your private notes from the old sit
 - The website loads the public `data/jobs.json` file when opened and periodically while open. Scheduled updates only begin **after GitHub deployment**.
 - Separately, the existing ChatGPT daily job-monitoring task can notify you about employers not supported by these feeds. Its alerts do **not** automatically change this site's job database.
 
+## Consulting firms and real vacancy coverage (12 November 2026)
+
+- **32 consulting, strategy and deals employer entries** are included, including distinct **PwC Deals / PwC Consulting** and **Capgemini Invent / Capgemini** divisions. Coverage status is displayed on each firm card: **Feed checked**, **Partial coverage**, **Feed failed**, or **Not auto-monitored**.
+- Among these consulting entries, **4 have successfully checked automatic feeds** (FTI Consulting, Protiviti, Roland Berger, Teneo), **2 have failed feeds** (Accenture Strategy, Booz Allen Hamilton), and **26 do not have an automatic vacancy feed**. The directory is **not a complete vacancy monitor** for the other 26.
+- Curated employer-posting links have been added for PwC's 2027 Deals and Consulting summer programmes, BCG Senior Associate (Dubai), Kearney Foresight Senior Business Analyst / Associate (Dubai), Capgemini Insights & Data 2026/27 Internship (Dubai; distinct from Invent), McKinsey Business Analyst and Business Analyst Intern (multi-office listings including Abu Dhabi), and Grant Thornton Forensics Associate Consultant (Dubai). Some require *undergraduate status*, *2+ years after graduation* or *3–7 years of experience*. Their presence in the tracker does **not** verify applicant eligibility or a live application window.
+- Vacancy status and published deadlines should be verified on the **specific employer posting**, not guessed from an old snapshot. All job records with a *passed recorded employer deadline* or **missing from the latest successful feed** are shown under **Archived / deadlines passed**, not in default current results. Records remain in JSON to preserve application notes and history.
+- Official portal coverage is not exhaustive: some employers operate multiple candidate portals, legacy/JS-only sites cannot be fully read by the current discovery script, and very large Workday boards exceed the collector's scan limit. Search results and saved careers URLs should never be interpreted as a complete list of vacancies.
+- Consulting-specific opportunities should be reviewed in the **Browse firms → Consulting & deals** filter, including firms without listed direct jobs. Clicking **View firm** opens the official recruiting portal.
+
 ## Private CV-to-job matching
 
 - Open **Private CV matching** above the job openings list, then paste the text of your CV and select **Save locally & rate jobs**. For PDF and Word files, copy the selectable text rather than uploading the file.

@@ -1451,6 +1451,96 @@
         ],
         "method": "Employer posting screening; no guarantee of eligibility"
       }
+    },
+    {
+      "id": "consulting-mckinsey-ba-15136",
+      "company": "McKinsey & Company",
+      "title": "Business Analyst — UAE / Abu Dhabi (global posting)",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-15136",
+      "location": "Abu Dhabi / multiple global offices",
+      "programme": "Full-time / other",
+      "description": "McKinsey Business Analyst global vacancy, listing Abu Dhabi among accepted work locations. Join client service team, identify challenges, analyse quantitative and qualitative information, conduct interviews, develop recommendations and presentations. Global ongoing role; no specific UAE application deadline published in retrieved listing. Confirm office availability and candidate eligibility in the official application flow.",
+      "eligibilityFlags": [
+        "Multi-office global posting, not a newly dated UAE-specific vacancy"
+      ],
+      "note": "Official McKinsey careers role 15136, with Abu Dhabi listed. Do not interpret as newly published this week.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "McKinsey & Company",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
+    },
+    {
+      "id": "consulting-mckinsey-ba-intern-15275",
+      "company": "McKinsey & Company",
+      "title": "Business Analyst Intern — UAE / Abu Dhabi (global posting)",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+      "location": "Abu Dhabi / multiple global offices",
+      "programme": "Internship",
+      "description": "McKinsey Business Analyst Intern global role 15275 lists Abu Dhabi among locations. Eight-to-ten-week consulting internship supporting problem solving, market and client research, quantitative analysis, interviews and insight development. Internship intake dates, student-year eligibility and country-specific application windows require verification in employer system.",
+      "eligibilityFlags": [
+        "Multi-office internship listing; confirm UAE intake, master's eligibility and application window"
+      ],
+      "note": "Official McKinsey multi-location role. Do not assume November 2026 publication or confirmed open Dubai intake.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "McKinsey & Company",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
+    },
+    {
+      "id": "consulting-grant-thornton-associate-forensics",
+      "company": "Grant Thornton",
+      "title": "Associate Consultant | Forensics — Dubai",
+      "url": "https://careers.grantthornton.ae/en/uae/jobs/associate-consultant-forensics-1100017835/",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Full-time / other",
+      "description": "Grant Thornton UAE forensic consulting associate role. Analytical assignments, investigation and diligence support, Excel analysis, document and transaction research, structured client reports and presentations. Strong analytical, numerical, communication and organisation skills required; verify active status and any experience requirements on employer page.",
+      "eligibilityFlags": [
+        "Originally listed earlier in 2026; verify that application remains open"
+      ],
+      "note": "Official Grant Thornton UAE vacancy page. Rechecked 12 November 2026; employer page remains indexed, but no verified current posting date or application deadline.",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "sourceBoard": "Grant Thornton",
+      "deadline": "",
+      "publishedAt": "",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T05:00:00+04:00",
+      "guidance": {
+        "showcase": [
+          "Structured commercial research and quantitative analysis",
+          "Client reports and presentations"
+        ],
+        "workOn": [
+          "Confirm office-level eligibility and current availability"
+        ],
+        "method": "Direct employer page screening"
+      }
     }
   ]
 }

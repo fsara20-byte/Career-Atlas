@@ -25,6 +25,17 @@ For an *existing* GitHub repository, back up your private notes from the old sit
 - The website loads the public `data/jobs.json` file when opened and periodically while open. Scheduled updates only begin **after GitHub deployment**.
 - Separately, the existing ChatGPT daily job-monitoring task can notify you about employers not supported by these feeds. Its alerts do **not** automatically change this site's job database.
 
+## Private CV-to-job matching
+
+- Open **Private CV matching** above the job openings list, then paste the text of your CV and select **Save locally & rate jobs**. For PDF and Word files, copy the selectable text rather than uploading the file.
+- **No CV, employer history, educational history, name, email, phone, or other personal profile is committed to this public repository.** The site ships generic matching rules only.
+- The CV is retained exclusively in that browser's `localStorage`. Comparisons run entirely client-side against JDs already in `data/jobs.json`; the implementation does not transmit the CV to GitHub, to an API, or to any employer.
+- Scores are rule-based indicative skills/JD matches, **not application success probabilities**. The interface explains detected evidence, skills not evidenced in the CV, graduation/MBA/nationality/seniority checks, and cases where the complete JD is missing. A full JD means a recorded snapshot; verify the live employer site.
+- CV scores recalculate when you revisit the site or when stored job data refreshes while the site is open. They do not run independently while your browser is closed.
+- Select **Delete local CV** to erase this site's saved CV on that browser. Application-note backups do not contain the CV. Other devices and browsers require separate local CV entry.
+- Treat any browser that stores your CV as private: other people or browser extensions with access to that browser profile may be able to access its local data.
+- The public employer directory contains 177 companies; only vacancies for which the repository has stored full job descriptions can receive a numerical score. Not every employer is fully monitored or has a current vacancy.
+
 ## Privacy and portability
 
 Application status, dates, notes, saved companies and follow-up plans are stored **locally in the browser**, not on GitHub. Export a JSON backup in **Notes** for safekeeping or importing on another browser. Browser data is not synchronised across devices.

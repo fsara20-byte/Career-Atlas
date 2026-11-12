@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-11T11:59:36.384617+00:00",
+  "generatedAt": "2026-11-12T01:10:37.791185+00:00",
   "employers": 177,
-  "verifiedFeeds": 38,
+  "verifiedFeeds": 37,
   "notConfigured": 133,
   "rows": [
     {
@@ -11,16 +11,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "AllianceBernstein",
       "careersUrl": "https://www.alliancebernstein.com/corporate/en/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Allianz Global Investors",
@@ -29,7 +31,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Allspring Global Investments",
@@ -38,7 +41,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Amundi",
@@ -47,7 +51,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "AXA Investment Managers",
@@ -56,7 +61,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BlackRock",
@@ -65,7 +71,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Candriam",
@@ -74,16 +81,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Capital Group",
       "careersUrl": "https://www.capitalgroup.com/about-us/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "DWS Group",
@@ -92,7 +101,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Eurizon Capital",
@@ -101,7 +111,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Federated Hermes",
@@ -110,16 +121,23 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Fidelity International",
       "careersUrl": "https://careers.fidelityinternational.com/",
       "provider": "workday",
-      "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "monitoringStatus": "partial_feed",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": [
+        {
+          "name": "Early Careers Programmes (Tal.net)",
+          "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/jobboard/vacancy/1/adv/"
+        }
+      ]
     },
     {
       "company": "Franklin Templeton",
@@ -128,7 +146,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Franklin Templeton Alternatives",
@@ -137,16 +156,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "GAM Investments",
       "careersUrl": "https://www.gam.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Invesco",
@@ -155,7 +176,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Janus Henderson",
@@ -164,7 +186,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Lombard Odier Investment Managers",
@@ -173,25 +196,28 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "M&G Investments",
       "careersUrl": "https://www.mandg.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "MFS Investment Management",
       "careersUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Neuberger Berman",
@@ -200,7 +226,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Ninety One",
@@ -209,16 +236,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Nuveen",
       "careersUrl": "https://www.nuveen.com/global/about-us/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "PIMCO",
@@ -227,7 +256,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Robeco",
@@ -236,7 +266,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Schroders",
@@ -245,52 +276,58 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "State Street",
       "careersUrl": "https://careers.statestreet.com/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "T. Rowe Price",
       "careersUrl": "https://www.troweprice.com/corporate/us/en/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Vontobel Asset Management",
       "careersUrl": "https://www.vontobel.com/en-int/about-vontobel/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Wellington Management",
       "careersUrl": "https://www.wellington.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Accenture Strategy",
       "careersUrl": "https://www.accenture.com/us-en/careers",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "AlixPartners",
@@ -299,7 +336,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Alvarez & Marsal",
@@ -308,7 +346,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Arthur D. Little",
@@ -317,7 +356,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bain & Company",
@@ -326,7 +366,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BDO",
@@ -335,7 +376,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BearingPoint",
@@ -344,16 +386,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Booz Allen Hamilton",
       "careersUrl": "https://careers.boozallen.com/",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Boston Consulting Group",
@@ -362,7 +406,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Capgemini Invent",
@@ -371,7 +416,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Deloitte Deals",
@@ -380,7 +426,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "EY-Parthenon",
@@ -389,16 +436,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "FTI Consulting",
       "careersUrl": "https://www.fticonsulting.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 6,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Gartner Consulting",
@@ -407,7 +456,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Grant Thornton",
@@ -416,7 +466,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "IBM Consulting",
@@ -425,7 +476,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Kearney",
@@ -434,7 +486,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "KPMG Deal Advisory",
@@ -443,7 +496,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Kroll",
@@ -452,7 +506,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "L.E.K. Consulting",
@@ -461,7 +516,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "McKinsey & Company",
@@ -470,7 +526,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Mercer",
@@ -479,7 +536,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Oliver Wyman",
@@ -488,16 +546,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Protiviti",
       "careersUrl": "https://www.protiviti.com/us-en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Publicis Sapient",
@@ -506,7 +566,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "PwC Deals",
@@ -515,16 +576,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Roland Berger",
       "careersUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/",
       "provider": "smartrecruiters",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 4,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Simon-Kucher",
@@ -533,7 +596,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Strategy&",
@@ -542,16 +606,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Teneo",
       "careersUrl": "https://www.teneo.com/careers/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 4,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bank of China",
@@ -560,7 +626,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bank of New York Mellon",
@@ -569,7 +636,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Banque Transatlantique",
@@ -578,7 +646,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BNP Paribas",
@@ -587,7 +656,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BPCE / Groupe BPCE",
@@ -596,7 +666,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "China Construction Bank",
@@ -605,7 +676,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "CIC (Crédit Mutuel Alliance Fédérale)",
@@ -614,7 +686,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Commerzbank",
@@ -623,7 +696,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Crédit Agricole CIB",
@@ -632,7 +706,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Crédit Agricole Indosuez",
@@ -641,7 +716,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Crédit Mutuel",
@@ -650,16 +726,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "DBS Bank",
       "careersUrl": "https://www.dbs.com/careers",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "HSBC",
@@ -668,7 +746,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "ICBC",
@@ -677,7 +756,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "ING",
@@ -686,7 +766,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Mizuho",
@@ -695,16 +776,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "MUFG",
       "careersUrl": "https://careers.mufgamericas.com/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Natixis CIB",
@@ -713,7 +796,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Natixis Investment Managers",
@@ -722,16 +806,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Northern Trust",
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "RBC Capital Markets",
@@ -740,7 +826,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "SMBC",
@@ -749,7 +836,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Société Générale",
@@ -758,7 +846,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Standard Bank Group",
@@ -767,7 +856,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Standard Chartered",
@@ -776,7 +866,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "UniCredit",
@@ -785,7 +876,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Balyasny Asset Management",
@@ -794,7 +886,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Baron Capital",
@@ -803,7 +896,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "BlueCrest Capital Management",
@@ -812,7 +906,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Brevan Howard",
@@ -821,7 +916,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Citadel",
@@ -830,7 +926,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Citadel Securities",
@@ -839,7 +936,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Dymon Asia Capital",
@@ -848,7 +946,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "ExodusPoint Capital",
@@ -857,7 +956,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Hudson Bay Capital Management",
@@ -866,7 +966,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Man Group",
@@ -875,7 +976,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Marshall Wace",
@@ -884,7 +986,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Millennium Management",
@@ -893,7 +996,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Naya Capital Management",
@@ -902,7 +1006,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Nine Masts Capital",
@@ -911,7 +1016,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "North Rock Capital",
@@ -920,16 +1026,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Point72",
       "careersUrl": "https://careers.point72.com/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Qube Research & Technologies",
@@ -938,16 +1046,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Schonfeld Strategic Advisors",
       "careersUrl": "https://job-boards.greenhouse.io/schonfeld",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Select Equity Group",
@@ -956,7 +1066,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Silver Point Capital",
@@ -965,7 +1076,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Squarepoint Capital",
@@ -974,7 +1086,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Varenne Capital Partners",
@@ -983,7 +1096,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Verition Fund Management",
@@ -992,34 +1106,38 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bank of America",
       "careersUrl": "https://careers.bankofamerica.com/en-us/job-search",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Barclays",
       "careersUrl": "https://search.jobs.barclays/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
-      "matchingJobs": 1,
-      "error": ""
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
+      "matchingJobs": 2,
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Citi",
       "careersUrl": "https://jobs.citi.com/",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Deutsche Bank",
@@ -1028,7 +1146,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Evercore",
@@ -1037,7 +1156,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Goldman Sachs",
@@ -1046,16 +1166,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Houlihan Lokey",
       "careersUrl": "https://hl.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Jefferies",
@@ -1064,7 +1186,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "JPMorgan Chase",
@@ -1073,7 +1196,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Lazard",
@@ -1082,16 +1206,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Moelis & Company",
       "careersUrl": "https://www.moelis.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Morgan Stanley",
@@ -1100,7 +1226,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Nomura",
@@ -1109,7 +1236,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Perella Weinberg",
@@ -1118,16 +1246,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "PJT Partners",
       "careersUrl": "https://www.pjtpartners.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Rothschild & Co",
@@ -1136,7 +1266,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "UBS",
@@ -1145,16 +1276,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bank of Singapore",
       "careersUrl": "https://www.bankofsingapore.com/careers.html",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage"
+      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Edmond de Rothschild",
@@ -1163,7 +1296,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "EFG International",
@@ -1172,7 +1306,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Indosuez Wealth Management",
@@ -1181,7 +1316,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "J. Safra Sarasin",
@@ -1190,7 +1326,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Julius Baer",
@@ -1199,7 +1336,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Lombard Odier",
@@ -1208,7 +1346,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Mirabaud",
@@ -1217,7 +1356,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Pictet",
@@ -1226,16 +1366,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Swissquote",
       "careersUrl": "https://www.swissquote.com/en/careers",
       "provider": "smartrecruiters",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Union Bancaire Privée (UBP)",
@@ -1244,16 +1386,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Apollo Global Management",
       "careersUrl": "https://www.apollo.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Ardian",
@@ -1262,7 +1406,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Ares Credit Group",
@@ -1271,7 +1416,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Ares Management",
@@ -1280,16 +1426,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bain Capital",
       "careersUrl": "https://www.baincapital.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Blackstone",
@@ -1298,16 +1446,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Blue Owl Capital",
       "careersUrl": "https://www.blueowl.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Brookfield",
@@ -1316,7 +1466,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Carlyle",
@@ -1325,7 +1476,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "CVC Capital Partners",
@@ -1334,7 +1486,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "EQT",
@@ -1343,25 +1496,28 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Fortress Investment Group",
       "careersUrl": "https://www.fortress.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "General Atlantic",
       "careersUrl": "https://www.generalatlantic.com/careers/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Hayfin Capital Management",
@@ -1370,7 +1526,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "HPS Investment Partners",
@@ -1379,16 +1536,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "ICG",
       "careersUrl": "https://www.icgam.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Investcorp",
@@ -1397,7 +1556,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "KKR",
@@ -1406,7 +1566,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Oak Hill Advisors",
@@ -1415,16 +1576,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Oaktree Capital Management",
       "careersUrl": "https://www.oaktreecapital.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Partners Group",
@@ -1433,7 +1596,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Pemberton Asset Management",
@@ -1442,16 +1606,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Sixth Street",
       "careersUrl": "https://sixthstreet.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Starwood Capital Group",
@@ -1460,16 +1626,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "TPG",
       "careersUrl": "https://www.tpg.com/careers",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Warburg Pincus",
@@ -1478,16 +1646,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Addepar",
       "careersUrl": "https://job-boards.greenhouse.io/addepar1",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 1,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Bloomberg",
@@ -1496,7 +1666,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "CFA Institute",
@@ -1505,7 +1676,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "FactSet",
@@ -1514,7 +1686,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Fitch Ratings",
@@ -1523,16 +1696,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "LSEG",
       "careersUrl": "https://www.lseg.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Moody’s",
@@ -1541,7 +1716,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Morningstar",
@@ -1550,7 +1726,8 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "MSCI",
@@ -1559,16 +1736,18 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "S&P Global Ratings",
       "careersUrl": "https://careers.spglobal.com/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "SimCorp",
@@ -1577,26 +1756,29 @@
       "monitoringStatus": "not_configured",
       "lastCheckedAt": null,
       "matchingJobs": null,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Guidepoint",
       "careersUrl": "https://job-boards.greenhouse.io/guidepoint",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     },
     {
       "company": "Third Bridge",
       "careersUrl": "https://job-boards.greenhouse.io/thirdbridge",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-11T11:54:07Z",
+      "lastCheckedAt": "2026-11-12T01:05:45Z",
       "matchingJobs": 0,
-      "error": ""
+      "error": "",
+      "otherUnmonitoredBoards": []
     }
   ],
-  "note": "Only verified_feed indicates successful vacancy retrieval. Listed careers URLs are not automatic job monitoring."
+  "note": "Verified feed coverage only applies to the configured platform. A partial_feed employer has additional unmonitored official boards, so zero results does not mean zero vacancies."
 }

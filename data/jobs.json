@@ -1235,6 +1235,70 @@
       "deadlineSource": "",
       "deadlineVerifiedAt": "",
       "eligibilityFlags": []
+    },
+    {
+      "id": "curated-fidelity-2027-mea-sales",
+      "company": "Fidelity International",
+      "title": "MEA Sales Internship Programme 2027 - Dubai",
+      "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/jobboard/vacancy/1/adv/",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Off-cycle internship",
+      "description": "Fidelity International, Intern – MEA Sales, Sales & Marketing, Dubai. Full-time six-month internship running from early January to the end of June 2027. Assist the Middle East and Africa sales team with client reporting, investment sales materials, client meeting and event preparation, CRM/client tools, tracking client assets, inflows and outflows, performance reports and market or fund newsletters. Candidates should be studying a finance specialisation and demonstrate an interest in the asset management industry, teamwork and strong English communication. Verify current application status and all eligibility requirements on the Fidelity International official Early Careers Programme board.",
+      "note": "Verified on Fidelity International's official Tal.net early-careers board on 12 November 2026. Fidelity also has a separate Workday site, which does not cover this Early Careers listing. Link leads to official programme board; search this exact title. Application availability can change.",
+      "publishedAt": "",
+      "source": "curated",
+      "sourceBoard": "Fidelity International",
+      "eligibilityFlags": [
+        "Internship programme – confirm graduation and work authorisation requirements"
+      ],
+      "deadline": "",
+      "status": "verify_on_employer_site",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T00:59:08.813Z",
+      "updatedAt": "2026-11-12",
+      "descriptionSourceUrl": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/jobboard/vacancy/1/adv/",
+      "guidance": {
+        "showcase": [
+          "Relevant finance and client-facing experience",
+          "Financial analysis, research and presentation skills"
+        ],
+        "workOn": [
+          "Verify official eligibility and current application status"
+        ],
+        "method": "Curated guidance; check official posting"
+      }
+    },
+    {
+      "id": "curated-barclays-jr-0000125149",
+      "company": "Barclays",
+      "title": "Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai",
+      "url": "https://search.jobs.barclays/job/dubai/sales-trading-and-structuring-off-cycle-internship-programme-2027-dubai/13015/103122420832",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Off-cycle internship",
+      "description": "Barclays markets off-cycle internship in Dubai, lasting approximately three to six months. The markets division supports institutional investors with market insights, trade execution, capital markets and risk management solutions. Intern duties include market and product research, monitoring markets, assisting with trade ideas, quantitative and fundamental data analysis, client meetings, presentations and reports, and supporting trading, sales and structuring professionals. The programme requires applicants to be in their penultimate or final year of a degree; fluent English is required and Arabic is desirable. A keen interest in finance, quantitative reasoning, teamwork and curiosity about financial markets are valued. The posting was marked Date live 10 November 2026 on Barclays' official site. Verify current application and work authorisation requirements.",
+      "note": "Official Barclays posting dated 10 November 2026, reference JR-0000125149. Previously excluded by an over-broad 'sales' title filter; the collection filter is now corrected.",
+      "publishedAt": "2026-11-10",
+      "source": "curated",
+      "sourceBoard": "Barclays",
+      "eligibilityFlags": [
+        "Internship programme – confirm graduation and work authorisation requirements"
+      ],
+      "deadline": "",
+      "status": "verify_on_employer_site",
+      "firstSeen": "2026-11-12",
+      "firstSeenAt": "2026-11-12T00:59:08.813Z",
+      "updatedAt": "2026-11-12",
+      "descriptionSourceUrl": "https://search.jobs.barclays/job/dubai/sales-trading-and-structuring-off-cycle-internship-programme-2027-dubai/13015/103122420832",
+      "guidance": {
+        "showcase": [
+          "Relevant finance and client-facing experience",
+          "Financial analysis, research and presentation skills"
+        ],
+        "workOn": [
+          "Verify official eligibility and current application status"
+        ],
+        "method": "Curated guidance; check official posting"
+      }
     }
   ]
 }

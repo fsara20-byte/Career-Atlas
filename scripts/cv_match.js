@@ -40,7 +40,7 @@ function restrictions(job,details){
  if(/visa sponsorship is not available|no visa sponsorship|must have (?:legal )?authorization to work/.test(t))out.push('Verify work authorisation / sponsorship.');
  if(/graduation date|graduating between|expected graduation|graduate between|graduation year/.test(t))out.push('Verify exact eligible graduation month/year.');
  if(/graduation date before (?:december|dec)\s+2026/.test(t)&&/expected\s+202[78]/i.test(cv))out.push('Graduation year in CV appears outside the published requirement.');
- if(/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director)\b/i.test(String(job.title||'')))out.push('Check seniority: role may require substantially more experience.');
+ if(/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director|director|consulting manager)\b|\bmanagement consulting,? manager\b/i.test(String(job.title||'')))out.push('Check seniority: role may require substantially more experience.');
  return [...new Set(out)];
 }
 function score(job){
@@ -64,7 +64,7 @@ function score(job){
   // Mandatory or unknown eligibility must not produce an apparently perfect match.
   if(warnings.some(w=>/Nationality restriction|MBA-specific requirement|Graduation year in CV appears outside/.test(w))){state='eligibility_check';final=null}
   // Avoid rating senior jobs as perfect matches when no equivalent role is evidenced.
-  else if(warnings.some(w=>/Check seniority/.test(w))&&!/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director)\b/i.test(cv))final=Math.min(final,35);
+  else if(warnings.some(w=>/Check seniority/.test(w))&&!/\b(?:vice president|engagement manager|senior consultant|managing director|portfolio manager|consulting director|director|consulting manager)\b|\bmanagement consulting,? manager\b/i.test(cv))final=Math.min(final,35);
   result={state,score:final,matched:matched.map(r=>r.name),missing:missing.map(r=>r.name),warnings,signalCount:used.length};
  }
  cache.set(job,result);return result;

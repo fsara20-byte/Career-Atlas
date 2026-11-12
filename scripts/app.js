@@ -6,7 +6,7 @@ const href=s=>/^https:\/\/[\w.\-]+(?:[/:?#]|$)/i.test(String(s))?clean(s):'#';
 const today=()=>{let d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-')};
 const when=s=>s?new Date(s+'T12:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):'';
 const STORE='career_watch_live_v1';let saved={entries:{},notes:'',setup:[]};try{let x=JSON.parse(localStorage.getItem(STORE)||'null');if(x&&typeof x==='object')saved={...saved,...x}}catch(e){}
-let companies=STATIC_COMPANIES,jobs=STATIC_JOBS,meta=STATIC_META,showAll=false;
+let companies=STATIC_COMPANIES,jobs=STATIC_JOBS,meta=STATIC_META,coverage=STATIC_COVERAGE,showAll=false;
 const lastVisitAt=saved.lastVisitAt||'';
 saved.lastVisitAt=new Date().toISOString();
 const newSince=job=>!!(lastVisitAt && job.firstSeenAt && Date.parse(job.firstSeenAt)>Date.parse(lastVisitAt));
@@ -19,6 +19,20 @@ const addedThisWeek=job=>{
 };
 const daysUntil=d=>{if(!d)return Infinity;const date=new Date(d+'T12:00:00');return Math.ceil((date-new Date(today()+'T12:00:00'))/(86400000))};
 const verifiedDeadline=j=>j.deadline&&j.deadlineSource&&(/employer/i).test(j.deadlineSource)?j.deadline:'';
+const archiveReason=j=>{
+ const d=verifiedDeadline(j);
+ if(d&&d<today())return 'Recorded deadline passed: '+when(d)+'. Recheck official portal if it reopens.';
+ if(j.status==='not_in_latest_feed')return 'No longer in last successful feed; closure not independently established.';
+ return '';
+};
+const isArchived=j=>!!archiveReason(j);
+const monitoringFor=name=>(coverage.rows||[]).find(r=>r.company===name)||null;
+const monitoringBadge=name=>{
+ const st=monitoringFor(name)?.monitoringStatus||'not_configured';
+ const labels={verified_feed:'Feed checked',partial_feed:'Partial coverage',failed:'Feed failed',not_configured:'Not auto-monitored',awaiting_first_scan:'Unverified'};
+ return '<span class="pill '+(st==='verified_feed'?'good':st==='failed'||st==='partial_feed'?'warn':'line')+'">'+clean(labels[st]||'Unverified')+'</span>';
+};
+
 const feedFresh=j=>{let a=(meta.sources||[]).find(s=>s.company===j.sourceBoard);return !!(a&&a.status==='ok'&&j.lastSeenAt&&j.lastSeenAt===a.checkedAt)};
 const roleSignals=j=>{const t=(j.title||'').toLowerCase();return {
  intern:roleType(j)==='intern'||/graduate|campus/.test(t),
@@ -85,41 +99,44 @@ function jobCard(job,compact=false){
  const x=entry(kjob(job)),feed=['ashby','greenhouse','workday','smartrecruiters'].includes(job.source);
  const available=job.status==='active'&&feed&&feedFresh(job);
  const status=job.status==='not_in_latest_feed'?'Not in latest feed':available?'Recently feed-listed':feed?'Feed listing · verify':'Reference link · verify';
- const published=verifiedDeadline(job),match=window.CareerCV&&window.CareerCV.ready()?window.CareerCV.score(job):null;
+ const published=verifiedDeadline(job),old=isArchived(job),match=window.CareerCV&&window.CareerCV.ready()?window.CareerCV.score(job):null;
  const scoreTag=match?(match.score!==null?'<span class="pill '+(match.score>=75?'good':match.score<45?'warn':'')+'">CV fit '+match.score+'/100</span>':match.state==='eligibility_check'?'<span class="pill warn">Eligibility check</span>':''):'';
  const deadline=published?'<span class="pill '+(published<today()?'warn':'')+'">Deadline '+clean(when(published))+'</span>':'';
  const stage=x.stage&&x.stage!=='To review'?'<span class="pill">'+clean(x.stage)+'</span>':'';
- const added=addedThisWeek(job)?'<span class="pill good">Added this week</span>':'';
+ const added=addedThisWeek(job)&&!old?'<span class="pill good">Added this week</span>':'';
+ const oldTag=old?'<span class="pill warn">Archived · verify reopening</span>':'';
  return '<article class="listitem cvJobCard"><div class="jobrow"><div class="jobInfo"><div class="jobtitle">'+clean(job.title)+'</div>'+
  '<div class="jobmeta">'+clean(job.company)+' · '+clean(job.location||'Location not specified')+'</div>'+
- '<div class="pills"><span class="pill">'+clean(job.programme||'Role')+'</span><span class="pill '+(available?'good':'line')+'">'+clean(status)+'</span>'+added+scoreTag+deadline+stage+'</div></div>'+
+ '<div class="pills"><span class="pill">'+clean(job.programme||'Role')+'</span><span class="pill '+(available&&!old?'good':'line')+'">'+clean(status)+'</span>'+oldTag+added+scoreTag+deadline+stage+'</div></div>'+
  '<div class="jobactions"><a class="btn primary" href="'+href(job.url)+'" target="_blank" rel="noopener">Official posting ↗</a>'+
  '<label class="checklabel"><input type="checkbox" data-key="'+clean(kjob(job))+'" data-field="applied" '+(x.applied?'checked':'')+'> Applied</label></div></div>'+
  '<details class="roleDetails"><summary>CV match, requirements & application notes</summary>'+
- priorityPanel(job)+(job.guidance?'<p class="small"><b>Application guidance:</b> '+clean((job.guidance.showcase||[]).join(' · '))+'</p>':'')+
+ (old?'<p class="jobflag">'+clean(archiveReason(job))+'</p>':'')+priorityPanel(job)+(job.guidance?'<p class="small"><b>Application guidance:</b> '+clean((job.guidance.showcase||[]).join(' · '))+'</p>':'')+
  jobTrack(job)+'</details></article>';
 }
 function sortJobs(list){let sort=$('roleSort').value,fit=j=>window.CareerCV&&window.CareerCV.ready()?(window.CareerCV.score(j).score??-1):careerPriority(j).score;return list.sort((a,b)=>sort==='priority'?fit(b)-fit(a)||a.company.localeCompare(b.company):sort==='company'?a.company.localeCompare(b.company)||a.title.localeCompare(b.title):sort==='deadline'?(verifiedDeadline(a)||'9999').localeCompare(verifiedDeadline(b)||'9999'):(b.firstSeen||b.publishedAt||'').localeCompare(a.firstSeen||a.publishedAt||'')||a.company.localeCompare(b.company))}
 function renderJobs(){let q=$('searchInput').value.trim().toLowerCase(),t=$('roleCategory').value,f=$('roleStatus').value,exp=$('experienceFilter').value,elig=$('eligibilityFilter').value,loc=$('locationFilter').value;
 let found=sortJobs(jobs.filter(j=>{const r=roleSignals(j),deadline=verifiedDeadline(j),days=daysUntil(deadline),apply=entry(kjob(j)).applied;
+if(isArchived(j)&&f!=='archive'&&f!=='applied')return false;
+if(f==='archive'&&!isArchived(j))return false;
 return (!q||[j.company,j.title,j.location,j.programme,j.division].join(' ').toLowerCase().includes(q))
 &&(!t||roleType(j)===t)
-&&(!f||(f==='feed'&&['ashby','greenhouse','workday','smartrecruiters'].includes(j.source)&&j.status==='active')||(f==='manual'&&j.source==='curated')||(f==='applied'&&apply)||(f==='week'&&addedThisWeek(j))||(f==='soon'&&days>=0&&days<=7)||(f==='expired'&&days<0)||(f==='unknown'&&!deadline)||(f==='watch'&&!!j.deadlineChangedAt))
+&&(!f||(f==='feed'&&['ashby','greenhouse','workday','smartrecruiters'].includes(j.source)&&j.status==='active')||(f==='manual'&&j.source==='curated')||(f==='applied'&&apply)||(f==='week'&&addedThisWeek(j))||(f==='soon'&&days>=0&&days<=7)||(f==='archive'&&isArchived(j))||(f==='expired'&&days<0)||(f==='unknown'&&!deadline)||(f==='watch'&&!!j.deadlineChangedAt))
 &&(!exp||(exp==='intern'&&r.intern)||(exp==='senior'&&r.senior)||(exp==='early'&&!r.senior&&!r.intern))
 &&(!elig||(elig==='mba'&&r.mba)||(elig==='national'&&r.national)||(elig==='quant'&&r.quant)||(elig==='nominal'&&!r.mba&&!r.national&&!r.quant))
 &&(!loc||(loc==='uae'&&r.uae)||(loc==='uncertain'&&!r.uae))
 ;
 }));
-$('openingsSummary').textContent=found.length+' job links shown · '+jobs.filter(j=>j.status!=='not_in_latest_feed'&&addedThisWeek(j)).length+' added to tracker in the last 7 days · live source coverage is partial. Confirm each employer posting.';
+$('openingsSummary').textContent=found.length+' job links shown · '+jobs.filter(j=>!isArchived(j)&&addedThisWeek(j)).length+' added this week · '+jobs.filter(isArchived).length+' archived · '+(coverage.verifiedFeeds||0)+' verified feeds. Monitoring incomplete.';
 $('jobList').innerHTML=found.length?found.map(j=>jobCard(j)).join(''):'<div class="empty">No matching job links. Try fewer filters or visit the firm directory.</div>'; }
 function avatar(name){let bits=name.replace(/[^\p{L}\p{N} ]/gu,'').split(/\s+/).filter(Boolean);return clean((bits.length>1?bits.slice(0,2).map(b=>b[0]).join(''):name.slice(0,2)).toUpperCase())}
 function filterCompanies(){let q=$('companySearch').value.trim().toLowerCase(),sector=$('companySector').value,filter=$('companyFilter').value;
-return companies.map((c,i)=>({...c,_i:i})).filter(c=>{let list=jobs.filter(j=>j.company===c.name);let x=entry(kcompany(c._i));return (!q||[c.name,c.category,c.geo,c.fit,...(c.aliases||[]),...(c.divisions||[]),...(c.tags||[]),...list.map(j=>j.title)].join(' ').toLowerCase().includes(q))&&(!sector||sector===c.category)&&(!filter||(filter==='withjobs'&&list.length)||(filter==='due'&&isDue(c,c._i))||(filter==='high'&&c.priority==='High')||(filter==='saved'&&x.saved)||(filter==='verified'&&c.presenceStatus==='Verified UAE vacancy example'))}).sort((a,b)=>(!!entry(kcompany(b._i)).saved)-(!!entry(kcompany(a._i)).saved)||(b.priority==='High')-(a.priority==='High')||a.name.localeCompare(b.name));}
+return companies.map((c,i)=>({...c,_i:i})).filter(c=>{let list=jobs.filter(j=>j.company===c.name&&!isArchived(j));let x=entry(kcompany(c._i));return (!q||[c.name,c.category,c.geo,c.fit,...(c.aliases||[]),...(c.divisions||[]),...(c.tags||[]),...list.map(j=>j.title)].join(' ').toLowerCase().includes(q))&&(!sector||sector===c.category)&&(!filter||(filter==='withjobs'&&list.length)||(filter==='due'&&isDue(c,c._i))||(filter==='high'&&c.priority==='High')||(filter==='saved'&&x.saved)||(filter==='verified'&&c.presenceStatus==='Verified UAE vacancy example'))}).sort((a,b)=>(!!entry(kcompany(b._i)).saved)-(!!entry(kcompany(a._i)).saved)||(b.priority==='High')-(a.priority==='High')||a.name.localeCompare(b.name));}
 function renderChips(){let sec=$('companySector').value;let count={};companies.forEach(c=>count[c.category]=(count[c.category]||0)+1);$('sectorChips').innerHTML=`<button class="${sec?'':'selected'}" data-sector="">All sectors · ${companies.length}</button>`+Object.keys(count).sort().map(x=>`<button data-sector="${clean(x)}" class="${sec===x?'selected':''}">${clean(x)} · ${count[x]}</button>`).join('')}
 function renderCompanies(){let found=filterCompanies(),q=$('companySearch').value.trim().toLowerCase(),sector=$('companySector').value,filter=$('companyFilter').value;
  const n=showAll||q||sector||filter?found.length:Math.min(found.length,40);
  $('companySummary').textContent=found.length+' matching international employers · select a firm to open its application guide';
- $('companyList').innerHTML=found.length?found.slice(0,n).map(c=>{let list=jobs.filter(j=>j.company===c.name),x=entry(kcompany(c._i));return `<article class="firmtile"><div class="tileupper"><span class="firmaavatar">${avatar(c.name)}</span><div style="min-width:0"><h3>${clean(c.name)}</h3><div class="pills"><span class="pill">${clean(c.category)}</span>${list.length?`<span class="pill good">${list.length} job links</span>`:''}</div></div></div><p>${clean(c.fit||'Finance / investment roles')}</p><div class="tilecontrols"><button class="savedbtn ${x.saved?'on':''}" data-save-firm="${clean(c.id)}" title="Save as target employer">${x.saved?'★ Saved':'☆ Save'}</button><button class="btn" data-open-firm="${clean(c.id)}" aria-label="Open career guide for ${clean(c.name)}">View firm →</button></div></article>`}).join('')+(found.length>n?`<div style="padding:14px 0"><button id="showMore" class="btn">Show all ${found.length} firms ↓</button></div>`:''):'<div class="empty">No firms match these filters. Clear the search or choose a different sector.</div>';
+ $('companyList').innerHTML=found.length?found.slice(0,n).map(c=>{let list=jobs.filter(j=>j.company===c.name&&!isArchived(j)),x=entry(kcompany(c._i));return `<article class="firmtile"><div class="tileupper"><span class="firmaavatar">${avatar(c.name)}</span><div style="min-width:0"><h3>${clean(c.name)}</h3><div class="pills"><span class="pill">${clean(c.category)}</span>${list.length?`<span class="pill good">${list.length} job links</span>`:''}${monitoringBadge(c.name)}</div></div></div><p>${clean(c.fit||'Finance / investment roles')}</p><div class="tilecontrols"><button class="savedbtn ${x.saved?'on':''}" data-save-firm="${clean(c.id)}" title="Save as target employer">${x.saved?'★ Saved':'☆ Save'}</button><button class="btn" data-open-firm="${clean(c.id)}" aria-label="Open career guide for ${clean(c.name)}">View firm →</button></div></article>`}).join('')+(found.length>n?`<div style="padding:14px 0"><button id="showMore" class="btn">Show all ${found.length} firms ↓</button></div>`:''):'<div class="empty">No firms match these filters. Clear the search or choose a different sector.</div>';
  renderChips()
 }
 const GUIDES={
@@ -133,10 +150,10 @@ const GUIDES={
  'Ratings, research & data':{about:'International rating agencies, investment data firms and analytics providers support capital markets through credit opinions, quantitative research, financial information and risk tools.',roles:['Credit Ratings Analyst','Investment Research Analyst','Financial Research Analyst','Market Data Analyst','Portfolio Analytics Associate','Risk Analyst'],prep:'Be comfortable interpreting financial statements, cash flows and debt metrics; discuss industry risks, financial markets and clear research conclusions.'}
 };
 function guideFor(c){return GUIDES[c.category]||GUIDES['Asset management']}
-function profileBody(c){let i=companies.findIndex(x=>x.id===c.id),key=kcompany(i),x=entry(key),g=guideFor(c),list=jobs.filter(j=>j.company===c.name),isCareers=/careers|career|jobs|recrutement|graduate|job-search|job-boards/i.test(c.url);
+function profileBody(c){let i=companies.findIndex(x=>x.id===c.id),key=kcompany(i),x=entry(key),g=guideFor(c),list=jobs.filter(j=>j.company===c.name&&!isArchived(j)),isCareers=/careers|career|jobs|recrutement|graduate|job-search|job-boards/i.test(c.url);
  let stages=['Find an eligible role','Tailor CV and application','Employer screening / assessments','Interview preparation and follow-up'];
  let desc=['Verify the Dubai/UAE location, experience level, degree, internship eligibility and any published deadline.','Connect your private-credit, transactions, financial-statement and analytical experience to the specific position.','Recruitment steps depend on the firm and role. Track screening calls, numerical tests, case studies, technical tests and interview dates.','Prepare 2–3 relevant examples, a market or transaction discussion, and technical topics for your target role. Save your next action.'];
- return `<div class="profilehero"><div class="eyebrow">INTERNATIONAL FIRM PROFILE <span class="hseparator"></span> ${clean(c.category).toUpperCase()}</div><h2>${clean(c.name)}</h2><p>${clean(g.about)}</p><div class="profiletags"><span class="pill">${clean(c.priority)} tracking priority</span><span class="pill">${clean(c.tier||'International firm')}</span><span class="pill">${clean(c.presenceStatus||'UAE presence not independently checked')}</span></div>${c.divisions?.length?`<div class="eligibilitynote">Divisions covered by this official portal: ${clean(c.divisions.join(' · '))}</div>`:''}<div class="profilecta"><a class="btn primary" target="_blank" rel="noopener" href="${href(c.url)}">${isCareers?'Official careers / applications ↗':'Official website ↗'}</a><a class="btn" href="#openings" data-close-profile="1">Browse direct job links</a></div></div>
+ return `<div class="profilehero"><div class="eyebrow">INTERNATIONAL FIRM PROFILE <span class="hseparator"></span> ${clean(c.category).toUpperCase()}</div><h2>${clean(c.name)}</h2><p>${clean(g.about)}</p><div class="profiletags"><span class="pill">${clean(c.priority)} tracking priority</span><span class="pill">${clean(c.tier||'International firm')}</span><span class="pill">${clean(c.presenceStatus||'UAE presence not independently checked')}</span>${monitoringBadge(c.name)}</div>${c.divisions?.length?`<div class="eligibilitynote">Divisions covered by this official portal: ${clean(c.divisions.join(' · '))}</div>`:''}<div class="profilecta"><a class="btn primary" target="_blank" rel="noopener" href="${href(c.url)}">${isCareers?'Official careers / applications ↗':'Official website ↗'}</a><a class="btn" href="#openings" data-close-profile="1">Browse direct job links</a></div></div>
  <div class="profilebody"><div class="profileleft"><section class="profileblock"><h3>Career development pathways</h3><p>Relevant skills and requirements depend on the specific role and employer.</p><div class="targetlist">${g.roles.map(r=>`<span>${clean(r)}</span>`).join('')}</div></section>
  <section class="profileblock"><h3>How to apply · step by step</h3><p class="tiny">Practical general process, not a verified company-specific hiring timeline.</p>${stages.map((v,i)=>`<div class="processitem"><div class="processnum">${i+1}</div><div><b>${clean(v)}</b><p>${clean(desc[i])}</p></div></div>`).join('')}</section>
  <section class="profileblock"><h3>What to prepare</h3><p>${clean(g.prep)}</p></section>
@@ -149,7 +166,7 @@ function closeFirm(){if($('firmModal').hidden)return;$('firmModal').hidden=true;
 function searchFirms(q){q=(q||'').trim().toLowerCase();if(!q)return[];return companies.map(c=>({...c,score:(c.name.toLowerCase()===q?100:c.name.toLowerCase().startsWith(q)?70:c.name.toLowerCase().includes(q)?50:0)+(c.fit||'').toLowerCase().includes(q)*10+(c.category||'').toLowerCase().includes(q)*5+[...(c.tags||[]) ,...(c.aliases||[]),...(c.divisions||[])].some(t=>t.toLowerCase().includes(q))*20+(c.priority==='High'?1:0)})).filter(c=>c.score>0).sort((a,b)=>b.score-a.score||a.name.localeCompare(b.name))}
 function suggest(q){let found=searchFirms(q).slice(0,9);$('globalResults').hidden=!q.trim();$('globalResults').innerHTML=found.length?found.map((c,i)=>`<button role="option" class="suggestion" data-suggest="${clean(c.id)}"><span><span class="suggname">${clean(c.name)}</span><br><span class="suggmeta">${clean(c.category)} · ${clean(c.fit)}</span></span><span class="keyhint">Open ↗</span></button>`).join(''):'<div class="empty">No match. Try a sector such as asset management, credit or consulting.</div>'}
 function renderDashboard(){
- let now=today(),active=jobs.filter(j=>j.status!=='not_in_latest_feed'),newJobs=active.filter(addedThisWeek).sort((a,b)=>(b.firstSeenAt||b.publishedAt||'').localeCompare(a.firstSeenAt||a.publishedAt||''));
+ let now=today(),active=jobs.filter(j=>!isArchived(j)),newJobs=active.filter(addedThisWeek).sort((a,b)=>(b.firstSeenAt||b.publishedAt||'').localeCompare(a.firstSeenAt||a.publishedAt||''));
  const soon=active.filter(j=>{const d=daysUntil(verifiedDeadline(j));return d>=0&&d<=7&&!entry(kjob(j)).applied}).sort((a,b)=>verifiedDeadline(a).localeCompare(verifiedDeadline(b)));
  const applied=jobs.filter(j=>entry(kjob(j)).applied).sort((a,b)=>(entry(kjob(b)).date||'').localeCompare(entry(kjob(a)).date||''));
  const savedFirms=companies.filter((c,i)=>entry(kcompany(i)).saved);
@@ -158,8 +175,8 @@ function renderDashboard(){
  $('closingJobs').innerHTML=soon.length?soon.slice(0,4).map(j=>renderRole(j,when(verifiedDeadline(j)))).join(''):'<div class="dashmute">No verified deadlines within 7 days. Most employer feeds do not supply closing dates.</div>';
  $('myApplications').innerHTML=applied.length?applied.slice(0,4).map(j=>renderRole(j,entry(kjob(j)).stage||'Applied')).join(''):'<div class="dashmute">Nothing marked Applied yet. Open a role and tick Applied when you submit.</div>';
  $('priorityFirms').innerHTML=savedFirms.length?savedFirms.slice(0,5).map(c=>`<div class="dashitem"><div><strong>${clean(c.name)}</strong><small>${clean(c.category)}</small></div><button class="savedbtn on" data-dashboard-firm="${clean(c.id)}">Open →</button></div>`).join(''):'<div class="dashmute">Save companies in Explore firms to create your priority shortlist.</div>';
- const expired=active.filter(j=>daysUntil(verifiedDeadline(j))<0).length;
- $('dashboardFooter').innerHTML=`<b>${expired} published deadline${expired===1?'':'s'} already passed</b> · ${jobs.filter(j=>!verifiedDeadline(j)).length} links have no published employer deadline · ${meta.sources?.filter(x=>x.status==='ok').length||0} of ${meta.sources?.length||5} configured feeds succeeded at their last recorded check. <a href="#setup">How updates work</a>`;
+ const expired=jobs.filter(isArchived).length;
+ $('dashboardFooter').innerHTML=`<b>${expired} archived or withdrawn link${expired===1?'':'s'}</b> · ${jobs.filter(j=>!verifiedDeadline(j)).length} links have no published employer deadline · ${meta.sources?.filter(x=>x.status==='ok').length||0} of ${meta.sources?.length||5} configured feeds succeeded at their last recorded check. <a href="#companies">Browse monitoring status</a>`;
 }
 function updateStats(){ $('companyCount').textContent=companies.length;$('heroFirmCount').textContent=companies.length;$('roleCount').textContent=jobs.length;let appliedJobs=jobs.filter(j=>entry(kjob(j)).applied).length;let appliedFirms=new Set(jobs.filter(j=>entry(kjob(j)).applied).map(j=>j.company));companies.forEach((c,i)=>{if(entry(kcompany(i)).applied)appliedFirms.add(c.name)});$('appliedCount').textContent=appliedFirms.size;let due=companies.map((c,i)=>({c,i})).filter(z=>isDue(z.c,z.i));$('dueCount').textContent=due.length;$('todayList').innerHTML=due.length?due.slice(0,6).map(z=>`<p style="margin:11px 0"><b>${clean(z.c.name)}</b><br><span class="small">Review ${clean(when(entry(kcompany(z.i)).check||reviewDate(z.i)))}</span><br><a target="_blank" rel="noopener" href="${href(z.c.url)}">Open jobs ↗</a></p>`).join(''):'<p>No employer reviews due today.</p>';renderDashboard();}
 function renderHealth(){const ok=meta.lastSuccessfulAt;const parseDate=d=>{if(!d)return '';try{return new Date(d).toLocaleString('en-GB',{timeZone:'Asia/Dubai',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' Dubai'}catch(e){return d}};const sources=meta.sources||[];$('lastChecked').textContent=ok?'Last successful feed check: '+parseDate(ok):'Scheduled feed check not yet confirmed';$('liveText').textContent=ok?'Supported feeds checked':'Preview · deployment required';$('liveDot').className='dot '+(ok?'ok':'warn');$('feedCount').textContent=sources.filter(x=>x.status==='ok').length+' / '+(sources.length||5)+' feeds checked';$('healthList').innerHTML=sources.length?sources.map(s=>`<p><span class="dot ${s.status==='ok'?'ok':'warn'}"></span> <b>${clean(s.company)}</b><br><span class="tiny">${s.status==='ok'?s.count+' matching roles':s.status==='failed'?'Feed unavailable; last known roles retained':s.status}</span></p>`).join(''):'<p>The live updater has not run yet. Follow the setup guide to activate automatic checks.</p>'}

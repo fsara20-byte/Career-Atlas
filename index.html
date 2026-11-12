@@ -180,8 +180,8 @@ function status(){
 function save(){
  const v=$('privateCvText').value.trim();
  if(v.length<100){$('privateCvStatus').textContent='Please paste enough CV text to assess your skills (at least 100 characters).';return}
- cv=v;try{localStorage.setItem(KEY,v)}catch(_){$('privateCvStatus').textContent='Private browser storage unavailable; matching works until this tab is closed.'}
- cache=new WeakMap();status();notify();
+ cv=v;let persisted=true;try{localStorage.setItem(KEY,v)}catch(_){persisted=false}
+ cache=new WeakMap();status();if(!persisted)$('privateCvStatus').textContent='Browser storage unavailable: matching runs for this visit only.';notify();
 }
 function clear(){
  cv='';cache=new WeakMap();try{localStorage.removeItem(KEY)}catch(_){}

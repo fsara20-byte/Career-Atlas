@@ -41,8 +41,27 @@ main{max-width:1420px;padding:0 27px;grid-template-columns:minmax(0,1fr) 270px}.
 #cvPrivate textarea{width:100%;min-height:145px;margin:8px 0 2px;resize:vertical}
 #cvPrivate .toolbar{align-items:center}
 #privateCvStatus{font-size:12px;color:var(--muted)}
+/* App-like navigation: only the requested section is visible, instead of scrolling a long page. */
+body[data-panel="openings"] .hero,body[data-panel="companies"] .hero,body[data-panel="notes"] .hero{display:none}
+body[data-panel="openings"] main>div:first-child>section:not(#cvPrivate):not(#openings),
+body[data-panel="companies"] main>div:first-child>section:not(#companies),
+body[data-panel="notes"] main>div:first-child>section:not(#notes),
+body[data-panel="dashboard"] main>div:first-child>section:not(#dashboard):not(#metrics){display:none}
+body[data-panel] main{margin-top:20px}
+.nav a[data-panel].active{background:#e8edf5;color:#172b47;font-weight:800;border-radius:8px}
+.nav a[data-panel][aria-current="page"]{background:#e8edf5;color:#172b47}
+.cvScoreDisclosure{padding:0;margin:8px 0 0;border:1px solid var(--line);border-radius:9px;background:#f7f9fc}
+.cvScoreDisclosure>summary{padding:9px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;color:var(--ink);font-size:12px;font-weight:700;list-style:none;cursor:pointer}
+.cvScoreDisclosure>summary::-webkit-details-marker{display:none}
+.cvScoreDisclosure>summary::before{content:"+";font-weight:900;font-size:15px;color:#52627c;margin-right:6px}
+.cvScoreDisclosure[open]>summary::before{content:"−"}
+.cvScoreDisclosure>summary .pill{margin-left:auto}
+.cvScoreDisclosure .cvDetailBody{padding:5px 12px 12px;border-top:1px solid var(--line)}
+.cvScoreDisclosure .priorityHead{display:none}
+.cvScoreDisclosure .cvDetailBody textarea{width:100%;min-height:54px}
+@media(max-width:750px){body[data-panel] main{margin-top:14px}}
 </style></head><body>
-<div class="top"><div class="topinner"><div class="brand"><span class="brandmark">CA</span> Career Atlas <span>/ International careers</span></div><nav class="nav" aria-label="Main navigation"><button class="navprimary" id="navSearch">⌕ Search a firm</button><a href="#dashboard">Dashboard</a><a href="#companies">Browse firms</a><a href="#openings">Job openings</a><a href="events.html">Events & programs</a><a href="#notes">My notes</a><a href="#setup">Auto-updates</a></nav></div></div>
+<div class="top"><div class="topinner"><div class="brand"><span class="brandmark">CA</span> Career Atlas <span>/ International careers</span></div><nav class="nav" aria-label="Main navigation"><button class="navprimary" id="navSearch">⌕ Search a firm</button><a href="#openings" data-panel="openings">Job openings</a><a href="#dashboard" data-panel="dashboard">Dashboard</a><a href="#companies" data-panel="companies">Browse firms</a><a href="events.html">Events & programs</a><a href="#notes" data-panel="notes">My notes</a></nav></div></div>
 <div class="hero"><div class="herocontent"><div class="eyebrow">YOUR FINANCE & CONSULTING APPLICATION HUB <span class="hseparator"></span> DUBAI • UAE</div><h1>Find your next<br><em>career move.</em></h1><p>One international-firm directory for investment banking, hedge funds, asset management, private credit, consulting and CFA career paths. Search any firm and open its application guide.</p>
 <div class="finder"><label for="globalSearch" class="searchlabel">SEARCH FIRMS & THEIR ROLES</label><div class="searchfield"><span class="magnify">⌕</span><input type="search" id="globalSearch" placeholder="Try Lazard, Rothschild, PIMCO, HSBC, Citadel…" autocomplete="off" aria-label="Search firms"><button id="globalSearchButton" class="searchgo">Search</button></div><div id="globalResults" class="searchresults" role="listbox" hidden></div><div class="finderhint">Quick search: choose a result for its career profile, current linked jobs, notes and official application website.</div></div>
 <div class="sectionnav shortcut"><a href="#dashboard">Action dashboard</a><a href="#companies">All international firms</a><a href="#openings">Linked job openings</a><a href="#notes">Application notes</a><a href="#setup">Automatic update setup</a></div></div>
@@ -55,7 +74,7 @@ main{max-width:1420px;padding:0 27px;grid-template-columns:minmax(0,1fr) 270px}.
 <div class="dashcard"><div class="dashheading"><span class="dashicon">03</span><h3>My applications</h3><a href="#openings">Track</a></div><div id="myApplications" class="dashitems"></div></div>
 <div class="dashcard"><div class="dashheading"><span class="dashicon">04</span><h3>Priority firms</h3><a href="#companies">Explore</a></div><div id="priorityFirms" class="dashitems"></div></div>
 </div><div id="dashboardFooter" class="dashfoot"></div></section>
-<section class="panel"><div class="kpis"><div class="kpi"><strong id="companyCount">194</strong><span>Firm entries</span></div><div class="kpi"><strong id="roleCount">11</strong><span>Direct role links</span></div><div class="kpi"><strong id="appliedCount">0</strong><span>Applications made</span></div><div class="kpi"><strong id="dueCount">0</strong><span>Reviews due</span></div></div></section>
+<section class="panel" id="metrics"><div class="kpis"><div class="kpi"><strong id="companyCount">194</strong><span>Firm entries</span></div><div class="kpi"><strong id="roleCount">11</strong><span>Direct role links</span></div><div class="kpi"><strong id="appliedCount">0</strong><span>Applications made</span></div><div class="kpi"><strong id="dueCount">0</strong><span>Reviews due</span></div></div></section>
 <section class="panel" id="cvPrivate">
 <details><summary>Private CV matching · compare your CV with saved job descriptions</summary>
 <p>Paste your CV text once to score job descriptions automatically when you open the tracker and whenever listings refresh. All CV text stays on this device in this browser; it is never uploaded, published to GitHub or included in your application backup.</p>

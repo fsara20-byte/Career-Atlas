@@ -1,5 +1,11 @@
 name: Update official job feeds and publish site
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'config/sources.json'
+      - 'scripts/update_jobs.py'
+      - 'data/jobs.json'
   schedule:
     # Daily at 08:17 Dubai time (UTC+4); GitHub may delay scheduled runs.
     - cron: '17 4 * * *'
@@ -29,6 +35,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check collector regression tests and JavaScript syntax
+        run: |
+          python -m unittest discover -s tests -v
+          node --check scripts/app.js
+          node --check scripts/cv_match.js
       - name: Pull official job postings
         run: python scripts/update_jobs.py
       - name: Discover official careers pages across all 177 employers

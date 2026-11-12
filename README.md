@@ -2,7 +2,7 @@
 
 A GitHub Pages application tracker featuring international employers, searchable company profiles, saved firms, job postings, published deadlines where available, private notes and role-by-role application tracking.
 
-**Coverage:** 177 consolidated international employers. The static package includes curated job links for reference, plus five configured official Greenhouse recruitment boards (Schonfeld, Addepar, Teneo, Guidepoint, Third Bridge). These boards do not necessarily have matching vacancies today. Most employers, including international banks and consulting firms, are not automatically monitored by this repository.
+**Coverage:** 177 employer directory entries, 44 configured official recruiting feeds, and 29+ curated/feed job records as of 12 November 2026. Coverage is incomplete: several large ATS boards exceed the collector's full-scan limit; 133 employers lack a configured vacancy feed. Some employers use multiple recruiting sites: Fidelity International's main Workday feed does not cover its separate Tal.net Early Careers programmes board. A successful scan of one platform does not prove the employer has no other vacancies.
 
 ## Set up automatic updates
 
@@ -15,9 +15,17 @@ A GitHub Pages application tracker featuring international employers, searchable
 
 For an *existing* GitHub repository, back up your private notes from the old site, replace the tracked project files with this package, commit, push, and manually run the workflow. Never upload the private application backup to a public repository.
 
+## Recent-posting accuracy and platforms
+
+- The **Added this week** filter and dashboard show jobs first added to the tracker in the previous seven days, not necessarily jobs the employer published during that period. A true employer post date is shown separately only when verified.
+- The title filter excludes general commercial sales/business development but now **allows investment/institutional sales internships and sales, trading and structuring roles**.
+- Fidelity International uses two platforms: the configured Workday feed and a separate <https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/jobboard/vacancy/1/adv/> Early Careers board. The Tal.net feed is **not automatically monitored**. The Dubai MEA Sales Internship is saved as a curated official-board link that needs manual revalidation.
+- Only the configured providers can be automatically checked. Large public Workday job boards exceeding the 1,200-position full-scan limit are flagged as incomplete; new jobs at those employers can be missed until dedicated, verified integrations are added. Don't infer that zero tracked jobs means zero employer vacancies.
+- The job update workflow runs on a daily schedule and when its filter/configuration data is changed on main. It can be delayed by GitHub Actions. The website may also temporarily use bundled job data while a fetch fails.
+
 ## How the vacancy data works
 
-- `config/sources.json` lists the **five** configured Greenhouse boards. The updater collects publicly advertised UAE-located roles with targeted finance, investing, research, risk and strategy keywords, and filters out clearly sales-oriented and very senior titles.
+- `config/sources.json` lists the **five** configured Greenhouse boards. The updater collects publicly advertised UAE-located roles matching finance, investing, research, risk and strategy keywords. General commercial sales roles are excluded, but investment sales and markets programmes are retained.
 - Supported-feed postings are marked as freshly confirmed only when the source's successful check matches the recorded listing. Initially collected job links are *reference snapshots*: clicking them may show an expired application, so verify directly.
 - If a feed fails, its previous records remain, flagged as unconfirmed rather than incorrectly removed. A position absent from a successfully checked feed is labelled *not in latest feed*, not definitively closed.
 - Verified deadlines come only from employer-published sources. Unknown deadlines are shown as unknown. User-entered dates are personal reminders and not presented as employer deadlines.

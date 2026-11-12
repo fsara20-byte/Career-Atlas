@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh supported employer-published Ashby and Greenhouse feeds into data/jobs.json.
+"""Refresh supported employer-published recruiting feeds into data/jobs.json.
 
 No credentials. Never guesses deadlines or declares jobs closed just because a site failed.
 Run: python scripts/update_jobs.py
@@ -33,8 +33,11 @@ def relevant(job, cfg):
     if not any(k.lower() in place.lower() for k in cfg['location_keywords']):
         return False
     title = str(job.get('title') or '')
-    if re.search(cfg.get('exclude_title_regex', r'(?!)'),title):
-        return False
+    if re.search(cfg.get('exclude_title_regex', r'(?!)'), title):
+        # Do not remove capital-markets sales/trading or asset-management sales internships.
+        # Broad sales and business-development roles remain excluded.
+        if not re.search(cfg.get('include_finance_sales_title_regex', r'(?!)'), title):
+            return False
     if re.search(cfg.get('exclude_senior_title_regex', r'(?!)'),title):
         return False
     text = title+' '+str(job.get('department') or '')
@@ -242,6 +245,13 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     item=workday_normalize(raw,company,base)
                     if not item:continue
                     count+=1
+                    # Join curated links with the same employer/title to preserve one job card
+                    # and the browser's stable job ID when a Workday feed discovers it later.
+                    normalized_title=lambda name:re.sub(r'[^a-z0-9]+',' ',str(name or '').lower()).strip()
+                    same_seed=next((j for j in existing.values()
+                                    if j.get('source')=='curated' and j.get('company')==company
+                                    and normalized_title(j.get('title'))==normalized_title(item['title'])),None)
+                    if same_seed:item['id']=same_seed['id']
                     old=existing.get(item['id'],{})
                     item['firstSeen']=old.get('firstSeen',TODAY)
                     item['firstSeenAt']=old.get('firstSeenAt',NOW)

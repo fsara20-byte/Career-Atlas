@@ -61,3 +61,21 @@ class LegacyRecordTests(unittest.TestCase):
             b.write_text(json.dumps({'feeds':[],'location_keywords':['dubai'],'include_title_regex':r'(?i)finance'}))
             result=update_jobs.update(a,b,lambda u: {'jobs': []})
             self.assertEqual(len(result['jobs']),1)
+
+
+class InvestmentSalesCoverageTests(unittest.TestCase):
+    def test_market_sales_and_asset_management_internships_are_not_filtered_out(self):
+        cfg = {
+            'location_keywords':['dubai','abu dhabi','united arab emirates','uae'],
+            'exclude_title_regex':r'(?i)(sales|business development|account executive|marketing|client service|customer success)',
+            'exclude_senior_title_regex':r'(?i)\\b(managing director|executive director|head of)\\b',
+            'include_title_regex':r'(?i)\\b(internship|intern|analyst|graduate|investment|capital markets)\\b',
+            'include_finance_sales_title_regex':r'(?i)(?:sales\\s*[,/&-]?\\s*trading|(?:institutional|investment|asset management|fund|MEA)\\s+sales|sales.{0,40}(?:intern|analyst))',
+        }
+        self.assertTrue(update_jobs.relevant({'title':'Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai','location':'Dubai'},cfg))
+        self.assertTrue(update_jobs.relevant({'title':'MEA Sales Internship Programme 2027 - Dubai','location':'Dubai'},cfg))
+        self.assertTrue(update_jobs.relevant({'title':'Institutional Sales Analyst','location':'Abu Dhabi'},cfg))
+        self.assertFalse(update_jobs.relevant({'title':'Business Development Manager','location':'Dubai'},cfg))
+        self.assertFalse(update_jobs.relevant({'title':'Sales Executive','location':'Dubai'},cfg))
+        self.assertFalse(update_jobs.relevant({'title':'Sales, Trading and Structuring Internship','location':'London'},cfg))
+

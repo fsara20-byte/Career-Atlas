@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh supported employer-published Ashby and Greenhouse feeds into data/jobs.json.
+"""Refresh supported employer-published recruiting feeds into data/jobs.json.
 
 No credentials. Never guesses deadlines or declares jobs closed just because a site failed.
 Run: python scripts/update_jobs.py
@@ -33,8 +33,11 @@ def relevant(job, cfg):
     if not any(k.lower() in place.lower() for k in cfg['location_keywords']):
         return False
     title = str(job.get('title') or '')
-    if re.search(cfg.get('exclude_title_regex', r'(?!)'),title):
-        return False
+    if re.search(cfg.get('exclude_title_regex', r'(?!)'), title):
+        # Do not remove capital-markets sales/trading or asset-management sales internships.
+        # Broad sales and business-development roles remain excluded.
+        if not re.search(cfg.get('include_finance_sales_title_regex', r'(?!)'), title):
+            return False
     if re.search(cfg.get('exclude_senior_title_regex', r'(?!)'),title):
         return False
     text = title+' '+str(job.get('department') or '')

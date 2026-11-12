@@ -81,6 +81,150 @@ body[data-panel] .panel{margin-bottom:14px}
 .cvJobCard .priorityPanel{margin:8px 0 12px;padding:12px 14px;background:#f7f9fc}
 .cvJobCard .roleDetails .track{margin-top:9px}
 @media(max-width:750px){.cvJobCard .jobactions{margin-top:8px}}
+
+/* Unified Career Atlas interface: same scale and spacing across every workspace view */
+:root{
+ --bg:#f5f7fa;--panel:#ffffff;--ink:#162438;--muted:#52647a;
+ --line:#dfe6ee;--accent:#203550;--accentlight:#eef3f8;
+ --good:#176b4f;--warn:#8f4e1b;--radius:12px;
+}
+html{scroll-behavior:auto}
+body{background:var(--bg);color:var(--ink);font-size:14px;line-height:1.5}
+p{color:var(--muted)}
+h1,h2,h3{font-weight:750}
+.top{border-bottom:1px solid var(--line);box-shadow:0 2px 12px #10253b06}
+.topinner{max-width:1180px;padding:12px 22px;gap:16px;min-height:68px}
+.brand{font-size:17px;color:var(--ink)}
+.brand span:not(.brandmark){font-size:12px;color:#71829a}
+.brandmark{border-radius:9px;background:var(--accent)}
+.nav{gap:5px;flex-wrap:nowrap}
+.nav a,.nav button{font-size:12.5px;font-weight:650;padding:9px 12px;border-radius:8px}
+.nav .navprimary{background:#edf2f7!important;color:#233b59!important;border:1px solid #dce5f0}
+.nav .navprimary:hover{background:#e0e9f3!important}
+.nav a[data-panel].active,.nav a[data-panel][aria-current="page"]{background:#dfe9f5;color:#192f50;font-weight:760}
+body[data-panel] .hero{display:none}
+body[data-panel] main{max-width:1180px;padding:0 22px;margin:22px auto 64px;display:block}
+body[data-panel] main>div:first-child{width:100%;min-width:0}
+body[data-panel] .panel{margin:0 0 14px;border:1px solid var(--line);background:var(--panel);padding:22px 24px;border-radius:var(--radius);box-shadow:0 3px 10px #10253b04}
+body[data-panel] .panel h2{font-size:21px;line-height:1.3;letter-spacing:-.6px;margin:0 0 4px}
+body[data-panel] .panel h3{letter-spacing:-.2px}
+body[data-panel] .sectionline{align-items:flex-start;gap:14px}
+body[data-panel] .sectionline>div{min-width:0}
+body[data-panel] .sectionline p{margin:5px 0 9px;max-width:850px;font-size:13px;line-height:1.55}
+body[data-panel] .small,body[data-panel] small{font-size:12px}
+body[data-panel] .tiny{font-size:11.5px}
+body[data-panel] .toolbar{gap:9px;margin-top:12px}
+body[data-panel] input:not([type=checkbox]),body[data-panel] select,body[data-panel] textarea{
+ border-radius:8px;border:1px solid #cbd6e3;background:#fff;color:var(--ink);
+ font-size:13px;min-height:38px;
+}
+body[data-panel] input:not([type=checkbox]):focus-visible,body[data-panel] select:focus-visible,
+body[data-panel] textarea:focus-visible{outline:2px solid #7b9abf;outline-offset:1px}
+body[data-panel] .btn{border-radius:8px;border-color:#cfd9e5;padding:9px 12px;font-size:12.5px;font-weight:680;line-height:1.45;min-height:38px}
+body[data-panel] .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+body[data-panel] .btn:hover{box-shadow:0 2px 7px #2035500a}
+body[data-panel] .pills{display:flex;gap:6px;flex-wrap:wrap}
+body[data-panel] .pill{border-radius:6px;padding:4px 8px;font-size:11px;font-weight:600;line-height:1.35}
+body[data-panel] .pill.line{border:1px solid var(--line);background:#f7f9fc}
+body[data-panel] .pill.good{background:#eaf6f0;color:#176b4f}
+body[data-panel] .pill.warn{background:#fff0e2;color:#8f4e1b}
+body[data-panel] .advancedFilters{border-top:1px solid var(--line);margin-top:11px;padding-top:8px}
+body[data-panel] .advancedFilters>summary{padding:7px 0;font-size:12px}
+body[data-panel] .empty{padding:28px 18px;text-align:center;border:1px dashed var(--line);border-radius:9px;background:#fafcff}
+#openings .toolbar select{max-width:260px}
+#openings .toolbar input[type=search]{min-width:200px;flex:1}
+#openingsSummary,#companySummary{padding-top:10px;line-height:1.5}
+body[data-panel] .cvJobCard{border-top:1px solid var(--line);padding:16px 2px}
+body[data-panel] .cvJobCard:first-child{border-top:1px solid var(--line)}
+body[data-panel] .cvJobCard .jobrow{align-items:center;gap:18px}
+body[data-panel] .cvJobCard .jobInfo{flex:1;min-width:0}
+body[data-panel] .cvJobCard .jobtitle{font-size:15px;line-height:1.4;color:var(--ink);font-weight:750}
+body[data-panel] .cvJobCard .jobmeta{font-size:12.5px;color:var(--muted);margin:5px 0 7px}
+body[data-panel] .cvJobCard .jobactions{align-items:center;gap:10px}
+body[data-panel] .cvJobCard .roleDetails{border-top:0;margin-top:9px}
+body[data-panel] .cvJobCard .roleDetails>summary{font-size:12px;font-weight:650;color:#395477;display:inline-block;padding:5px 0}
+body[data-panel] .cvJobCard .priorityPanel{border-radius:9px;background:#f7f9fd;border:1px solid #e0e7f0}
+body[data-panel] .jobflag{color:var(--warn);font-weight:680}
+body[data-panel] .track{gap:11px}
+body[data-panel] .fieldlabel{font-size:12px;color:#4c5f77}
+#cvPrivate{background:#fbfcff!important;border-color:#d8e2ed!important}
+#cvPrivate details>summary{font-size:14px;font-weight:750;color:#263b58}
+#cvPrivate details[open]>summary{margin-bottom:13px}
+#cvPrivate textarea{min-height:140px}
+#dashboard{padding:23px 24px!important}
+#dashboard .dashgrid{gap:12px;margin-top:14px}
+#dashboard .dashcard{min-height:145px;border-radius:10px;padding:17px;background:#fbfcfe;border-color:var(--line)}
+#dashboard .dashheading h3{font-size:13.5px}
+#dashboard .dashitem{padding:10px 0}
+#dashboard .dashitem strong{font-size:12.5px}
+#dashboard .dashfoot{font-size:12px}
+#metrics .kpis{gap:12px}
+#metrics .kpi{background:#fbfcfe;border-radius:10px;padding:17px}
+#metrics .kpi strong{font-size:30px;font-variant-numeric:tabular-nums;color:var(--ink)}
+#metrics .kpi span{color:var(--muted)}
+#companies .sectorchips{gap:7px;margin:12px 0}
+#companies .sectorchips button{border-radius:8px;padding:7px 10px;border-color:#d7e1eb;color:#465e7a;background:#f7f9fc}
+#companies .sectorchips button.selected{background:var(--accent);color:white;border-color:var(--accent)}
+#companies .firmgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
+#companies .firmtile{border-radius:10px;padding:16px;background:white;border-color:var(--line);box-shadow:none}
+#companies .firmtile:hover{border-color:#aec0d5;box-shadow:0 5px 18px #0f23440b}
+#companies .firmtile h3{font-size:14.5px;line-height:1.45}
+#companies .firmtile p{font-size:12px;line-height:1.5;min-height:34px}
+#companies .firmaavatar{border-radius:9px;background:#edf2f7;color:#36506c}
+#companies .tilecontrols{margin-top:12px;padding-top:11px;border-color:#e8edf4}
+#companies .tilecontrols button.btn{background:var(--accent);border-color:var(--accent)}
+#notes .notesguide{gap:16px}
+#notes textarea{min-height:115px}
+.firmmodal .modalpage{border-radius:14px;border:1px solid #d9e3ed}
+.firmmodal .modalbar{padding:13px 22px;border-color:var(--line)}
+.firmmodal .profilehero{background:#f8fafc;padding:27px 30px 24px}
+.firmmodal .profilehero h2{font-size:29px;letter-spacing:-1px}
+.firmmodal .profilehero p{font-size:13.5px;line-height:1.58}
+.firmmodal .profilebody{padding:25px 30px 30px;gap:22px;grid-template-columns:minmax(0,1fr) 285px}
+.firmmodal .profilebox{border-color:var(--line);background:#fafcff;border-radius:10px}
+.firmmodal .profiletags{margin-top:12px}
+.firmmodal .profiletags .pill{font-size:11px;padding:5px 8px;border-color:var(--line)}
+.firmmodal .profilecta{margin-top:17px}
+@media(max-width:1070px){
+ .topinner{flex-wrap:wrap;gap:10px}
+ .nav{overflow:auto;max-width:100%;scrollbar-width:thin}
+ #companies .firmgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:850px){
+ .firmmodal .profilebody{grid-template-columns:1fr}
+ .firmmodal .profilehero{padding:22px}
+ .firmmodal .profilebody{padding:22px}
+ #dashboard .dashgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:660px){
+ .topinner{padding:11px 15px}
+ .brand{font-size:16px}
+ .brand span:not(.brandmark){display:none}
+ .nav{width:100%;gap:4px}
+ .nav a,.nav button{font-size:12px;padding:8px 10px}
+ body[data-panel] main{padding:0 12px;margin:13px auto 40px}
+ body[data-panel] .panel{padding:16px!important;margin-bottom:10px;border-radius:10px}
+ body[data-panel] .sectionline{flex-wrap:wrap;gap:9px}
+ body[data-panel] .panel h2{font-size:19px}
+ body[data-panel] .toolbar select{max-width:none;flex:1 1 145px}
+ body[data-panel] .toolbar input[type=search]{min-width:100%;width:100%;flex:none}
+ body[data-panel] .cvJobCard .jobrow{display:block}
+ body[data-panel] .cvJobCard .jobactions{margin:11px 0 0;justify-content:flex-start}
+ body[data-panel] .cvJobCard .jobactions .btn{min-width:0}
+ body[data-panel] .track{grid-template-columns:1fr 1fr}
+ #dashboard .dashgrid{grid-template-columns:1fr}
+ #companies .firmgrid{grid-template-columns:1fr}
+ #metrics .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .firmmodal .modalpage{width:calc(100vw - 12px);max-height:calc(100vh - 12px)}
+ .firmmodal .profilehero,.firmmodal .profilebody{padding:18px}
+ .firmmodal .profilehero h2{font-size:25px}
+}
+@media(max-width:430px){
+ body[data-panel] .cvJobCard .jobactions{flex-wrap:wrap}
+ body[data-panel] .track{grid-template-columns:1fr}
+ .firmmodal .modalbar{padding:11px}
+}
+
 </style></head><body data-panel="openings">
 <div class="top"><div class="topinner"><div class="brand"><span class="brandmark">CA</span> Career Atlas <span>/ International careers</span></div><nav class="nav" aria-label="Main navigation"><button class="navprimary" id="navSearch">⌕ Search a firm</button><a href="#openings" data-panel="openings">Job openings</a><a href="#dashboard" data-panel="dashboard">Dashboard</a><a href="#companies" data-panel="companies">Browse firms</a><a href="events.html">Events & programs</a><a href="#notes" data-panel="notes">My notes</a></nav></div></div>
 <div class="hero"><div class="herocontent"><div class="eyebrow">YOUR FINANCE & CONSULTING APPLICATION HUB <span class="hseparator"></span> DUBAI • UAE</div><h1>Find your next<br><em>career move.</em></h1><p>One international-firm directory for investment banking, hedge funds, asset management, private credit, consulting and CFA career paths. Search any firm and open its application guide.</p>

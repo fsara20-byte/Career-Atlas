@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T12:48:46.651387+00:00",
+  "generatedAt": "2026-11-13T12:20:04.868433+00:00",
   "employers": 179,
-  "verifiedFeeds": 36,
+  "verifiedFeeds": 37,
   "notConfigured": 135,
   "rows": [
     {
@@ -19,7 +19,7 @@
       "careersUrl": "https://www.alliancebernstein.com/corporate/en/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -99,7 +99,7 @@
       "careersUrl": "https://www.capitalgroup.com/about-us/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -139,7 +139,7 @@
       "careersUrl": "https://careers.fidelityinternational.com/",
       "provider": "workday",
       "monitoringStatus": "partial_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": [
@@ -174,7 +174,7 @@
       "careersUrl": "https://www.gam.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -214,7 +214,7 @@
       "careersUrl": "https://www.mandg.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -224,7 +224,7 @@
       "careersUrl": "https://www.mfs.com/en-us/individual-investor/about-mfs/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -254,7 +254,7 @@
       "careersUrl": "https://www.nuveen.com/global/about-us/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -303,10 +303,10 @@
       "company": "State Street",
       "careersUrl": "https://careers.statestreet.com/",
       "provider": "workday",
-      "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
-      "matchingJobs": null,
-      "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
+      "monitoringStatus": "verified_feed",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
+      "matchingJobs": 0,
+      "error": "",
       "otherUnmonitoredBoards": []
     },
     {
@@ -314,7 +314,7 @@
       "careersUrl": "https://www.troweprice.com/corporate/us/en/careers.html",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -324,7 +324,7 @@
       "careersUrl": "https://www.vontobel.com/en-int/about-vontobel/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -334,7 +334,7 @@
       "careersUrl": "https://www.wellington.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -344,7 +344,7 @@
       "careersUrl": "https://www.accenture.com/ae-en/careers/jobsearch",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -414,7 +414,7 @@
       "careersUrl": "https://careers.boozallen.com/",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -464,8 +464,8 @@
       "careersUrl": "https://www.fticonsulting.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
-      "matchingJobs": 6,
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
+      "matchingJobs": 5,
       "error": "",
       "otherUnmonitoredBoards": []
     },
@@ -574,7 +574,7 @@
       "careersUrl": "https://www.protiviti.com/us-en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -604,7 +604,7 @@
       "careersUrl": "https://www.rolandberger.com/en/Locations/Middle-East/Career/",
       "provider": "smartrecruiters",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 4,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -634,8 +634,8 @@
       "careersUrl": "https://www.teneo.com/careers/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
-      "matchingJobs": 4,
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
+      "matchingJobs": 3,
       "error": "",
       "otherUnmonitoredBoards": []
     },
@@ -754,7 +754,7 @@
       "careersUrl": "https://www.dbs.com/careers",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -804,7 +804,7 @@
       "careersUrl": "https://careers.mufgamericas.com/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -834,7 +834,7 @@
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1054,7 +1054,7 @@
       "careersUrl": "https://careers.point72.com/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1074,7 +1074,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/schonfeld",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1134,7 +1134,7 @@
       "careersUrl": "https://careers.bankofamerica.com/en-us/job-search",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -1144,7 +1144,7 @@
       "careersUrl": "https://search.jobs.barclays/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 2,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1154,7 +1154,7 @@
       "careersUrl": "https://jobs.citi.com/",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -1194,7 +1194,7 @@
       "careersUrl": "https://hl.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1234,7 +1234,7 @@
       "careersUrl": "https://www.moelis.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1274,7 +1274,7 @@
       "careersUrl": "https://www.pjtpartners.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1304,7 +1304,7 @@
       "careersUrl": "https://www.bankofsingapore.com/careers.html",
       "provider": "workday",
       "monitoringStatus": "failed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": null,
       "error": "Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage",
       "otherUnmonitoredBoards": []
@@ -1394,7 +1394,7 @@
       "careersUrl": "https://www.swissquote.com/en/careers",
       "provider": "smartrecruiters",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1414,7 +1414,7 @@
       "careersUrl": "https://www.apollo.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1454,7 +1454,7 @@
       "careersUrl": "https://www.baincapital.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1474,7 +1474,7 @@
       "careersUrl": "https://www.blueowl.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1524,7 +1524,7 @@
       "careersUrl": "https://www.fortress.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1534,7 +1534,7 @@
       "careersUrl": "https://www.generalatlantic.com/careers/",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1564,7 +1564,7 @@
       "careersUrl": "https://www.icgam.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1604,7 +1604,7 @@
       "careersUrl": "https://www.oaktreecapital.com/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1634,7 +1634,7 @@
       "careersUrl": "https://sixthstreet.com/careers/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1654,7 +1654,7 @@
       "careersUrl": "https://www.tpg.com/careers",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1674,7 +1674,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/addepar1",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 1,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1724,7 +1724,7 @@
       "careersUrl": "https://www.lseg.com/en/careers",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1764,7 +1764,7 @@
       "careersUrl": "https://careers.spglobal.com/",
       "provider": "workday",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1784,7 +1784,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/guidepoint",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []
@@ -1794,7 +1794,7 @@
       "careersUrl": "https://job-boards.greenhouse.io/thirdbridge",
       "provider": "greenhouse",
       "monitoringStatus": "verified_feed",
-      "lastCheckedAt": "2026-11-12T12:44:07Z",
+      "lastCheckedAt": "2026-11-13T12:14:25Z",
       "matchingJobs": 0,
       "error": "",
       "otherUnmonitoredBoards": []

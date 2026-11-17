@@ -686,14 +686,14 @@
       "location": "Hong Kong · Point72, The Henderson",
       "eventDate": "2026-11-17",
       "deadline": null,
-      "status": "check",
+      "status": "waitlist",
       "priority": "P2",
       "fit": "Strong networking access to Point72; programme topic is resilience, not investing",
-      "eligibility": "100WF members and guest attendees subject to available space; RSVP required. Confirm residency or guest restrictions and availability.",
+      "eligibility": "100WF member/guest policies apply; event fully booked, waitlist requests only; no walk-ins.",
       "restriction": "verify",
-      "notes": "17 Nov 2026 at 18:00 registration, 18:30 start; Point72 Asset Management host with networking reception. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open.",
+      "notes": "17 Nov 2026 at 18:00 registration, 18:30 start; Point72 Asset Management host with networking reception. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open. | Nov 17: official event page explicitly says fully booked and WAITLIST; no confirmed admission.",
       "url": "https://app.100women.org/pages/event.php?e=4544",
-      "lastReviewedAt": "2026-11-08"
+      "lastReviewedAt": "2026-11-17"
     },
     {
       "id": "100wf-hongkong-gala-2026",
@@ -729,16 +729,17 @@
         "Singapore"
       ],
       "location": "Virtual · global (Nasdaq-hosted)",
-      "eventDate": "2026-11-09",
+      "eventDate": "2026-11-16",
       "deadline": null,
-      "status": "open",
+      "status": "closed",
       "priority": "P2",
       "fit": "Good fintech and risk exposure; relevant to prior working capital fintech background",
       "eligibility": "RSVP required; 100WF member or approved guest. Virtual access allows participation from Dubai; verify registration availability.",
       "restriction": "verify",
-      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open. Live 100WF registration page verified 2026-11-10: member RSVP open; guest access subject to space and 100WF guest policy. No confirmed admission without registration.",
+      "notes": "9 Nov 2026; 13:00 London / 21:00 Hong Kong-Singapore / 17:00 Dubai. Nasdaq-sponsored webinar; registration required. The calendar search briefly indexed Nov 16, but the event's own detail page confirms 9 Nov. | Nov 8: exact live RSVP URL and event page could not be fetched; registration not verified; do not label open. Live 100WF registration page verified 2026-11-10: member RSVP open; guest access subject to space and 100WF guest policy. No confirmed admission without registration. | Nov 17: official live event page gives Nov 16 date and states 'This event is now closed for RSVPs'; corrected erroneous Nov 9 date and status.",
       "url": "https://app.100women.org/pages/event.php?e=4550&inc=A&kw=&loc=0&p=3&yr=2026",
-      "lastReviewedAt": "2026-11-10"
+      "lastReviewedAt": "2026-11-17",
+      "closedReason": "RSVP closed"
     },
     {
       "id": "100wf-singapore-eq-2026",

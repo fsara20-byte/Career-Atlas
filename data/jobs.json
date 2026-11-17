@@ -1655,6 +1655,28 @@
       ],
       "deadlineSource": "Prior official-listing check; reverify",
       "deadlineVerifiedAt": ""
+    },
+    {
+      "id": "morgan-stanley-ibd-associate-mena-dubai-2026",
+      "company": "Morgan Stanley",
+      "title": "Investment Banking Division – Associate, MENA Coverage (Dubai)",
+      "url": "https://morganstanley.eightfold.ai/careers?filter_distance=160&filter_include_remote=1&location=Dubai%2C++United+Arab+Emirates&sort_by=distance&source=mscom&start=0",
+      "location": "Dubai, United Arab Emirates",
+      "programme": "Experienced / associate",
+      "deadline": "",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-11-17",
+      "lastSeen": "2026-11-17",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "note": "Found on official Morgan Stanley careers portal. Master's in finance or related field and minimum two years relevant IB/corporate finance/M&A experience required; advanced modelling essential. User's master's ongoing and direct M&A execution experience not established. Do not classify as eligible without recruiter confirmation. No official deadline verified.",
+      "eligibilityFlags": [
+        "Completed master's requirement may not be met",
+        "Relevant investment banking/M&A experience required",
+        "Associate-level modelling requirements"
+      ],
+      "deadlineSource": "",
+      "deadlineVerifiedAt": ""
     }
   ]
 }

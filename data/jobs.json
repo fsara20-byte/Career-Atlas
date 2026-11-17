@@ -1575,6 +1575,86 @@
       "deadlineSource": "",
       "deadlineVerifiedAt": "",
       "relistedAt": ""
+    },
+    {
+      "id": "citi-corporate-banking-summer-2027",
+      "company": "Citi",
+      "title": "Corporate Banking Summer Intern Analyst, Dubai 2027",
+      "url": "https://jobs.citi.com/job/dubai/corporate-banking-summer-intern-analyst-dubai-uae-uae-nationals-preferred/287/103370639504",
+      "location": "Dubai, UAE",
+      "programme": "Internship",
+      "deadline": "",
+      "publishedAt": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "lastSeen": "2026-11-17",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "note": "Official application URL reported in prior checks. UAE nationals preferred; confirm penultimate/final-year eligibility and June 2027 availability.",
+      "eligibilityFlags": [
+        "UAE nationals preferred; confirm penultimate/final-year eligibility and June 2027 availability."
+      ],
+      "deadlineSource": "",
+      "deadlineVerifiedAt": ""
+    },
+    {
+      "id": "citi-corporate-banking-placement-2027",
+      "company": "Citi",
+      "title": "Corporate Banking Placement Analyst, Dubai",
+      "url": "https://jobs.citi.com/job/dubai/corporate-banking-placement-analyst-dubai-uae/287/103370650480",
+      "location": "Dubai, UAE",
+      "programme": "Placement",
+      "deadline": "",
+      "publishedAt": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "lastSeen": "2026-11-17",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "note": "Official application URL reported in prior checks. Confirm six-month full-time availability and student/recent graduate eligibility.",
+      "eligibilityFlags": [
+        "Confirm six-month full-time availability and student/recent graduate eligibility."
+      ],
+      "deadlineSource": "",
+      "deadlineVerifiedAt": ""
+    },
+    {
+      "id": "citi-corporate-banking-fulltime-2027",
+      "company": "Citi",
+      "title": "Corporate Banking Full-Time Analyst, Dubai",
+      "url": "https://jobs.citi.com/job/dubai/corporate-banking-full-time-analyst-dubai/287/103370639536",
+      "location": "Dubai, UAE",
+      "programme": "Graduate / full-time",
+      "deadline": "",
+      "publishedAt": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "lastSeen": "2026-11-17",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "note": "Official application URL reported in prior checks. Confirm July 2027 start availability while enrolled in master's.",
+      "eligibilityFlags": [
+        "Confirm July 2027 start availability while enrolled in master's."
+      ],
+      "deadlineSource": "",
+      "deadlineVerifiedAt": ""
+    },
+    {
+      "id": "sc-treasury-intern-2027",
+      "company": "Standard Chartered",
+      "title": "2027 Treasury Intern, UAE",
+      "url": "https://jobs.standardchartered.com/job/Dubai-2027-Treasury-Intern-UAE/65438-en_GB/",
+      "location": "Dubai, UAE",
+      "programme": "Internship",
+      "deadline": "2026-12-07",
+      "publishedAt": "2026-11-16",
+      "firstSeen": "2026-11-17",
+      "lastSeen": "2026-11-17",
+      "source": "curated",
+      "status": "verify_on_employer_site",
+      "note": "Official application URL reported in prior checks. Reported deadline 7 December 2026; verify on official page. Confirm permanent UAE work authorization and graduation eligibility.",
+      "eligibilityFlags": [
+        "Reported deadline 7 December 2026; verify on official page. Confirm permanent UAE work authorization and graduation eligibility."
+      ],
+      "deadlineSource": "Prior official-listing check; reverify",
+      "deadlineVerifiedAt": ""
     }
   ]
 }

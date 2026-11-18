@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-10",
+    "lastReviewedAt": "2026-11-18",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-10: Live 100WF registration pages verified for Dubai 4536, Paris 4568, and virtual FinTech 4550. Paris and virtual status changed from check to open (member RSVP; guest policy applies). Abu Dhabi 4559 registration unavailable, not declared open. Female x Finance KPMG registration open subject to approval; deadline November 16. Other employer and chapter coverage incomplete.",
+    "lastSourceAudit": "2026-11-18: Verified exact live 100WF registration pages for Paris 4573 (member and guest RSVP) and virtual Nasdaq 4571 (member RSVP; guest action not shown). Verified CCI France UAE forum date, open eligibility and Nov 23 deadline. Other employer coverage partial.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -1121,6 +1121,73 @@
       "restriction": "none",
       "notes": "19 Nov 2026, 12:00–16:30 ET (21:00–01:30 next day Dubai; 01:00–05:30 next day Singapore). Complimentary; cohosted by CFA Societies Singapore, New York, Mexico and Switzerland.",
       "url": "https://www.collaborativewim.org/"
+    },
+    {
+      "id": "100wf-paris-wine-alternative-investment-2026",
+      "firm": "100 Women in Finance × J.P. Morgan",
+      "name": "Fine Wine as an Alternative Investment and Exclusive Tasting",
+      "type": "Education + networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "France"
+      ],
+      "location": "J.P. Morgan, 14 Place Vendôme, Paris, France",
+      "eventDate": "2026-12-08",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good",
+      "eligibility": "100WF members may RSVP; one-time nonmember guest registration subject to space and guest policy. No French university enrollment requirement stated.",
+      "restriction": "Travel to Paris required; space limited",
+      "notes": "5:30 PM registration, 6:00 PM start Paris time. J.P. Morgan hosted alternative investment valuation and networking. Free unless otherwise noted; no travel support announced. Live RSVP verified 2026-11-18.",
+      "url": "https://app.100women.org/pages/event_registration.php?e=4573",
+      "lastReviewedAt": "2026-11-18"
+    },
+    {
+      "id": "100wf-nasdaq-ai-governance-dec2026",
+      "firm": "100 Women in Finance × Nasdaq",
+      "name": "AI Academy: The AI Did It. Who Is Accountable When Machines Act and Decide?",
+      "type": "Virtual education / FinTech",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Online webinar · 3:30 PM Dubai time",
+      "eventDate": "2026-12-03",
+      "deadline": null,
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good",
+      "eligibility": "100WF member RSVP open; nonmember guest access subject to space and policy, but current RSVP page displays membership rather than guest registration action.",
+      "restriction": "Guest access requires confirmation; no travel needed",
+      "notes": "Nasdaq-sponsored AI governance, regulatory responsibility and financial services risk webinar. 12:30 PM CET / 7:30 PM Hong Kong-Singapore; 3:30 PM Dubai. Free unless otherwise noted. Live RSVP verified 2026-11-18.",
+      "url": "https://app.100women.org/pages/event_registration.php?e=4571",
+      "lastReviewedAt": "2026-11-18"
+    },
+    {
+      "id": "cci-uae-inter-businesswomen-forum-2026",
+      "firm": "CCI France UAE / Abu Dhabi Businesswomen Council / Sharjah Businesswomen Council",
+      "name": "4th UAE Inter-Businesswomen Councils Forum",
+      "type": "Networking + leadership / investment panels",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE"
+      ],
+      "location": "UAE · exact event venue not confirmed on official page",
+      "eventDate": "2026-11-24",
+      "deadline": "2026-11-23",
+      "status": "open",
+      "priority": "P2",
+      "fit": "Good",
+      "eligibility": "Official organizer says free event open to male and female participants; limited places. No UAE nationality, local university or member-only restriction stated.",
+      "restriction": "Venue and admission confirmation to verify; travel support not stated",
+      "notes": "Registration deadline 23 Nov 2026 at 3 PM Dubai time. Program includes private equity governance, sovereign portfolio strategy, capital resilience and finance networking. Registration form on organizer page. Reviewed 2026-11-18.",
+      "url": "https://www.ccifranceuae.com/en/events/upcoming-events/e/event/4th-uae-inter-businesswomen-councils-forum.html",
+      "lastReviewedAt": "2026-11-18"
     }
   ]
 }

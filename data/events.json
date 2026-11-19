@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-18",
+    "lastReviewedAt": "2026-11-19",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-18: Verified exact live 100WF registration pages for Paris 4573 (member and guest RSVP) and virtual Nasdaq 4571 (member RSVP; guest action not shown). Verified CCI France UAE forum date, open eligibility and Nov 23 deadline. Other employer coverage partial.",
+    "lastSourceAudit": "2026-11-19: Verified Morgan Stanley/AmplifyME virtual Markets Accelerator on FSR official page; external booking portal inaccessible, so registration status check. Reviewed 100WF legacy event calendar pages and four chapters; exact 4571 and 4573 live RSVP pages inaccessible, no open assertion. Reviewed Female x Finance and Bain/BCG deadlines. Employer audit partial.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -1188,6 +1188,30 @@
       "notes": "Registration deadline 23 Nov 2026 at 3 PM Dubai time. Program includes private equity governance, sovereign portfolio strategy, capital resilience and finance networking. Registration form on organizer page. Reviewed 2026-11-18.",
       "url": "https://www.ccifranceuae.com/en/events/upcoming-events/e/event/4th-uae-inter-businesswomen-councils-forum.html",
       "lastReviewedAt": "2026-11-18"
+    },
+    {
+      "id": "fsr-morgan-stanley-amplifyme-markets-2026",
+      "firm": "Morgan Stanley / AmplifyME / FSR",
+      "name": "Markets Accelerator — Trading and Portfolio Management Simulation",
+      "type": "Virtual trading and investment simulation",
+      "regions": [
+        "UAE",
+        "France",
+        "Netherlands",
+        "Hong Kong",
+        "Singapore"
+      ],
+      "location": "Online via Zoom; optional Erasmus University Rotterdam attendance",
+      "eventDate": "2026-12-04",
+      "deadline": null,
+      "status": "check",
+      "priority": "P1",
+      "fit": "Strong",
+      "eligibility": "Organizer explicitly welcomes Dutch and non-Dutch students and offers online attendance. No explicit university enrollment or residence restriction on public event page; external UOWD participation via booking portal not independently verified.",
+      "restriction": "verify",
+      "notes": "Friday 4 December 2026, 11:00–13:00 CET (14:00–16:00 Dubai). Free two-hour markets simulation in partnership with Morgan Stanley. Potential AmplifyME training and recruitment fast-track for top performers, not guaranteed. FSR page advertises registration, but external AmplifyME booking form could not be loaded. No travel required for online participation.",
+      "url": "https://fsr.nl/events/fsr-x-morgan-stanley-x-amplifyme-trading-simulation-2026",
+      "lastReviewedAt": "2026-11-19"
     }
   ]
 }

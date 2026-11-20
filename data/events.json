@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-19",
+    "lastReviewedAt": "2026-11-20",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-19: Verified Morgan Stanley/AmplifyME virtual Markets Accelerator on FSR official page; external booking portal inaccessible, so registration status check. Reviewed 100WF legacy event calendar pages and four chapters; exact 4571 and 4573 live RSVP pages inaccessible, no open assertion. Reviewed Female x Finance and Bain/BCG deadlines. Employer audit partial.",
+    "lastSourceAudit": "2026-11-20: 100WF legacy calendar and Middle East, Paris, Hong Kong, Singapore chapters checked. Paris J.P. Morgan Dec 8 event explicitly WAITLIST only; Nasdaq Dec 3 exact RSVP inaccessible, status check. Female x Finance calendar, FSR and Bain official sources reviewed; broader employer audit partial.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -1134,14 +1134,14 @@
       "location": "J.P. Morgan, 14 Place Vendôme, Paris, France",
       "eventDate": "2026-12-08",
       "deadline": null,
-      "status": "open",
+      "status": "waitlist",
       "priority": "P2",
       "fit": "Good",
-      "eligibility": "100WF members may RSVP; one-time nonmember guest registration subject to space and guest policy. No French university enrollment requirement stated.",
-      "restriction": "Travel to Paris required; space limited",
-      "notes": "5:30 PM registration, 6:00 PM start Paris time. J.P. Morgan hosted alternative investment valuation and networking. Free unless otherwise noted; no travel support announced. Live RSVP verified 2026-11-18.",
-      "url": "https://app.100women.org/pages/event_registration.php?e=4573",
-      "lastReviewedAt": "2026-11-18"
+      "eligibility": "100WF event is fully booked; waitlist registration only, subject to confirmation. No French-campus enrollment rule stated.",
+      "restriction": "Waitlist only; Paris attendance required; no travel support confirmed",
+      "notes": "5:30 PM registration, 6:00 PM start Paris time. Official current event page explicitly says fully booked and running a WAITLIST; no walk-ins. Earlier open status superseded 2026-11-20.",
+      "url": "https://app.100women.org/pages/event.php?e=4573&inc=A&kw=&loc=0&p=1&yr=2026",
+      "lastReviewedAt": "2026-11-20"
     },
     {
       "id": "100wf-nasdaq-ai-governance-dec2026",
@@ -1159,14 +1159,14 @@
       "location": "Online webinar · 3:30 PM Dubai time",
       "eventDate": "2026-12-03",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P2",
       "fit": "Good",
-      "eligibility": "100WF member RSVP open; nonmember guest access subject to space and policy, but current RSVP page displays membership rather than guest registration action.",
+      "eligibility": "100WF webinar; current event detail displays RSVP Required but exact live registration page could not be accessed on 2026-11-20. Membership/guest availability unconfirmed.",
       "restriction": "Guest access requires confirmation; no travel needed",
-      "notes": "Nasdaq-sponsored AI governance, regulatory responsibility and financial services risk webinar. 12:30 PM CET / 7:30 PM Hong Kong-Singapore; 3:30 PM Dubai. Free unless otherwise noted. Live RSVP verified 2026-11-18.",
+      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec. Exact live registration inaccessible on 2026-11-20; do not assume open based on event listing.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4571",
-      "lastReviewedAt": "2026-11-18"
+      "lastReviewedAt": "2026-11-20"
     },
     {
       "id": "cci-uae-inter-businesswomen-forum-2026",

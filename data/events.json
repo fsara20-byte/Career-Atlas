@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-20",
+    "lastReviewedAt": "2026-11-21",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-20: 100WF legacy calendar and Middle East, Paris, Hong Kong, Singapore chapters checked. Paris J.P. Morgan Dec 8 event explicitly WAITLIST only; Nasdaq Dec 3 exact RSVP inaccessible, status check. Female x Finance calendar, FSR and Bain official sources reviewed; broader employer audit partial.",
+    "lastSourceAudit": "2026-11-21: 100WF main and legacy calendars plus Middle East, Paris, Hong Kong, Singapore chapter pages checked. Nasdaq Dec 3 exact RSVP confirms member registration OPEN; Paris J.P. Morgan Dec 8 event page still WAITLIST despite generic RSVP text. Female x Finance, FSR/FAECTOR, Bain, CCI France UAE reviewed; wider employer audit partial.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -1159,14 +1159,14 @@
       "location": "Online webinar · 3:30 PM Dubai time",
       "eventDate": "2026-12-03",
       "deadline": null,
-      "status": "check",
+      "status": "open",
       "priority": "P2",
       "fit": "Good",
-      "eligibility": "100WF webinar; current event detail displays RSVP Required but exact live registration page could not be accessed on 2026-11-20. Membership/guest availability unconfirmed.",
-      "restriction": "Guest access requires confirmation; no travel needed",
-      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec. Exact live registration inaccessible on 2026-11-20; do not assume open based on event listing.",
+      "eligibility": "Official live RSVP page on 2026-11-21 confirms registration open for 100WF members; non-members may attend one event as a guest subject to space and 100WF guest policy. Guest registration action not visible on public page; member login available.",
+      "restriction": "Member RSVP confirmed open; guest participation subject to space and guest policy; no travel needed",
+      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec, 3:30 PM Dubai time. Live event_registration.php?e=4571 explicitly says RSVP open on 2026-11-21. Member login required to complete registration; non-member guest route not visibly actionable.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4571",
-      "lastReviewedAt": "2026-11-20"
+      "lastReviewedAt": "2026-11-21"
     },
     {
       "id": "cci-uae-inter-businesswomen-forum-2026",

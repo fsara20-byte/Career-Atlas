@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastReviewedAt": "2026-11-21",
+    "lastReviewedAt": "2026-11-23",
     "coverage": [
       "Hong Kong",
       "UAE",
@@ -10,7 +10,7 @@
     ],
     "ownerNote": "Public, manually verified event leads; not an automatic official event feed. Live application availability must be checked at official source. Future-cycle watch entries are not open applications.",
     "sourcePolicy": "Check actual registration pages, not calendar date alone. 'Open' means official organizer still advertises registration route, NOT that seats are guaranteed. Conflicting schedules must be marked 'check'.",
-    "lastSourceAudit": "2026-11-21: 100WF main and legacy calendars plus Middle East, Paris, Hong Kong, Singapore chapter pages checked. Nasdaq Dec 3 exact RSVP confirms member registration OPEN; Paris J.P. Morgan Dec 8 event page still WAITLIST despite generic RSVP text. Female x Finance, FSR/FAECTOR, Bain, CCI France UAE reviewed; wider employer audit partial.",
+    "lastSourceAudit": "2026-11-23: Checked 100WF main/legacy calendars and Middle East, Paris, Hong Kong, Singapore chapters; exact Hong Kong Dec 16 RSVP confirms members and one-time guest registration; Nasdaq Dec 3 exact RSVP inaccessible (status check); Paris Dec 8 waitlist. Female x Finance and FSR calendars, CCI France UAE deadline checked. Broader employer audit partial.",
     "organizersMonitored": [
       "100 Women in Finance",
       "Female x Finance",
@@ -1159,14 +1159,14 @@
       "location": "Online webinar · 3:30 PM Dubai time",
       "eventDate": "2026-12-03",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P2",
       "fit": "Good",
       "eligibility": "Official live RSVP page on 2026-11-21 confirms registration open for 100WF members; non-members may attend one event as a guest subject to space and 100WF guest policy. Guest registration action not visible on public page; member login available.",
       "restriction": "Member RSVP confirmed open; guest participation subject to space and guest policy; no travel needed",
-      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec, 3:30 PM Dubai time. Live event_registration.php?e=4571 explicitly says RSVP open on 2026-11-21. Member login required to complete registration; non-member guest route not visibly actionable.",
+      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec, 3:30 PM Dubai time. Live event_registration.php?e=4571 explicitly says RSVP open on 2026-11-21. Member login required to complete registration; non-member guest route not visibly actionable. Live RSVP URL inaccessible on 2026-11-23; current status requires re-verification, despite 2026-11-21 confirmed open.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4571",
-      "lastReviewedAt": "2026-11-21"
+      "lastReviewedAt": "2026-11-23"
     },
     {
       "id": "cci-uae-inter-businesswomen-forum-2026",
@@ -1212,6 +1212,27 @@
       "notes": "Friday 4 December 2026, 11:00–13:00 CET (14:00–16:00 Dubai). Free two-hour markets simulation in partnership with Morgan Stanley. Potential AmplifyME training and recruitment fast-track for top performers, not guaranteed. FSR page advertises registration, but external AmplifyME booking form could not be loaded. No travel required for online participation.",
       "url": "https://fsr.nl/events/fsr-x-morgan-stanley-x-amplifyme-trading-simulation-2026",
       "lastReviewedAt": "2026-11-19"
+    },
+    {
+      "id": "100wf-hongkong-early-mid-career-holiday-2026",
+      "firm": "100 Women in Finance",
+      "name": "Early and Mid Career — Wrapping Up the Year: Christmas Drinks & Cheers",
+      "type": "Early-career networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "Hong Kong"
+      ],
+      "location": "Ami Woodear, Shop 302, 18 Chater Road, Central, Hong Kong",
+      "eventDate": "2026-12-16",
+      "deadline": null,
+      "status": "open",
+      "priority": "P3",
+      "fit": "Moderate",
+      "eligibility": "100WF members may RSVP; one-time nonmember guest registration explicitly offered subject to space. No Hong Kong university enrollment requirement stated.",
+      "restriction": "travel",
+      "notes": "6:00 PM HKT registration, 6:30 PM start. Self-sponsored food and drinks. Networking rather than an employer recruitment programme. Travel support not advertised; worthwhile only if already in Hong Kong. Exact live registration page checked on 2026-11-23 and displays member login and guest registration.",
+      "url": "https://app.100women.org/pages/event_registration.php?e=4581",
+      "lastReviewedAt": "2026-11-23"
     }
   ]
 }

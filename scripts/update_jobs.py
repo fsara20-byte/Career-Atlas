@@ -33,6 +33,13 @@ def relevant(job, cfg):
     if not any(k.lower() in place.lower() for k in cfg['location_keywords']):
         return False
     title = str(job.get('title') or '')
+    # Some banks retain nationality-restricted and past-intake postings in
+    # public feeds. These are not actionable for this user's shortlist.
+    if re.search(r'\b(?:uae\s+)?nationals?\s+only\b|\bemiratis?\s+only\b|emiratization|emiratisation',title,re.I):
+        return False
+    intake_years=[int(y) for y in re.findall(r'\b(20\d{2})\b',title)]
+    if intake_years and max(intake_years)<int(TODAY[:4]):
+        return False
     if re.search(cfg.get('exclude_title_regex', r'(?!)'), title):
         # Do not remove capital-markets sales/trading or asset-management sales internships.
         # Broad sales and business-development roles remain excluded.
@@ -51,7 +58,8 @@ def flags_from_title(title, location='', description=''):
     if re.search(r'\b(summer|spring|off.cycle|intern|graduate|campus)\b', t):flags.append('Student or graduation rules – check eligibility')
     if re.search(r'\b(director|principal|vp|vice president|senior|lead)\b', t):flags.append('Senior role – check years required')
     if re.search(r'\b(quant|quantitative|trader|systematic)\b', t):flags.append('Quantitative skills may be required')
-    if re.search(r'\b(uae national|emirati|emiratization|emiratisation)\b', t):flags.append('UAE nationality restriction – check eligibility')
+    if re.search(r'uae nationals? only|emiratis? only|emiratization|emiratisation', t):flags.append('UAE nationality required – ineligible without UAE citizenship')
+    elif re.search(r'uae nationals? preferred|emiratis? preferred',t):flags.append('UAE nationals preferred – check whether other applicants are accepted')
     return flags
 
 def programme_from_title(title, label=''):
@@ -287,7 +295,8 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     # Workday's search endpoint usually omits posting dates. Keep
                     # a previously verified date from a curated employer link.
                     item['publishedAt']=item.get('publishedAt') or old.get('publishedAt','')
-                    item['eligibilityFlags']=list(dict.fromkeys(item.get('eligibilityFlags',[])+old.get('eligibilityFlags',[])))
+                    if old.get('source')=='curated':
+                        item['eligibilityFlags']=list(dict.fromkeys(item.get('eligibilityFlags',[])+old.get('eligibilityFlags',[])))
                     detail=workday_details(base,str(raw.get('externalPath') or ''))
                     item['description']=re.sub(r'<[^>]*>',' ',str(detail.get('jobDescription') or ''))[:12000] or old.get('description','')
                     item['guidance']=cv_guidance(item['title'],item['description'])

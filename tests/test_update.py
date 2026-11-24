@@ -64,6 +64,13 @@ class LegacyRecordTests(unittest.TestCase):
 
 
 class InvestmentSalesCoverageTests(unittest.TestCase):
+    def test_excludes_explicit_nationality_only_and_past_intakes(self):
+        cfg={'location_keywords':['dubai'], 'include_title_regex':r'(?i)(analyst|internship|graduate)'}
+        self.assertFalse(update_jobs.relevant({'title':'Credit Analyst (UAE Nationals Only)','location':'Dubai'},cfg))
+        self.assertFalse(update_jobs.relevant({'title':'2025 Wealth Internship','location':'Dubai'},cfg))
+        self.assertTrue(update_jobs.relevant({'title':'Corporate Banking Summer Intern Analyst (UAE Nationals Preferred)','location':'Dubai'},cfg))
+        self.assertIn('preferred',update_jobs.flags_from_title('Investment Analyst (UAE Nationals Preferred)')[0].lower())
+
     def test_market_sales_and_asset_management_internships_are_not_filtered_out(self):
         cfg = {
             'location_keywords':['dubai','abu dhabi','united arab emirates','uae'],

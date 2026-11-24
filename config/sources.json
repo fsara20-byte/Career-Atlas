@@ -204,6 +204,14 @@
       "board": "2"
     },
     {
+      "company": "Julius Baer",
+      "provider": "workday",
+      "host": "juliusbaer.wd3.myworkdayjobs.com",
+      "tenant": "juliusbaer",
+      "site": "External",
+      "board": "External"
+    },
+    {
       "company": "Houlihan Lokey",
       "provider": "workday",
       "host": "hl.wd1.myworkdayjobs.com",

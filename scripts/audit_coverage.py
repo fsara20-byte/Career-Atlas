@@ -15,6 +15,7 @@ for company in companies:
     name=company['name'];feed=feeds.get(name);scan=health.get(name,{})
     status=('not_configured' if not feed else
             'verified_feed' if scan.get('status')=='ok' else
+            'partial_feed' if scan.get('status')=='partial' else
             'failed' if scan.get('status')=='failed' else 'awaiting_first_scan')
     if status=='verified_feed' and secondary.get(name):status='partial_feed'
     rows.append({'company':name,'careersUrl':company.get('url',''),
@@ -22,7 +23,7 @@ for company in companies:
                  'monitoringStatus':status,
                  'lastCheckedAt':scan.get('checkedAt'),
                  'matchingJobs':scan.get('count'),
-                 'error':scan.get('error',''),
+                 'error':scan.get('error','') or scan.get('warning',''),
                  'otherUnmonitoredBoards':secondary.get(name,[])})
 result={'generatedAt':datetime.now(timezone.utc).isoformat(),
         'employers':len(rows),

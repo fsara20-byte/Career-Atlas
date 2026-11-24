@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T14:47:23.540669+00:00",
+  "generatedAt": "2026-11-24T01:31:15.009908+00:00",
   "employers": 179,
   "verifiedFeeds": 36,
-  "notConfigured": 135,
+  "notConfigured": 134,
   "rows": [
     {
       "company": "abrdn",
@@ -1352,8 +1352,8 @@
     {
       "company": "Julius Baer",
       "careersUrl": "https://www.juliusbaer.com/global/en/careers/",
-      "provider": null,
-      "monitoringStatus": "not_configured",
+      "provider": "workday",
+      "monitoringStatus": "awaiting_first_scan",
       "lastCheckedAt": null,
       "matchingJobs": null,
       "error": "",

@@ -79,3 +79,37 @@ class InvestmentSalesCoverageTests(unittest.TestCase):
         self.assertFalse(update_jobs.relevant({'title':'Sales Executive','location':'Dubai'},cfg))
         self.assertFalse(update_jobs.relevant({'title':'Sales, Trading and Structuring Internship','location':'London'},cfg))
 
+
+class WorkdayFallbackTests(unittest.TestCase):
+    SOURCE={'company':'Citi','provider':'workday','host':'example.myworkdayjobs.com',
+            'tenant':'example','site':'External','board':'External'}
+
+    def test_scoped_query_deduplicates_and_explicitly_marks_partial(self):
+        calls=[]
+        def fetch(term,offset):
+            calls.append((term,offset))
+            if not term:return {'total':2500,'jobPostings':[{'externalPath':'/global'}]}
+            if term=='Dubai':return {'total':1,'jobPostings':[{'title':'Credit Analyst','externalPath':'/job/dubai','locationsText':'Dubai'}]}
+            if term=='United Arab Emirates':return {'total':1,'jobPostings':[{'title':'Credit Analyst','externalPath':'/job/dubai','locationsText':'Dubai'}]}
+            return {'total':0,'jobPostings':[]}
+        jobs,base,mode=update_jobs.fetch_workday(self.SOURCE,page_fetcher=fetch)
+        self.assertEqual(mode,'partial')
+        self.assertEqual([x['externalPath'] for x in jobs],['/job/dubai'])
+        self.assertIn(('UAE',0),calls)
+
+    def test_full_board_keeps_complete_coverage(self):
+        def fetch(term,offset):
+            self.assertEqual(term,'')
+            return {'total':1,'jobPostings':[{'externalPath':'/single'}]}
+        jobs,_,mode=update_jobs.fetch_workday(self.SOURCE,page_fetcher=fetch)
+        self.assertEqual(mode,'complete')
+        self.assertEqual(len(jobs),1)
+
+    def test_failure_in_one_fallback_query_is_not_misreported_as_success(self):
+        def fetch(term,offset):
+            if not term:return {'total':2500,'jobPostings':[]}
+            if term=='Abu Dhabi':raise OSError('network unavailable')
+            return {'total':0,'jobPostings':[]}
+        with self.assertRaisesRegex(ValueError,'fallback incomplete'):
+            update_jobs.fetch_workday(self.SOURCE,page_fetcher=fetch)
+

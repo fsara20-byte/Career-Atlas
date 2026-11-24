@@ -113,30 +113,57 @@ def greenhouse_normalize(job, company):
       'sourceBoard':company,'status':'active', 'description':re.sub(r'<[^>]*>',' ',str(job.get('content') or ''))[:12000], 'guidance':cv_guidance(title,str(job.get('content') or '')),
       'note':'Employer-published Greenhouse posting; API updated_at is not necessarily the original posting date. Check requirements and deadline on the employer page.'}
 
-def fetch_workday(source):
-    """Public Workday CXS endpoint. Return full postings only on complete pagination."""
+def fetch_workday(source, page_fetcher=None):
+    """Fetch Workday postings, falling back to an explicitly PARTIAL UAE search.
+
+    A large worldwide board or a broken global pagination must never be labelled
+    a verified complete feed. Location-query coverage is useful, not exhaustive.
+    """
     from urllib.request import Request, urlopen
     host=source['host']
     tenant=source['tenant']
     site=source['site']
     base='https://'+host+'/wday/cxs/'+quote(tenant,safe='')+'/'+quote(site,safe='')
-    records=[]
-    offset=0
-    total=None
-    while total is None or offset<total:
-        payload=json.dumps({'appliedFacets':{},'limit':20,'offset':offset,'searchText':''}).encode('utf-8')
+    def request_page(term, offset):
+        if page_fetcher is not None:
+            return page_fetcher(term,offset)
+        payload=json.dumps({'appliedFacets':{},'limit':20,'offset':offset,'searchText':term}).encode('utf-8')
         req=Request(base+'/jobs',data=payload,headers={'User-Agent':'Mozilla/5.0 CareerAtlas/1.0','Accept':'application/json','Content-Type':'application/json'},method='POST')
         with urlopen(req,timeout=30) as res:
-            doc=json.load(res)
-        batch=doc.get('jobPostings')
-        if not isinstance(batch,list): raise ValueError('Workday returned no jobPostings array')
-        if total is None: total=int(doc.get('total',len(batch)))
-        if total>1200: raise ValueError('Workday board exceeds 1200-posting full-scan limit; not claiming complete coverage')
-        if not batch and offset<total: raise ValueError('Workday pagination incomplete')
-        records.extend(batch)
-        offset+=len(batch)
-        if not batch: break
-    return records,base
+            return json.load(res)
+
+    def page_through(term):
+        result=[];offset=0;total=None
+        while total is None or offset<total:
+            doc=request_page(term,offset)
+            batch=doc.get('jobPostings')
+            if not isinstance(batch,list): raise ValueError('Workday returned no jobPostings array')
+            if total is None: total=int(doc.get('total',len(batch)))
+            if total>1200: raise ValueError('Workday query exceeds 1200-posting limit')
+            if not batch and offset<total: raise ValueError('Workday pagination incomplete')
+            result.extend(batch)
+            offset+=len(batch)
+            if not batch:break
+        return result
+
+    try:
+        return page_through(''),base,'complete'
+    except (ValueError, OSError) as original_error:
+        # Workday's public CXS search can return a smaller geography-relevant
+        # subset even for worldwide boards with many thousands of jobs.
+        # These keyword searches cannot guarantee every UAE listing is found.
+        scoped={};successful=0;errors=[]
+        for term in ('Dubai','Abu Dhabi','United Arab Emirates','UAE'):
+            try:
+                for job in page_through(term):
+                    key=job.get('externalPath') or (job.get('title',''),job.get('locationsText',''))
+                    scoped[str(key)]=job
+                successful+=1
+            except (ValueError,OSError) as exc:
+                errors.append(f'{term}: {str(exc)[:75]}')
+        if successful!=4:
+            raise ValueError('Global Workday scan failed; UAE fallback incomplete: '+', '.join(errors)) from original_error
+        return list(scoped.values()),base,'partial'
 
 def workday_details(base,external):
     """Fetch description for a shortlisted job, without blocking listing discovery."""
@@ -237,7 +264,7 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
             continue
         if provider=='workday':
             try:
-                records,base=fetch_workday(source)
+                records,base,scope=fetch_workday(source)
                 available=set();count=0
                 for raw in records:
                     normalized={'title':raw.get('title',''),'location':raw.get('locationsText','')}
@@ -257,6 +284,10 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     item['firstSeenAt']=old.get('firstSeenAt',NOW)
                     item['lastSeen']=TODAY
                     item['lastSeenAt']=NOW
+                    # Workday's search endpoint usually omits posting dates. Keep
+                    # a previously verified date from a curated employer link.
+                    item['publishedAt']=item.get('publishedAt') or old.get('publishedAt','')
+                    item['eligibilityFlags']=list(dict.fromkeys(item.get('eligibilityFlags',[])+old.get('eligibilityFlags',[])))
                     detail=workday_details(base,str(raw.get('externalPath') or ''))
                     item['description']=re.sub(r'<[^>]*>',' ',str(detail.get('jobDescription') or ''))[:12000] or old.get('description','')
                     item['guidance']=cv_guidance(item['title'],item['description'])
@@ -266,10 +297,14 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
                     if not old:num_added+=1
                     existing[item['id']]=item
                     available.add(item['id'])
-                for key,old in existing.items():
-                    if old.get('source')=='workday' and old.get('sourceBoard')==company and key not in available:
-                        old['status']='not_in_latest_feed'
-                outcomes.append({'company':company,'status':'ok','count':count,'checkedAt':NOW,'provider':'workday','totalBoardPostings':len(records)})
+                if scope=='complete':
+                    for key,old in existing.items():
+                        if old.get('source')=='workday' and old.get('sourceBoard')==company and key not in available:
+                            old['status']='not_in_latest_feed'
+                outcomes.append({'company':company,'status':'ok' if scope=='complete' else 'partial',
+                                 'count':count,'checkedAt':NOW,'provider':'workday',
+                                 'totalBoardPostingsScanned':len(records),'scanMode':scope,
+                                 'warning':'Geography keyword search may miss UAE jobs; do not infer absence.' if scope=='partial' else ''})
             except Exception as exc:
                 outcomes.append({'company':company,'status':'failed','count':None,'checkedAt':NOW,'provider':'workday','error':str(exc)[:160]})
             continue
@@ -334,16 +369,16 @@ def update(path=DATA, config_path=SOURCES, fetcher=fetch_json):
             outcomes.append({'company':company,'status':'ok','count':count,'checkedAt':NOW,'provider':provider})
         except Exception as exc:
             outcomes.append({'company':company,'status':'failed','count':None,'checkedAt':NOW,'provider':provider,'error':str(exc)[:160]})
-    good=any(x['status']=='ok' for x in outcomes)
+    good=any(x['status'] in ('ok','partial') for x in outcomes)
     previous=doc.get('meta') or {}
     meta={'generatedAt':NOW,'lastAttemptAt':NOW,
           'lastSuccessfulAt':NOW if good else previous.get('lastSuccessfulAt'),
           'newRolesLastRun':num_added,'deadlineChangesLastRun':num_changed,'deadlineChangedIds':changed_ids,'sources':outcomes,
-          'note':'Configured official Ashby, Greenhouse and Workday public feeds sync automatically. Other employer portals need separate monitoring; missing deadlines remain blank.',
-          'sourceCoverage':'Automated: '+', '.join(x['company'] for x in outcomes if x['status']=='ok')+'. Other employers: official career portals.'}
+          'note':'Only successfully completed full-board scans are comprehensive for a configured feed. Workday geographic fallback scans are partial and may miss UAE jobs. Other employer portals need separate monitoring; missing deadlines remain blank.',
+          'sourceCoverage':'Verified complete: '+', '.join(x['company'] for x in outcomes if x['status']=='ok')+'. Geographic partial: '+', '.join(x['company'] for x in outcomes if x['status']=='partial')+'. Other employers: official career portals.'}
     doc={'meta':meta,'jobs':sorted(existing.values(),key=lambda x:(x.get('status')!='active', str(x.get('company','')),str(x.get('title',''))))}
     path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n')
-    print(f'Checked {len(outcomes)} sources; {sum(x["status"]=="ok" for x in outcomes)} succeeded; {num_added} newly discovered roles; {num_changed} deadline changes')
+    print(f'Checked {len(outcomes)} sources; {sum(x["status"]=="ok" for x in outcomes)} complete and {sum(x["status"]=="partial" for x in outcomes)} partial; {num_added} newly discovered roles; {num_changed} deadline changes')
     for row in outcomes: print(f'  {row["company"]}: {row["status"]} ({row.get("count")})')
     # No failed scrape should break publishing, as long as the existing JSON stays usable.
     return doc

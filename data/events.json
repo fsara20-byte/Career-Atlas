@@ -1141,7 +1141,7 @@
       "restriction": "Waitlist only; Paris attendance required; no travel support confirmed",
       "notes": "5:30 PM registration, 6:00 PM start Paris time. Official current event page explicitly says fully booked and running a WAITLIST; no walk-ins. Earlier open status superseded 2026-11-20.",
       "url": "https://app.100women.org/pages/event.php?e=4573&inc=A&kw=&loc=0&p=1&yr=2026",
-      "lastReviewedAt": "2026-11-20"
+      "lastReviewedAt": "2026-11-27"
     },
     {
       "id": "100wf-nasdaq-ai-governance-dec2026",
@@ -1164,9 +1164,9 @@
       "fit": "Good",
       "eligibility": "Official live RSVP page on 2026-11-21 confirms registration open for 100WF members; non-members may attend one event as a guest subject to space and 100WF guest policy. Guest registration action not visible on public page; member login available.",
       "restriction": "Member RSVP confirmed open; guest participation subject to space and guest policy; no travel needed",
-      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec, 3:30 PM Dubai time. Live event_registration.php?e=4571 explicitly says RSVP open on 2026-11-21. Member login required to complete registration; non-member guest route not visibly actionable. Live RSVP URL inaccessible on 2026-11-23; current status requires re-verification, despite 2026-11-21 confirmed open.",
+      "notes": "Nasdaq-sponsored virtual AI governance webinar on 3 Dec, 3:30 PM Dubai time. Live event_registration.php?e=4571 explicitly says RSVP open on 2026-11-21. Member login required to complete registration; non-member guest route not visibly actionable. Live RSVP URL inaccessible on 2026-11-23; current status requires re-verification, despite 2026-11-21 confirmed open. Live RSVP still inaccessible on 2026-11-27.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4571",
-      "lastReviewedAt": "2026-11-23"
+      "lastReviewedAt": "2026-11-27"
     },
     {
       "id": "cci-uae-inter-businesswomen-forum-2026",
@@ -1225,14 +1225,35 @@
       "location": "Ami Woodear, Shop 302, 18 Chater Road, Central, Hong Kong",
       "eventDate": "2026-12-16",
       "deadline": null,
-      "status": "open",
+      "status": "check",
       "priority": "P3",
       "fit": "Moderate",
       "eligibility": "100WF members may RSVP; one-time nonmember guest registration explicitly offered subject to space. No Hong Kong university enrollment requirement stated.",
       "restriction": "travel",
-      "notes": "6:00 PM HKT registration, 6:30 PM start. Self-sponsored food and drinks. Networking rather than an employer recruitment programme. Travel support not advertised; worthwhile only if already in Hong Kong. Exact live registration page checked on 2026-11-23 and displays member login and guest registration.",
+      "notes": "6:00 PM HKT registration, 6:30 PM start. Self-sponsored food and drinks. Networking rather than an employer recruitment programme. Travel support not advertised; worthwhile only if already in Hong Kong. Exact live registration page checked on 2026-11-23 and displays member login and guest registration. Live RSVP inaccessible on 2026-11-27; current status unverified.",
       "url": "https://app.100women.org/pages/event_registration.php?e=4581",
-      "lastReviewedAt": "2026-11-23"
+      "lastReviewedAt": "2026-11-27"
+    },
+    {
+      "id": "100wf-abu-dhabi-leaders-lounge-dec2026",
+      "firm": "100 Women in Finance",
+      "name": "Leaders Lounge Drinks: Fostering Strategic Connections",
+      "type": "Networking",
+      "theme": "Women in Finance",
+      "regions": [
+        "UAE"
+      ],
+      "location": "Eclipse Lounge, Four Seasons Hotel, Abu Dhabi, UAE",
+      "eventDate": "2026-12-09",
+      "deadline": null,
+      "status": "open",
+      "priority": "P1",
+      "fit": "Good",
+      "eligibility": "Paid-access 100WF members and one-time guests subject to capacity; no nationality or student enrollment restriction stated.",
+      "restriction": "In-person; limited capacity; no travel support advertised",
+      "notes": "6–8 PM GST during Abu Dhabi Finance Week. Hosted by Maysaffron, Morgan Lewis and Standard Chartered. Exact live RSVP page confirms member and guest registration; no published deadline.",
+      "url": "https://app.100women.org/pages/event_registration.php?e=4591",
+      "lastReviewedAt": "2026-11-27"
     }
   ]
 }
